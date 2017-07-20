@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>柱鹏</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2016-10-09T04:06:46Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12705</WindowHeight>
+  <WindowWidth>22725</WindowWidth>
+  <WindowTopX>2055</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="礼包配置">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="35" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="672"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell><Data ss:Type="String">concent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">yu j</PhoneticText><Data
+      ss:Type="String">预警id</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">yu jnei r</PhoneticText><Data
+      ss:Type="String">预警内容</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;邪恶触龙进入狂暴状态&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;邪恶触龙准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;冥蛇女妖进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;冥蛇女妖准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;冥海领主进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;冥海领主准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;虹魔教主进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;虹魔教主准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;牛魔王进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;牛魔王准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;炽炎蛛王进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;炽炎蛛王准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;火龙准备进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">114</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;火龙准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;祖玛教主准备进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">116</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;祖玛教主准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">117</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;小鸡准备进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">118</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;小鸡准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">119</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;冰封雪魔准备进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;冰封雪魔准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">121</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;四翼魔帝准备进入狂暴阶段&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;四翼魔帝准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">123</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;钉钩猫进入狂暴状态&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;钉钩猫准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;血色螃蟹进入狂暴状态&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">126</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;血色螃蟹准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">127</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;雪山白狐进入狂暴状态&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">128</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;雪山白狐准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">129</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;魔龙统领进入狂暴状态&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;魔龙统领准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">131</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;魔龙教主进入狂暴状态&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">132</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='fbfb9e' size='20' opacity='255'&gt;魔龙教主准备使用必杀技&lt;/font&gt;&lt;br/&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>31</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

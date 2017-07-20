@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>li</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2015-12-02T08:06:37Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <PixelsPerInch>96</PixelsPerInch>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12740</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>4200</WindowTopX>
+  <WindowTopY>1440</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="装备锻造表">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="23" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="164"/>
+   <Column ss:StyleID="s62" ss:Width="98"/>
+   <Column ss:StyleID="s62" ss:Width="225"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="58"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">rate</Data></Cell>
+    <Cell><Data ss:Type="String">quality_rate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">rate</Data></Cell>
+    <Cell><Data ss:Type="String">quality_rate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhui jiadeng jishen qixing ji</PhoneticText><Data
+      ss:Type="String">{神器星级, 等极段1, 等级段2}</Data><Comment ss:Author="柱鹏"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Size="10"
+         html:Color="#000000">柱鹏:</Font></B><Font html:Size="10" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;附加等级：同等级填0，下一等级就是1</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">锻造装备出现几率</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">pin zhichu xji lü</PhoneticText><Data
+      ss:Type="String">品质出现几率</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">是否神器</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,1,10}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{1,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,11,20}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{2,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,21,30}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{3,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,31,40}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{4,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,41,50}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{4,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,51,60}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,61,70}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">70</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,71,80}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">80</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,81,90}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{0,91,100}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,1,10}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{1,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,11,20}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{2,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,21,30}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{3,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,31,40}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{4,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,41,50}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{4,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,51,60}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,61,70}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">70</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,71,80}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">80</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,81,90}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;{&quot;&amp;RC[4]&amp;&quot;,&quot;&amp;RC[5]&amp;&quot;,&quot;&amp;RC[6]&amp;&quot;}&quot;"><Data
+      ss:Type="String">{1,91,100}</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[{5,10000}]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+10"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:Print>     </x:Print>
+   <x:Print>    </x:Print>
+   <x:Print>    </x:Print>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

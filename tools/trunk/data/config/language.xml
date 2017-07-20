@@ -1,0 +1,1663 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>apple</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-11-30T07:23:00Z</Created>
+  <LastSaved>2017-02-07T02:32:43Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.5850</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11130</WindowHeight>
+  <WindowWidth>20760</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#FF0000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#FF0000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#00CCFF"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#00CCFF"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#00CCFF"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#666699"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#666699"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#666699"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#993366"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#993366"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#FF6600"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#FF6600"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#008080"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#008080"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#666699"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#00CCFF"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Font ss:FontName="Abadi MT Condensed Extra Bold" x:Family="Swiss" ss:Size="11"
+    ss:Color="#00CCFF"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Font ss:FontName="Abadi MT Condensed Extra Bold" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s93">
+   <Font ss:FontName="Abadi MT Condensed Extra Bold" x:Family="Swiss" ss:Size="11"
+    ss:Color="#008080"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#008080"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Abadi MT Condensed Extra Bold" x:Family="Swiss" ss:Size="11"
+    ss:Color="#008080"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Abadi MT Condensed Extra Bold" x:Family="Swiss" ss:Size="11"
+    ss:Color="#008080"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s101">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s103">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s104">
+   <Font ss:FontName="仿宋" x:CharSet="134" x:Family="Modern" ss:Size="11"
+    ss:Color="#008080"/>
+  </Style>
+  <Style ss:ID="s105">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s106">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s107">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s108">
+   <Alignment ss:Vertical="Bottom"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s110">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s111">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s113">
+   <Font ss:FontName="Abadi MT Condensed Extra Bold" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF6600"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="language">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="252" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:AutoFitWidth="0" ss:Width="53.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="273.75"/>
+   <Column ss:Width="203.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="285.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="String">value</Data></Cell>
+    <Cell><Data ss:Type="String">info</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">value</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">错误ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">提示文字</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">操作成功</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_COMMON_SUCCESS</Data></Cell>
+    <Cell ss:MergeDown="10" ss:StyleID="s65"><Data ss:Type="String">通用错误码(0-1000)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">操作失败</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_COMMON_FAIL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">当前等级不足</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_LV_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">当前金币不足</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_COIN_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">当前元宝不足</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_JADE_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">玩家熔炼值不足</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_SMELT_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">玩家职业限制</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_CAREER_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">背包已满</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_BAG_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">玩家绑定元宝不足</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_GIFT_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">玩家战斗力不足</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_FIGHT_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">玩家功勋不足</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_FEATS_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">每30天只能购买1张月卡</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_BUT_MONTH_PAY</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">服务器正在维护中，请耐心等待</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_SERVER_STOP</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">账号存在异常操作，已进行封号处理</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_TITLE</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">你的账号状态异常，请重新登录</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_ACCOUNT_ERR</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">副本中不允许进行传送</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_SCENE_INSTANCE</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">连接跨服场景的世界通道已经崩坏，你暂时无法连接</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_CROSS</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">场景错误信息</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_SCENE</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VIP等级不足</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_VIPLV_NOT_ENOUGH</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">合服区域未开放，你无法进入</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_SCENE_MERGE_NO_OPEN</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">你的采集次数已达上限了</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_COLLECT_COUNT</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">你的采集冷却时间还未过</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_COLLECT_TIME</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">该物品只有在合并该服务器后才能使用</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_SERVER_NO_USE</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">缺少宝箱钥匙</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_NO_YAOSHI</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">等级不足，无法传送</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_PLAYER_LV_NOT_GO_TO</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">技能尚未冷却请稍后再试</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_SEND_EQUIP_CD</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">该场景不能快速传送</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_NO_QUICK_TRANSFER</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">该场景不能使用小飞鞋</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_NO_FLYING_SHOES</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">传送戒指不能传送</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ERR_NO_EQUIP_TRANSFER</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1001</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">没有该玩家</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_PLAYER_NOT</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s69"><Data ss:Type="String">角色模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1002</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">角色数量已经创建满</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_PLAYER_MAX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1003</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">该角色名已存在</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_PLAYER_REPEAT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1004</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">角色名不合法</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_PLAYER_NAME_ILLEGAL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1101</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">道具不能使用</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_GOODS_CANNOT_USE</Data></Cell>
+    <Cell ss:MergeDown="20" ss:StyleID="s73"><Data ss:Type="String">道具模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1102</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">道具不足</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_GOODS_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1103</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">道具不存在</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_GOODS_NOT_EXIST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1104</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">装备穿戴位置错误</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_WEAR_GRID_ERROR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1105</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">装备不能洗练</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_EQUIPS_CANNOT_BAP</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1106</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">锻造刷新次数不足</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_FORGE_UPDATE_TIMES_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1107</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">非神器不能吞噬</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_NOT_ART_CANNOT_DEVOUR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1108</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">主物品不是神器</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_GOODS_NOT_ART</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1109</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">非神器不能传承</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_NOT_ART_CANNOT_INHERIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1110</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">背包格子已达上限</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_MAX_BAG_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1111</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未装备武器</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_NOT_EQUIPS_WEAPON</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1112</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">幸运油使用无效</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_BLESS_OIL_NOT_EFFECT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1113</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">血包已满</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_BLOOD_BAG_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1114</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">仓库背包不足</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_PLAYER_STORE_BAG_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1115</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">道具冷却中</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_GOODS_CD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1116</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">强化失败</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ERR_EQUIPS_UPGRADE_FAIL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1117</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">超出单次购买数量</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">ERR_ENOUGH_BUY_COUNT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1118</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">小飞鞋数量不足</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">ERR_GOODS_XIAOFEIXIE_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1119</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">操作过于频繁</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">ERR_HIT_QUICK</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1120</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">铸魂精华数量不足</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">ERR_SOUL_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1121</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">该道具不可出售</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">ERR_CANNOT_SELL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1201</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">邮件模块</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_MAIL_NOT_EXIST</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">邮件模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2001</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">没有挂机对象</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_HOOK_OBJ_NOT</Data></Cell>
+    <Cell ss:MergeDown="5" ss:StyleID="s76"><Data ss:Type="String">挂机模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2002</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">体力不足</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_HOOK_POWER_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2003</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">体力已经是最大</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_HOOK_POWER_MAX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">购买体力次数用光</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_HOOK_BUY_POWER_TIMES_MAX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">星级奖励已经被领取</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_HOOK_STAR_REWARD_HAVE_BEEN_DRAW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">星级奖励条件不满足</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_HOOK_STAR_REWARD_CONDITION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2101</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">技能不存在</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ERR_SKILL_NOT_EXIST</Data></Cell>
+    <Cell ss:MergeDown="5" ss:StyleID="s80"><Data ss:Type="String">技能模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2102</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">未学习技能</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ERR_SKILL_NOT_LEARN</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2103</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">未学习前置技能</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ERR_SKILL_NOT_LEARN_FRONT_SKILL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2104</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">技能未设置快捷键</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ERR_SKILL_NOT_SET_KEYBOARD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2105</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">技能不能激活</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ERR_SKILL_NOT_ACTIVE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2106</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">技能已学习</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ERR_SKILL_ALREADY_LEARN</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17001</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会不存在</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_NOT_EXIST</Data></Cell>
+    <Cell ss:MergeDown="24" ss:StyleID="s82"><Data ss:Type="String">行会模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17002</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">非会长</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_NOT_HUIZHANG</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17003</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会申请列表已满</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_APPLY_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17004</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会成员已满</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_MEMBER_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17005</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家不在申请列表</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_APPLIST_NOT_EXIST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17006</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家已经加入行会</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_JOINED_GUILD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17007</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家还未加入行会</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_NOT_JOINED_GUILD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17008</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会等级不够</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_LV_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17009</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会名字长度限制</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_NAME_LEN_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17010</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">名字不符合要求</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_NAME_ERROR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17011</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家离开行会未满3小时</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_LEAVE_NOT_ENOUGH_24_HOURS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17012</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会同名</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_NAME_SAME</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17013</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家不在线</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_LOGOUT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17014</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会职位已达上限</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_POSITION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17020</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">今天已捐献</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_ALREADY_DONATE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17021</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家行会贡献不足</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_CONTRIBUTION_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17022</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">兑换次数不足</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_COUNT_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17023</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">您的权限不够</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_COMPETENCE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17024</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">沙巴克秘境已开启</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_SBK_FEM_ALREADY_OPEN</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17025</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">非沙巴克行会</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_NOT_SBK_CITY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17026</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">沙巴克秘境未开启</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_SBK_FEM_NOT_OPEN</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17027</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会活动未开启</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ACTIVE_NOT_OPEN</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17028</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">活动次数不足</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ACTIVE_COUNT_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17029</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">行会资金不足</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_CAPITAL_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17030</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">35级以上才能进入行会</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_NOT_ENOUGH_35LV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17031</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">材料不足，不能宣战</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_CHALLENGE_GOODS_NOT_ENOUGH</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17032</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">对方会长不在线，不能宣战</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_CHALLENGE_HUIZHANG_OFFLINE</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17033</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">对方拒绝宣战</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_CHALLENGE_REFUSE</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17034</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">正在进行宣战</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_CHALLENGE_DO</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17035</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">对方正在进行宣战</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_CHALLENGE_TARGET_DO</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17036</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">不能在一小时内重复宣战同一行会</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_CHALLENGE_SAME_ONE_HOUR</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17037</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">对方已向你发起挑战</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_CHALLENGE_ALREADY</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17038</Data></Cell>
+    <Cell ss:StyleID="s81"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">gncfyyytfwfnnxxfj</PhoneticText><Data
+      ss:Type="String">与对方行会已经结盟</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ALLIANCE_ALREADY</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17039</Data></Cell>
+    <Cell ss:StyleID="s81"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">gncfyjtdcjelwf</PhoneticText><Data
+      ss:Type="String">与对方是敌对盟会</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ALLIANCE_ENEMY</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17040</Data></Cell>
+    <Cell ss:StyleID="s81"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">nngnyyjelwfdnkmnnxiagkmu</PhoneticText><Data
+      ss:Type="String">己方盟会成员已经满员</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ALLIANCE_MEMBER_LIMIT1</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17041</Data></Cell>
+    <Cell ss:StyleID="s81"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">cfyjelwfdnkmnnxiagkm</PhoneticText><Data
+      ss:Type="String">对方盟会成员已经满员</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ALLIANCE_MEMBER_LIMIT2</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17042</Data></Cell>
+    <Cell ss:StyleID="s81"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">vxwgcfyrxfjygfidyqqb</PhoneticText><Data
+      ss:Type="String">发给对方的结盟请求太多了</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ALLIANCE_REQ_LIMIT</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17043</Data></Cell>
+    <Cell ss:StyleID="s81"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">cfyywftaakgklwftaidkhdebk</PhoneticText><Data
+      ss:Type="String">对方会长或副会长不在跨服中</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ALLIANCE_LEADER_NOT_CROSS</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">17044</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">对方已与其他行会结盟，无法发起结盟申请</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_GUILD_ALLIANCE</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">20001</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">对方拒绝交易</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_PLAYERB_REFUSE_TRADE</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s69"><Data ss:Type="String">交易模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">20002</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">玩家正在进行交易</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_PLAYER_TRADEING</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">20003</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">交易道具未锁定</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_GOODS_NOT_LOCK</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">20004</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">双方不在同一场景不能交易</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_SAME_SCENCE_CAN_NOT_TRADE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">21001</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">玩家有队伍</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_PLAYERB_HAVE_BEEN_TEAM</Data></Cell>
+    <Cell ss:MergeDown="7" ss:StyleID="s86"><Data ss:Type="String">组队模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">21002</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">玩家没有队伍</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_PLAYERB_TEAM_NOT_EXIST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">21003</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">玩家不是队长</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_PLAYERB_NOT_DUIZHANG</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">21004</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">队伍人数已满</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_TEAM_FULL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">21005</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">队伍不存在</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_TEAM_NOT_EXIST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">21006</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">您还没创建队伍</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_NOT_CREATE_TEAM</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">21007</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">对方已有队伍</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_OTHER_HAVE_TEAM</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">21008</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">加入队伍成功</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_JOIN_TEAM_SUCCESS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">3001</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">玩家已经在好友列表里面了</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">LANGUEGE_RELATIONSHIP1</Data></Cell>
+    <Cell ss:MergeDown="6" ss:StyleID="s73"><Data ss:Type="String">好友模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">3002</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">已经超出好友上限了</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">LANGUEGE_RELATIONSHIP2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">3003</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">对方好友已经超过上限了</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">LANGUEGE_RELATIONSHIP3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">3004</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">对方已经离线了</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">LANGUEGE_RELATIONSHIP4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">3005</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">您已经申请过了</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">LANGUEGE_RELATIONSHIP5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">3006</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">黑名单已经达到上限了</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">LANGUEGE_RELATIONSHIP6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">3007</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">该玩家已经在您的黑名单中了</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">LANGUEGE_RELATIONSHIP7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4001</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">您的权限不够</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LANGUEGE_CITY_SCENE7</Data></Cell>
+    <Cell ss:MergeDown="7" ss:StyleID="s89"><Data ss:Type="String">沙巴克模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4002</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">数据错误</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LANGUEGE_CITY_SCENE8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4003</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">您已经领取过该奖励了</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LANGUEGE_CITY_SCENE9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4004</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">任命的官员已经达到上限了</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LANGUEGE_CITY_SCENE10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4005</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">该成员已经有官职了</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LANGUEGE_CITY_SCENE_OFFICER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4006</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">该奖励已经被领取过了</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LANGUEGE_CITY_SCENE_RECEIVE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4007</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">沙城行会才可以采集该宝箱</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LANGUEGE_CITY_SCENE_11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4008</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">每次活动只能采集3个沙城宝箱</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LANGUEGE_CITY_SCENE_12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">23001</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">挑战玩家不存在</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_CHALL_NOT_EXIST</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s69"><Data ss:Type="String">竞技场模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">23002</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">声望不足</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ERR_PLAYER_REPUTATION_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">23003</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">物品购买数量限制</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ERR_ARENA_GOODS_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">23004</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">挑战次数不足</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ERR_ARENA_CHALL_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5001</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">数据错误</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK1</Data></Cell>
+    <Cell ss:MergeDown="7" ss:StyleID="s76"><Data ss:Type="String">任务导航</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5002</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">您的元宝不足</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5003</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">您已经接取了该任务</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5004</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">您的等级不足</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5005</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">前置任务没有完成</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5006</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">该任务您已经完成</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5007</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">您没有进入行会无法接取行会任务</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5008</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">您没有进入行会无法完成行会任务</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5009</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">接取功勋任务已达上限</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK9</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5010</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">接取日常任务已达上限</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK10</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5011</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">接取周任务已达上限</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK11</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5012</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">接取宝图任务已达上限</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_MAIN_TASK12</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">6000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">您的vip等级还未达到</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ERR_VIP_1</Data></Cell>
+    <Cell><Data ss:Type="String">vip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">6001</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">您已经领取过该vip奖励了</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ERR_VIP_2</Data></Cell>
+    <Cell><Data ss:Type="String">vip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">6002</Data></Cell>
+    <Cell><Data ss:Type="String">您的购买次数不足</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ERR_VIP_3</Data></Cell>
+    <Cell><Data ss:Type="String">vip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">6003</Data></Cell>
+    <Cell><Data ss:Type="String">您已经没有清洗次数了，请提升您的vip等级</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ERR_VIP_4</Data></Cell>
+    <Cell><Data ss:Type="String">vip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">7001</Data></Cell>
+    <Cell><Data ss:Type="String">您已经领取过该奖励</Data></Cell>
+    <Cell><Data ss:Type="String">ERR_PACKAGE1</Data></Cell>
+    <Cell><Data ss:Type="String">package分包信息</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">18001</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">您已经被禁言</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">ERR_LIMIT_CHAT</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">后台管理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">18002</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">该角色已被限制登录</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">ERR_LIMIT_LOGIN_PLAYER</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">后台管理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">9001</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">绑定物品无法拍卖</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ERR_BINDING</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">交易所</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">9002</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">该物品已经不存在了</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ERR_NOT_SALE_GOODS</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">交易所</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">9003</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">您上架的物品已达上限了</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_SALE_SELL_NUM</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">交易所</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">11001</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">今天传送BOSS次数已经用完</Data></Cell>
+    <Cell><Data ss:Type="String">ERR_WORLD_BOSS_TRANSFER_NOT_ENOUGH</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">场景传送</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">该激活码不存在</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_CODE101</Data></Cell>
+    <Cell ss:MergeDown="4" ss:StyleID="s76"><Data ss:Type="String">激活码</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">102</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">该激活码已经被使用</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_CODE102</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">您已经使用过该类型激活码</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_CODE103</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">您没有权限使用该激活码</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_CODE104</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">数据错误</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_CODE105</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">106</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">兑换码已过期</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_CODE106</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">11002</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">活动尚未开启</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_ACTIVE_NOT_OPEN</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s97"><Data ss:Type="String">活动模块</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">11003</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">活动时间限制</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_ACTIVE_TIME_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">11004</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">死斗模式期间不可进入！</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_ACTIVE_SZWW_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">11005</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">怪物攻城活动已结束</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_ACTIVE_GWGC_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">您还未通关当前副本</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_INSTANCE_RAIDS</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">单人副本扫荡</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">202</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">购买次数已经超过购买上限了</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_INSTANCE_BUY_LIMIT_NUM</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">单人副本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">203</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">副本剩余时间不足，请明天再来。</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_INSTANCE_LEFT_TIME_LIMIT</Data></Cell>
+    <Cell ss:StyleID="s98"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">301</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">你已经领取过该奖励了</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_1</Data></Cell>
+    <Cell ss:MergeDown="11" ss:StyleID="s100"><Data ss:Type="String">开服活动</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">302</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">该奖励已经被领完了</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">303</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">你的等级不足</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">304</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">你的战力不足</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">305</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">你还未有勋章</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">306</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">你的勋章等级不足</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">307</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">你还未有翅膀</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">308</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">你的翅膀等级不足</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">309</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">你强化等级不足</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ERR_ACTIVE_SERVICE_9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">310</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">活动已经过期</Data></Cell>
+    <Cell><Data ss:Type="String">ERR_ACTIVE_SERVICE_10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">311</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">未达到领取条件</Data></Cell>
+    <Cell><Data ss:Type="String">ERR_ACTIVE_SERVICE_11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">312</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">你已经领取过该奖励了</Data></Cell>
+    <Cell><Data ss:Type="String">ERR_ACTIVE_SERVICE_12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">501</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">补签次数已用尽</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_RAPAIR_COUNT_NOT_ENOUGH</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s103"><Data ss:Type="String">签到活动</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">502</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">商品库存不足</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_SHOP_NUM_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">503</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">已无漏签天数</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_NO_REPAIR_DAYS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">401</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">该红包已经消失了</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_RED1</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s86"><Data ss:Type="String">红包</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">402</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">该红包已经被领取完了</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_RED2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">403</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">你已经领取过该红包了</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_RED3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">404</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">等级达到35级才可以抢红包</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_RED4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">405</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">不能超过行会人数</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_RED5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">406</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">红包数量不能为空</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_RED6</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s103"><Data ss:Type="String">两者均为空时，优先提示数量不能为空</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">407</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">红包金额不能为空</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_RED7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">408</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">总金额不能小于红包个数</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ERR_RED8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">601</Data></Cell>
+    <Cell><Data ss:Type="String">印记数量不足不能升级,可使用印记道具获得印记</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ERR_PLAYER_MARK_VALUE_NOT_ENOUGH</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s103"><Data ss:Type="String">印记升级</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">602</Data></Cell>
+    <Cell><Data ss:Type="String">其他印记等级不足不能升级</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ERR_PLAYER_MARK_LV_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">701</Data></Cell>
+    <Cell><Data ss:Type="String">投保成功</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ERR_PLAYER_SECURE_SUCCESS</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s103"><Data ss:Type="String">投保</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">702</Data></Cell>
+    <Cell><Data ss:Type="String">投保次数达到上限</Data></Cell>
+    <Cell><Data ss:Type="String">ERR_PLAYER_SECURE_LIMIT_COUNT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">你已经购买过该物品了</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_BUY_MYSTERY</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s76"><Data ss:Type="String">神秘商人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">801</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">你的购买已经达到上限了</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ERR_BUY_MYSTERY_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">901</Data></Cell>
+    <Cell><Data ss:Type="String">已无购买次数</Data></Cell>
+    <Cell><Data ss:Type="String">ERR_BUY_SHOP_LIMIT</Data></Cell>
+    <Cell><Data ss:Type="String">商城购买次数限制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1301</Data></Cell>
+    <Cell><Data ss:Type="String">元宝不足，购买失败!</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_0</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]购买优惠礼包元宝不足提示</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1302</Data></Cell>
+    <Cell><Data ss:Type="String">充值金额不足，无法领取奖励。</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_2</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]充值元宝数量不足时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1303</Data></Cell>
+    <Cell><Data ss:Type="String">元宝消费数量不足，无法领取奖励。</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_5</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]消费元宝数量不足时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1304</Data></Cell>
+    <Cell><Data ss:Type="String">角色等级不足，无法领取奖励。</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_1</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]等级礼包，等级不足时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1305</Data></Cell>
+    <Cell><Data ss:Type="String">在线时长不足，无法领取奖励。</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_3</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]在线礼包，在线时间不足时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1306</Data></Cell>
+    <Cell><Data ss:Type="String">连续登录次数不足，无法领取奖励。</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_4</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]连登礼包，连续登录次数不足时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1307</Data></Cell>
+    <Cell><Data ss:Type="String">需要参与屠龙大会才能领取奖励</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_11</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]不满足屠龙大会活动领取条件时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1308</Data></Cell>
+    <Cell><Data ss:Type="String">需要参与胜者为王才能领取奖励</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_12</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]不满足胜者为王活动领取条件时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1309</Data></Cell>
+    <Cell><Data ss:Type="String">需要参与神秘暗殿才能领取奖励</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_13</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]不满足神秘暗殿活动领取条件时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1310</Data></Cell>
+    <Cell><Data ss:Type="String">需要参与怪物攻城才能领取奖励</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_OPERATE_ACTIVE_16</Data></Cell>
+    <Cell><Data ss:Type="String">[精彩活动]不满足怪物攻城活动领取条件时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1401</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">技能还在冷却中</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_SKILL_1</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1402</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">魔法值不足</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_SKILL_2</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1403</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">已触发被动技能</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_SKILL_3</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1404</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">技能释放异常</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_SKILL_4</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1405</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">已超过技能释放距离</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_SKILL_5</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1406</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">目标已不存在</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_SKILL_6</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1501</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">挖宝途中吸入了瘴气，差点翘辫子</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ERR_DIGING_1</Data></Cell>
+    <Cell><Data ss:Type="String">【挖宝】扣血</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1502</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">挖塌了尸王之家，蹦出了一个尸王！</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ERR_DIGING_2</Data></Cell>
+    <Cell><Data ss:Type="String">【挖宝】怪物</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1503</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">请到准确位置进行挖宝！</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ERR_DIGING_3</Data></Cell>
+    <Cell><Data ss:Type="String">【挖宝】坐标不对</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1504</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">耗费了九牛二虎之力，啥什么都没有发现</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ERR_DIGING_4</Data></Cell>
+    <Cell><Data ss:Type="String">【挖宝】挖空</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1601</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">该答题道具已用尽，数量将在下周更新</Data></Cell>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">ERR_EXAM_USEUP</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s110"><Data ss:Type="String">答题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1602</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">今天已参加过答题</Data></Cell>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">ERR_EXAM_DONE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1701</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">首冲后可进阶</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ERR_WING_UP</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">时效翅膀进阶上限</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1801</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团不存在</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_NOT_EXIST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1802</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">非军团长</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_NOT_LEGION_HEAD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1803</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团申请列表已满</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_APPLY_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1804</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团成员已满</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_MEMBER_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1805</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家已经加入军团</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_JOINED_LEGION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1806</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家还未加入军团</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_PLAYER_NOT_JOINED_LEGION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1807</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团等级不够</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_LV_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1808</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团名字长度限制</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_NAME_LEN_LIMIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1809</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">名字不符合要求</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_NAME_ERROR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1810</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">玩家离开军团未满3小时</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_LEAVE_NOT_ENOUGH_24_HOURS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1811</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团同名</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_NAME_SAME</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1812</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团职位已达上限</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_POSITION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1813</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">非沙巴克军团</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_NOT_SBK_CITY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1814</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团活动未开启</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_ACTIVE_NOT_OPEN</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1815</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">活动次数不足</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_ACTIVE_COUNT_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1816</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团资金不足</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_CAPITAL_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1817</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">35级以上才能进入军团</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_NOT_ENOUGH_35LV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1818</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">军团聊天只能在跨服使用</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ERR_LEGION_CHAT_NO_CROSS</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1819</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">25000战力以上才能进入军团</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ERR_LEGION_NOT_ENOUGH_FIGHTING25000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1820</Data></Cell>
+    <Cell ss:StyleID="s113"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">tkwikhu</PhoneticText><Data
+      ss:Type="String">积分不足</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">ERR_SCORE_NOT_ENOUGH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1821</Data></Cell>
+    <Cell ss:StyleID="s113"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">wqiimescb</PhoneticText><Data
+      ss:Type="String">您没有权限</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">ERR_NO_PERMISSION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1822</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">本日全服抽奖次数已用尽，请明日再试</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">ERR_SHENHUANGMIJING</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1900</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">清理场景怪物后才能进行传送</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">ERR_HJZC_KILL_ALL</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">[幻境之地]未清理场景怪物传送提示</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>84</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>105</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="ID说明">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+   <x:Print>    </x:Print>
+   <x:Print>    </x:Print>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

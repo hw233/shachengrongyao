@@ -1,0 +1,584 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>柱鹏</Author>
+  <LastAuthor>柱鹏</LastAuthor>
+  <Created>2016-01-11T02:03:45Z</Created>
+  <LastSaved>2016-08-18T12:47:42Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10125</WindowHeight>
+  <WindowWidth>20745</WindowWidth>
+  <WindowTopX>10005</WindowTopX>
+  <WindowTopY>1335</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="13" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="13" ss:Color="#333333"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="13" ss:Color="#333333"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="13" ss:Color="#333333"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Center"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="工作表1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="75" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="44.25"/>
+   <Column ss:StyleID="s62" ss:Width="87.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="105"/>
+   <Column ss:StyleID="s62" ss:Width="63.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="102"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">next_id</Data></Cell>
+    <Cell><Data ss:Type="String">guide_operate_id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">下一个id</Data></Cell>
+    <Cell><Data ss:Type="String">引导操作id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10001</Data></Cell>
+    <Cell><Data ss:Type="Number">10002</Data></Cell>
+    <Cell><Data ss:Type="Number">10001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10002</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10003</Data></Cell>
+    <Cell><Data ss:Type="Number">10004</Data></Cell>
+    <Cell><Data ss:Type="Number">10003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10004</Data></Cell>
+    <Cell><Data ss:Type="Number">10005</Data></Cell>
+    <Cell><Data ss:Type="Number">10004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10005</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell><Data ss:Type="Number">10005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10007</Data></Cell>
+    <Cell><Data ss:Type="Number">10008</Data></Cell>
+    <Cell><Data ss:Type="Number">10007</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击技能</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10008</Data></Cell>
+    <Cell><Data ss:Type="Number">10009</Data></Cell>
+    <Cell><Data ss:Type="Number">10008</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击快捷设置</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10009</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10009</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">滑动技能</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20001</Data></Cell>
+    <Cell><Data ss:Type="Number">20002</Data></Cell>
+    <Cell><Data ss:Type="Number">20001</Data></Cell>
+    <Cell><Data ss:Type="String">7天登陆领取后使用道具</Data></Cell>
+    <Cell><Data ss:Type="String">点击福利中心</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20002</Data></Cell>
+    <Cell><Data ss:Type="Number">20003</Data></Cell>
+    <Cell><Data ss:Type="Number">20002</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击第一天奖励</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20003</Data></Cell>
+    <Cell><Data ss:Type="Number">20004</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">关闭窗口</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20004</Data></Cell>
+    <Cell><Data ss:Type="Number">20005</Data></Cell>
+    <Cell><Data ss:Type="Number">10003</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">打开背包</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20005</Data></Cell>
+    <Cell><Data ss:Type="Number">20006</Data></Cell>
+    <Cell><Data ss:Type="Number">20003</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击背包里的7天礼包</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20006</Data></Cell>
+    <Cell><Data ss:Type="Number">20007</Data></Cell>
+    <Cell><Data ss:Type="Number">10005</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">使用道具</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20007</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">关闭</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20008</Data></Cell>
+    <Cell><Data ss:Type="Number">20009</Data></Cell>
+    <Cell><Data ss:Type="Number">20008</Data></Cell>
+    <Cell><Data ss:Type="String">引导组队</Data></Cell>
+    <Cell><Data ss:Type="String">点击组队</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20009</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20009</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击附近队伍</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20010</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20010</Data></Cell>
+    <Cell><Data ss:Type="String">引导行会</Data></Cell>
+    <Cell><Data ss:Type="String">点击行会</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20011</Data></Cell>
+    <Cell><Data ss:Type="Number">20012</Data></Cell>
+    <Cell><Data ss:Type="Number">20011</Data></Cell>
+    <Cell><Data ss:Type="String">引导排位</Data></Cell>
+    <Cell><Data ss:Type="String">点击活动中心</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20012</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20012</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击排位赛</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20013</Data></Cell>
+    <Cell><Data ss:Type="Number">20014</Data></Cell>
+    <Cell><Data ss:Type="Number">20011</Data></Cell>
+    <Cell><Data ss:Type="String">引导功勋</Data></Cell>
+    <Cell><Data ss:Type="String">点击活动中心</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20014</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20014</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击功勋任务</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20015</Data></Cell>
+    <Cell><Data ss:Type="Number">20016</Data></Cell>
+    <Cell><Data ss:Type="Number">20015</Data></Cell>
+    <Cell><Data ss:Type="String">引导挂机</Data></Cell>
+    <Cell><Data ss:Type="String">点击活动中心</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20016</Data></Cell>
+    <Cell><Data ss:Type="Number">20019</Data></Cell>
+    <Cell><Data ss:Type="Number">20016</Data></Cell>
+    <Cell><Data ss:Type="String">引导挂机</Data></Cell>
+    <Cell><Data ss:Type="String">点击挂机</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20019</Data></Cell>
+    <Cell><Data ss:Type="Number">20017</Data></Cell>
+    <Cell><Data ss:Type="Number">20019</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">等待类型</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20017</Data></Cell>
+    <Cell><Data ss:Type="Number">20018</Data></Cell>
+    <Cell><Data ss:Type="Number">20017</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击挂机挑战BOSS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20018</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20018</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击挑战按钮</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20020</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20020</Data></Cell>
+    <Cell><Data ss:Type="String">引导滑动</Data></Cell>
+    <Cell><Data ss:Type="String">滑动技能快捷键</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20021</Data></Cell>
+    <Cell><Data ss:Type="Number">20022</Data></Cell>
+    <Cell><Data ss:Type="Number">20011</Data></Cell>
+    <Cell><Data ss:Type="String">引导世界BOSS</Data></Cell>
+    <Cell><Data ss:Type="String">点击活动中心</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20022</Data></Cell>
+    <Cell><Data ss:Type="Number">20023</Data></Cell>
+    <Cell><Data ss:Type="Number">20022</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击限时活动</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20023</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20023</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击世界BOSS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20024</Data></Cell>
+    <Cell><Data ss:Type="Number">20025</Data></Cell>
+    <Cell><Data ss:Type="Number">20011</Data></Cell>
+    <Cell><Data ss:Type="String">引导日常任务</Data></Cell>
+    <Cell><Data ss:Type="String">点击活动中心</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20025</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20025</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击日常任务</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20026</Data></Cell>
+    <Cell><Data ss:Type="Number">20027</Data></Cell>
+    <Cell><Data ss:Type="Number">10003</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">打开背包</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20027</Data></Cell>
+    <Cell><Data ss:Type="Number">20028</Data></Cell>
+    <Cell><Data ss:Type="Number">20027</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击天山雪莲</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20028</Data></Cell>
+    <Cell><Data ss:Type="Number">20029</Data></Cell>
+    <Cell><Data ss:Type="Number">10005</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">使用道具</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20029</Data></Cell>
+    <Cell><Data ss:Type="Number">20039</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">关闭</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20030</Data></Cell>
+    <Cell><Data ss:Type="Number">20031</Data></Cell>
+    <Cell><Data ss:Type="Number">20030</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击设置</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20031</Data></Cell>
+    <Cell><Data ss:Type="Number">20032</Data></Cell>
+    <Cell><Data ss:Type="Number">20031</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击自动喝药</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20032</Data></Cell>
+    <Cell><Data ss:Type="Number">20033</Data></Cell>
+    <Cell><Data ss:Type="Number">20032</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击红药框</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20033</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20034</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20033</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">选择第一个红药</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20034</Data></Cell>
+    <Cell><Data ss:Type="Number">20035</Data></Cell>
+    <Cell><Data ss:Type="Number">20034</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击蓝药框</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20035</Data></Cell>
+    <Cell><Data ss:Type="Number">20036</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20033</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">选择第一个蓝药</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20036</Data></Cell>
+    <Cell><Data ss:Type="Number">20037</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击关闭</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20037</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10002</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击任务（设置喝药后）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20038</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击退出副本骷髅精灵</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20039</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10002</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击任务（使用雪莲后）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20040</Data></Cell>
+    <Cell><Data ss:Type="Number">20041</Data></Cell>
+    <Cell><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">点击装备按钮</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20041</Data></Cell>
+    <Cell><Data ss:Type="Number">20042</Data></Cell>
+    <Cell><Data ss:Type="Number">30001</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">点击强化</Data></Cell>
+    <Cell><Data ss:Type="String">auto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20042</Data></Cell>
+    <Cell><Data ss:Type="Number">20043</Data></Cell>
+    <Cell><Data ss:Type="Number">20051</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">放入强化装备</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20043</Data></Cell>
+    <Cell><Data ss:Type="Number">20044</Data></Cell>
+    <Cell><Data ss:Type="Number">20050</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">选择装备强化</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20044</Data></Cell>
+    <Cell><Data ss:Type="Number">20045</Data></Cell>
+    <Cell><Data ss:Type="Number">20052</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">一键放入材料</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20045</Data></Cell>
+    <Cell><Data ss:Type="Number">20046</Data></Cell>
+    <Cell><Data ss:Type="Number">20053</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">进行强化</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20046</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">关闭</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20047</Data></Cell>
+    <Cell><Data ss:Type="Number">20048</Data></Cell>
+    <Cell><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">点击装备按钮</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20048</Data></Cell>
+    <Cell><Data ss:Type="Number">20049</Data></Cell>
+    <Cell><Data ss:Type="Number">30002</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">点击洗炼</Data></Cell>
+    <Cell><Data ss:Type="String">auto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20049</Data></Cell>
+    <Cell><Data ss:Type="Number">20050</Data></Cell>
+    <Cell><Data ss:Type="Number">20054</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">放入洗炼装备</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20050</Data></Cell>
+    <Cell><Data ss:Type="Number">20051</Data></Cell>
+    <Cell><Data ss:Type="Number">20050</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">选择装备洗炼</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20051</Data></Cell>
+    <Cell><Data ss:Type="Number">20052</Data></Cell>
+    <Cell><Data ss:Type="Number">20055</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">洗炼装备</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20052</Data></Cell>
+    <Cell><Data ss:Type="Number">20053</Data></Cell>
+    <Cell><Data ss:Type="Number">20056</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">保留属性</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20053</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">关闭</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20054</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20039</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击使用小飞鞋立即前往目的地</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20055</Data></Cell>
+    <Cell><Data ss:Type="Number">20056</Data></Cell>
+    <Cell><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">点击装备按钮</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20056</Data></Cell>
+    <Cell><Data ss:Type="Number">20057</Data></Cell>
+    <Cell><Data ss:Type="Number">30008</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">点击翅膀系统</Data></Cell>
+    <Cell><Data ss:Type="String">auto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20057</Data></Cell>
+    <Cell><Data ss:Type="Number">20058</Data></Cell>
+    <Cell><Data ss:Type="Number">20057</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">翅膀升级</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20058</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">关闭</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21001</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">点击退出副本沃玛教主</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21002</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">点击退出副本尸王殿</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21003</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">点击退出副本精英沃玛(剧情)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21004</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">点击退出副本巨型多角虫(剧情）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21005</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">点击退出副本触龙神(剧情）</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>26</ActiveRow>
+     <RangeSelection>R27</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="说明">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="234"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">id                = 唯一ID&#13;guide_operate_id  = 引导操作ID，详见引导操作配置表，每一个操作独立于步骤，一个操作可能会被多个步骤所包含。&#13;next_id           = 下一个引导操作ID，没有就填0&#13;...               = 其余数据看后端需求</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell><Data ss:Type="String">指引点击任务追踪</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>scott xie</LastAuthor>
+  <Created>2015-10-23T07:58:15Z</Created>
+  <LastSaved>2016-08-11T11:52:18Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12765</WindowHeight>
+  <WindowWidth>21840</WindowWidth>
+  <WindowTopX>375</WindowTopX>
+  <WindowTopY>-120</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="boss之家">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="21" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="15">
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="100.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="290.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="72.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">scene_id</Data></Cell>
+    <Cell><Data ss:Type="String">boss_id</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">scene_id</Data></Cell>
+    <Cell><Data ss:Type="String">boss_id</Data></Cell>
+    <Cell><Data ss:Type="String">refresh_time</Data></Cell>
+    <Cell><Data ss:Type="String">desc</Data></Cell>
+    <Cell><Data ss:Type="String">drop_list</Data></Cell>
+    <Cell><Data ss:Type="String">point</Data></Cell>
+    <Cell><Data ss:Type="String">vip_lv</Data></Cell>
+    <Cell><Data ss:Type="String">lv_limit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">chang'j</PhoneticText><Data
+      ss:Type="String">场景id</Data></Cell>
+    <Cell><Data ss:Type="String">boss id</Data></Cell>
+    <Cell><Data ss:Type="String">刷新时间</Data></Cell>
+    <Cell><Data ss:Type="String">刷新地点</Data></Cell>
+    <Cell><Data ss:Type="String">掉落列表</Data></Cell>
+    <Cell><Data ss:Type="String">怪物寻路坐标</Data></Cell>
+    <Cell><Data ss:Type="String">vip等级</Data></Cell>
+    <Cell><Data ss:Type="String">角色等级</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">32101</Data></Cell>
+    <Cell><Data ss:Type="Number">8501</Data></Cell>
+    <Cell><Data ss:Type="String">30分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家1层</Data></Cell>
+    <Cell><Data ss:Type="String">[200050,201050,202050,110010,110050]</Data></Cell>
+    <Cell><Data ss:Type="String">62,77</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">32101</Data></Cell>
+    <Cell><Data ss:Type="Number">8508</Data></Cell>
+    <Cell><Data ss:Type="String">30分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家1层</Data></Cell>
+    <Cell><Data ss:Type="String">[200022,201022,202022,200023,201023]</Data></Cell>
+    <Cell><Data ss:Type="String">90,26</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">32101</Data></Cell>
+    <Cell><Data ss:Type="Number">8509</Data></Cell>
+    <Cell><Data ss:Type="String">30分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家1层</Data></Cell>
+    <Cell><Data ss:Type="String">[200021,201021,202021,200027,201027]</Data></Cell>
+    <Cell><Data ss:Type="String">11,44</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">32101</Data></Cell>
+    <Cell><Data ss:Type="Number">8502</Data></Cell>
+    <Cell><Data ss:Type="String">60分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家1层</Data></Cell>
+    <Cell><Data ss:Type="String">[200035,201035,202035,110024,110031]</Data></Cell>
+    <Cell><Data ss:Type="String">63,11</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">32101</Data></Cell>
+    <Cell><Data ss:Type="Number">8503</Data></Cell>
+    <Cell><Data ss:Type="String">90分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家1层</Data></Cell>
+    <Cell><Data ss:Type="String">[200039,201039,202039,110025,110040]</Data></Cell>
+    <Cell><Data ss:Type="String">115,44</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">32101</Data></Cell>
+    <Cell><Data ss:Type="Number">8504</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">120分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家1层</Data></Cell>
+    <Cell><Data ss:Type="String">[200031,201031,202031,110013,110090]</Data></Cell>
+    <Cell><Data ss:Type="String">35,60</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">32102</Data></Cell>
+    <Cell><Data ss:Type="Number">8505</Data></Cell>
+    <Cell><Data ss:Type="String">90分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家2层</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[200032,201032,202032,200033,201033]</Data></Cell>
+    <Cell><Data ss:Type="String">61,76</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">32102</Data></Cell>
+    <Cell><Data ss:Type="Number">8506</Data></Cell>
+    <Cell><Data ss:Type="String">120分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家2层</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[200030,201030,202030,200035,201035]</Data></Cell>
+    <Cell><Data ss:Type="String">114,44</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">32102</Data></Cell>
+    <Cell><Data ss:Type="Number">8510</Data></Cell>
+    <Cell><Data ss:Type="String">180分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家2层</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[200061,201061,202061,200062,201062]</Data></Cell>
+    <Cell><Data ss:Type="String">36,59</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">32102</Data></Cell>
+    <Cell><Data ss:Type="Number">8507</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">240分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家2层</Data></Cell>
+    <Cell><Data ss:Type="String">[305000,305001,305002,200060,201060]</Data></Cell>
+    <Cell><Data ss:Type="String">89,24</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">32103</Data></Cell>
+    <Cell><Data ss:Type="Number">8511</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">240分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家3层</Data></Cell>
+    <Cell><Data ss:Type="String">[200075,201075,110163,305013,110222]</Data></Cell>
+    <Cell><Data ss:Type="String">36,25</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">32103</Data></Cell>
+    <Cell><Data ss:Type="Number">8512</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">360分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家3层</Data></Cell>
+    <Cell><Data ss:Type="String">[200071,201071,202071,200072,201072]</Data></Cell>
+    <Cell><Data ss:Type="String">36,60</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">32103</Data></Cell>
+    <Cell><Data ss:Type="Number">8513</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">360分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家3层</Data></Cell>
+    <Cell><Data ss:Type="String">[200073,201073,202073,305016,305017]</Data></Cell>
+    <Cell><Data ss:Type="String">91,25</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">32103</Data></Cell>
+    <Cell><Data ss:Type="Number">8514</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">480分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">zhongke'pdesi'wangsheng'wju'youqiang'dadeneng'liangmin'jededong'zhezhi'mingdepo'huaineng'likuang'dongcengshua'x</PhoneticText><Data
+      ss:Type="String">BOSS之家3层</Data></Cell>
+    <Cell><Data ss:Type="String">[200070,201070,202070,200076,201076]</Data></Cell>
+    <Cell><Data ss:Type="String">88,61</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">32116</Data></Cell>
+    <Cell><Data ss:Type="Number">8515</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">360分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BOSS之家4层</Data></Cell>
+    <Cell><Data ss:Type="String">[110294,305021,305023,200070,201070]</Data></Cell>
+    <Cell><Data ss:Type="String">37,28</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">32116</Data></Cell>
+    <Cell><Data ss:Type="Number">8516</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">480分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BOSS之家4层</Data></Cell>
+    <Cell><Data ss:Type="String">[110294,305025,305024,201070,202070]</Data></Cell>
+    <Cell><Data ss:Type="String">89,60</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">32116</Data></Cell>
+    <Cell><Data ss:Type="Number">8526</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">480分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BOSS之家4层</Data></Cell>
+    <Cell><Data ss:Type="String">[110320,110294,305025,305024,201070]</Data></Cell>
+    <Cell><Data ss:Type="String">90,26</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">32116</Data></Cell>
+    <Cell><Data ss:Type="Number">8527</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">fen'z</PhoneticText><Data
+      ss:Type="String">540分钟</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BOSS之家4层</Data></Cell>
+    <Cell><Data ss:Type="String">[110320,110294,305025,201070,202070]</Data></Cell>
+    <Cell><Data ss:Type="String">38,60</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>12</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="411.75"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">&lt;font color='0xffffff' size='20' opacity='255'&gt;hhghgg&lt;/font&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

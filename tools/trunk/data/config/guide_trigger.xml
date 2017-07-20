@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>柱鹏</Author>
+  <LastAuthor>zmf</LastAuthor>
+  <Created>2016-01-13T08:19:58Z</Created>
+  <LastSaved>2016-08-22T04:01:46Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6975</WindowHeight>
+  <WindowWidth>16440</WindowWidth>
+  <WindowTopX>4800</WindowTopX>
+  <WindowTopY>3180</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="普通 3">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="13" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="13" ss:Color="#333333"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="13" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#3366FF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Center"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="15" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="工作表1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="19" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="64.5"/>
+   <Column ss:Index="3" ss:StyleID="s63" ss:Width="92.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="73.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">type</Data></Cell>
+    <Cell><Data ss:Type="String">trigger_data</Data></Cell>
+    <Cell><Data ss:Type="String">guide_step</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">类型</Data></Cell>
+    <Cell><Data ss:Type="String">对应数据</Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#333333">引导开始步骤</Font><Font html:Size="15" html:Color="#333333">ID</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10001</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10004</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">10069</Data></Cell>
+    <Cell><Data ss:Type="Number">20010</Data></Cell>
+    <Cell><Data ss:Type="String">点击行会</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10005</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">10068</Data></Cell>
+    <Cell><Data ss:Type="Number">20011</Data></Cell>
+    <Cell><Data ss:Type="String">点击排位赛</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10006</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10080</Data></Cell>
+    <Cell><Data ss:Type="Number">20013</Data></Cell>
+    <Cell><Data ss:Type="String">点击活动中心功勋任务</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10010</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">10066</Data></Cell>
+    <Cell><Data ss:Type="Number">20024</Data></Cell>
+    <Cell><Data ss:Type="String">引导日常经验任务</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10011</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">10013</Data></Cell>
+    <Cell><Data ss:Type="Number">20026</Data></Cell>
+    <Cell><Data ss:Type="String">引导天山雪莲</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10012</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">10011</Data></Cell>
+    <Cell><Data ss:Type="Number">20030</Data></Cell>
+    <Cell><Data ss:Type="String">引导吃药设置</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10013</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20405</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">骷髅精灵（剧情）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10014</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20402</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">沃玛教主（剧情）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10015</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">10028</Data></Cell>
+    <Cell><Data ss:Type="Number">20040</Data></Cell>
+    <Cell><Data ss:Type="String">强化</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10016</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">10041</Data></Cell>
+    <Cell><Data ss:Type="Number">20054</Data></Cell>
+    <Cell><Data ss:Type="String">小飞鞋</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10018</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10010</Data></Cell>
+    <Cell><Data ss:Type="Number">20055</Data></Cell>
+    <Cell><Data ss:Type="String">翅膀</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11001</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20401</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">21002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">尸王殿</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11002</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20406</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">21003</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">精英沃玛(剧情)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11003</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20407</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">21004</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">巨型多角虫(剧情）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11004</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20408</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">21005</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">触龙神(剧情）</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="23" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">type &#160;1任务接受，2.完成任务，3系统开启，4等级，5初次进入游戏,6完成剧情副本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">trigger_data &#160; &#160; type对应的数据，例如任务就填写任务ID。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">guide_step 引导步骤ID</Data></Cell>
+   </Row>
+   <Row ss:Index="6" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">这个表只填触发的第一步</Data></Cell>
+   </Row>
+   <Row ss:Index="11" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">类型</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">对应数据</Data></Cell>
+    <Cell ss:StyleID="s63"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#333333">引导开始步骤</Font><Font
+       html:Size="15" html:Color="#333333">ID</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10008</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">点击福利</Data></Cell>
+    <Cell><Data ss:Type="String">去掉</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10014</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20008</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">点击组队</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10014</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20008</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">点击组队</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10004</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10032</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20010</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">点击行会</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10004</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10032</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20010</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">点击行会</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10062</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20011</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">点击排位赛</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10062</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20011</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">点击排位赛</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10070</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20013</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">点击活动中心</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10006</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10070</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20013</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">点击活动中心</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10052</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20016</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">点击挂机挑战BOSS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10052</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20016</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">点击挂机挑战BOSS</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10009</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10074</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20021</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">引导世界BOSS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10009</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10074</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20021</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">引导世界BOSS</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10064</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20024</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">引导日常任务</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10064</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20024</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">引导日常任务</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10011</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20026</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">引导天山雪莲</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10011</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20026</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">引导天山雪莲</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10012</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20030</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">引导吃药设置</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10013</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">20401</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">尸王殿（剧情）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="Number">10014</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">20402</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">20038</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">沃玛教主（剧情）</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

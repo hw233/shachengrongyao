@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2016-09-12T01:57:18Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8360</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="开服活动类型表信息">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="137" ss:Span="1"/>
+   <Column ss:Index="3" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="107"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="159"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="152"/>
+   <Column ss:StyleID="s62" ss:Width="170" ss:Span="3"/>
+   <Column ss:Index="10" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="283"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="179"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="122"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="107"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="109"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">list_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">receive_state</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">is_add</Data></Cell>
+    <Cell><Data ss:Type="String">begin_time</Data></Cell>
+    <Cell><Data ss:Type="String">end_time</Data></Cell>
+    <Cell><Data ss:Type="String">show_time</Data></Cell>
+    <Cell><Data ss:Type="String">value</Data></Cell>
+    <Cell><Data ss:Type="String">is_one</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">list_id</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">title_img</Data></Cell>
+    <Cell><Data ss:Type="String">sort</Data></Cell>
+    <Cell><Data ss:Type="String">des1</Data></Cell>
+    <Cell><Data ss:Type="String">des2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">jiang l</PhoneticText><Data
+      ss:Type="String">活动类型id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">分页ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">领取状态</Data></Cell>
+    <Cell><Data ss:Type="String"> 活动名称</Data></Cell>
+    <Cell><Data ss:Type="String">数据是添加，还是替换，1是添加0，是替换</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">活动开启时间</Data></Cell>
+    <Cell><Data ss:Type="String">活动持续时间（开启后隔x天）</Data></Cell>
+    <Cell><Data ss:Type="String">活动隐藏时间(开始后隔x天)</Data></Cell>
+    <Cell><Data ss:Type="String">排名必须达到的基础value</Data></Cell>
+    <Cell><Data ss:Type="String">是否单人活动</Data><Comment ss:Author="li"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Size="10"
+         html:Color="#000000">li:</Font></B><Font html:Size="10" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;0：全服活动&#13;1：单人活动</Font></Data></Comment></Cell>
+    <Cell><Data ss:Type="String">标题文字图片</Data></Cell>
+    <Cell><Data ss:Type="String">前端显示排序</Data></Cell>
+    <Cell><Data ss:Type="String">排名奖励</Data></Cell>
+    <Cell><Data ss:Type="String">全名奖励规则</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">充值送大礼</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">serveActivity_font1.png</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">强化折扣日</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">serveActivity_font2.png</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">消耗元宝送物品</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{2,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">serveActivity_font3.png</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">神秘商店回馈</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{3,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">serveActivity_font4.png</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">印记折扣</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{4,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">serveActivity_font5.png</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">神秘商店回馈</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{5,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">serveActivity_font4.png</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">赤月紫装欢乐送</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">serveActivity_font6.png</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">开服红包满天飞</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{3,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{3,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">首杀BOSS送大奖</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">    冲级达人榜</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;达到&lt;font color='00ff0d' size='16' opacity='255'&gt;60级以上&lt;/font&gt;的玩家可以进入排名，结束时等级排名前3的玩家获得排名奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;在活动结束时，等级达到45、50、55的玩家可以获得全民奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">  </Font><Font
+        html:Face="宋体" x:CharSet="134" x:Family="Swiss" html:Color="#000000">  </Font><Font
+        html:Face="宋体" x:CharSet="134" x:Family="Swiss" html:Size="12"
+        html:Color="#000000">装备强化榜</Font></B></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{6,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="Number">180</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;身上装备强化总数达到&lt;font color='00ff0d' size='16' opacity='255'&gt;188及以上&lt;/font&gt;的玩家可以进入排名，结束时排名前3的玩家获得排名奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;在活动结束时，身上装备强化总数达到30、60、100的玩家可以获得全民奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">    翅膀进阶榜</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{2,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{5,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;翅膀达到&lt;font color='00ff0d' size='16' opacity='255'&gt;7阶1星以上&lt;/font&gt;的玩家可以进入排名，结束时排名前3的玩家获得排名奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;在活动结束时，翅膀达到3阶1星、4阶1星、5阶1星的玩家可以获得全民奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">  </Font><Font
+        html:Face="宋体" x:CharSet="134" x:Family="Swiss" html:Color="#000000">  </Font><Font
+        html:Face="宋体" x:CharSet="134" x:Family="Swiss" html:Size="12"
+        html:Color="#000000">勋章升阶榜</Font></B></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{3,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{4,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;勋章达到&lt;font color='00ff0d' size='16' opacity='255'&gt;4阶黑铁（22级）以上&lt;/font&gt;的玩家可以进入排名，结束时排名前3的玩家获得排名奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;在活动结束时，勋章达到6阶青铜、3阶生铁、8阶生铁的玩家可以获得全民奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">  </Font><Font
+        html:Face="宋体" x:CharSet="134" x:Family="Swiss" html:Color="#000000">  </Font><Font
+        html:Face="宋体" x:CharSet="134" x:Family="Swiss" html:Size="12"
+        html:Color="#000000">印记升级榜</Font></B></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{4,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{3,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;印记总等级达到&lt;font color='00ff0d' size='16' opacity='255'&gt;50级以上&lt;/font&gt;的玩家可以进入排名，结束时排名前3的玩家获得排名奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;在活动结束时，印记总等级达到20、25、35的玩家可以获得全民奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">  </Font><Font
+        html:Face="宋体" x:CharSet="134" x:Family="Swiss" html:Color="#000000">  </Font><Font
+        html:Face="宋体" x:CharSet="134" x:Family="Swiss" html:Size="12"
+        html:Color="#000000">战力名人榜</Font></B></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">{5,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{1,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">{2,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">45000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;战力达到&lt;font color='00ff0d' size='16' opacity='255'&gt;45000以上&lt;/font&gt;的玩家可以进入排名，结束时排名前3的玩家获得排名奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&lt;font color='f4e6d5' size='16' opacity='255'&gt;在活动结束时，战力达到10000、15000、25000的玩家可以获得全民奖励，邮件发送。&lt;/font&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>4</SplitVertical>
+   <LeftColumnRightPane>11</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>15</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
+   <Column ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:AutoFitWidth="0" ss:Width="371"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">begin_time</Data></Cell>
+    <Cell><Data ss:Type="String">{开服时间的几天后,{时,分}}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">end_time</Data></Cell>
+    <Cell><Data ss:Type="String">{开服时间的几天后,{时,分}}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">receive_state</Data></Cell>
+    <Cell><Data ss:Type="String">领取状态说明，1，表示自己去领取，2表示排名，邮件发送，3商店</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

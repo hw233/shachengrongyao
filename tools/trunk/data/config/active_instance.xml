@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2017-03-10T04:00:56Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6206</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10350</WindowHeight>
+  <WindowWidth>20880</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <NumberFormat ss:Format="&quot;¥&quot;#,##0.00_);[Red]\(&quot;¥&quot;#,##0.00\)"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="公会活动配置表">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="120" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="150.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="86.25" ss:Span="7"/>
+   <Column ss:Index="13" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="117.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">open_type</Data></Cell>
+    <Cell><Data ss:Type="String">open_week</Data></Cell>
+    <Cell><Data ss:Type="String">open_time_1</Data></Cell>
+    <Cell><Data ss:Type="String">close_time_1</Data></Cell>
+    <Cell><Data ss:Type="String">open_time_2</Data></Cell>
+    <Cell><Data ss:Type="String">close_time_2</Data></Cell>
+    <Cell><Data ss:Type="String">enter_time_1</Data></Cell>
+    <Cell><Data ss:Type="String">stop_time_1</Data></Cell>
+    <Cell><Data ss:Type="String">enter_time_2</Data></Cell>
+    <Cell><Data ss:Type="String">stop_time_2</Data></Cell>
+    <Cell><Data ss:Type="String">instance_id</Data></Cell>
+    <Cell><Data ss:Type="String">sub_instance_list</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">活动id</Data></Cell>
+    <Cell><Data ss:Type="String">描述</Data></Cell>
+    <Cell><Data ss:Type="String">开启时间类型</Data></Cell>
+    <Cell><Data ss:Type="String">开启周期</Data></Cell>
+    <Cell><Data ss:Type="String">开始时间1</Data></Cell>
+    <Cell><Data ss:Type="String">结束时间1</Data></Cell>
+    <Cell><Data ss:Type="String">开始时间2</Data></Cell>
+    <Cell><Data ss:Type="String">结束时间2</Data></Cell>
+    <Cell><Data ss:Type="String">允许进入时间</Data></Cell>
+    <Cell><Data ss:Type="String">禁止进入时间</Data></Cell>
+    <Cell><Data ss:Type="String">允许进入时间2</Data></Cell>
+    <Cell><Data ss:Type="String">禁止进入时间2</Data></Cell>
+    <Cell><Data ss:Type="String">进入副本id</Data></Cell>
+    <Cell><Data ss:Type="String">子副本列表</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">本服暗殿1层</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{11,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{11,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{20,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{20,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">20224</Data></Cell>
+    <Cell><Data ss:Type="String">[31005]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{18,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{18,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">20403</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">胜者为王</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{15,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{15,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">{15,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{15,15,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">20404</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{19,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{19,45,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">22001</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">个人BOSS之家</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{0,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,59,59}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32001</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">全服双倍经验</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{17,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{18,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">31002</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell><Data ss:Type="String">{12,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,59,59}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">31002</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">31003</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell><Data ss:Type="String">{12,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,59,59}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">31003</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">31004</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell><Data ss:Type="String">{12,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,59,59}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">31004</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">31005</Data></Cell>
+    <Cell><Data ss:Type="String">本服暗殿二层</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{1,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">31005</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32104</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿1层</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{11,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{11,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{16,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{20,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32104</Data></Cell>
+    <Cell><Data ss:Type="String">[32105]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32105</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿2层</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{11,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{11,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{16,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{20,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32105</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32106</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿3层（未用）</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{20,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{20,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32106</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32107</Data></Cell>
+    <Cell><Data ss:Type="String">王城乱斗</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{20,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{21,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32107</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32108</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{12,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,59,59}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32108</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32109</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙1（周末）</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{12,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,59,59}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32109</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32110</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙2（周末）</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{12,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,59,59}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32110</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32111</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙3（周末）</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{12,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,59,59}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32111</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32112</Data></Cell>
+    <Cell><Data ss:Type="String">跨服幻境</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{21,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{21,45,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32112</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32114</Data></Cell>
+    <Cell><Data ss:Type="String">本服幻境</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{21,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{21,45,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32113</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32122</Data></Cell>
+    <Cell><Data ss:Type="String">变异地宫1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{22,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32122</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32123</Data></Cell>
+    <Cell><Data ss:Type="String">变异地宫2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{22,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32123</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32124</Data></Cell>
+    <Cell><Data ss:Type="String">变异地宫3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{22,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32124</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32125</Data></Cell>
+    <Cell><Data ss:Type="String">变异地宫4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{22,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{23,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">32125</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>9</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">[{物品ID,是否绑定,数量}]</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">0:非绑定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1:绑定</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

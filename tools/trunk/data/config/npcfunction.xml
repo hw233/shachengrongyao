@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-08-05T06:41:30Z</Created>
+  <LastSaved>2017-03-15T03:09:26Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-9.1.0.5113</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10200</WindowHeight>
+  <WindowWidth>27345</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Dot" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Dot" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Dot" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Dot" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Dot" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Dot" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="NPC">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="31" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="90"/>
+   <Column ss:StyleID="s62" ss:Width="222.75"/>
+   <Column ss:StyleID="s62" ss:Width="263.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s63">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">btnlab</Data></Cell>
+    <Cell><Data ss:Type="String">desc</Data></Cell>
+    <Cell><Data ss:Type="String">win</Data></Cell>
+    <Cell><Data ss:Type="String">param</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">功能ID</Data></Cell>
+    <Cell><Data ss:Type="String">按钮名称</Data></Cell>
+    <Cell><Data ss:Type="String">描述（策划用）</Data></Cell>
+    <Cell><Data ss:Type="String">打开界面</Data></Cell>
+    <Cell><Data ss:Type="String">类型参数</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">进入挂机</Data></Cell>
+    <Cell><Data ss:Type="String">挂机界面</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">hangUp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">装备强化</Data></Cell>
+    <Cell><Data ss:Type="String">装备界面</Data></Cell>
+    <Cell><Data ss:Type="String">equipStrengWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">装备洗炼</Data></Cell>
+    <Cell><Data ss:Type="String">装备界面</Data></Cell>
+    <Cell><Data ss:Type="String">equipWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">进入仓库</Data></Cell>
+    <Cell><Data ss:Type="String">仓库界面</Data></Cell>
+    <Cell><Data ss:Type="String">storageWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">买武器</Data></Cell>
+    <Cell><Data ss:Type="String">买武器</Data></Cell>
+    <Cell><Data ss:Type="String">npcBuyWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">买衣服</Data></Cell>
+    <Cell><Data ss:Type="String">买衣服</Data></Cell>
+    <Cell><Data ss:Type="String">npcBuyWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">买首饰</Data></Cell>
+    <Cell><Data ss:Type="String">买首饰</Data></Cell>
+    <Cell><Data ss:Type="String">npcBuyWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">买药品</Data></Cell>
+    <Cell><Data ss:Type="String">买药品</Data></Cell>
+    <Cell><Data ss:Type="String">npcBuyWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">矿洞</Data></Cell>
+    <Cell><Data ss:Type="String">传送</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">moveTo，103</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">买技能书</Data></Cell>
+    <Cell><Data ss:Type="String">买技能书</Data></Cell>
+    <Cell><Data ss:Type="String">npcBuyWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">进入二层</Data></Cell>
+    <Cell><Data ss:Type="String">进入二层</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">进入三层</Data></Cell>
+    <Cell><Data ss:Type="String">进入三层</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">进入购买</Data></Cell>
+    <Cell><Data ss:Type="String">云游商人</Data></Cell>
+    <Cell><Data ss:Type="String">npcBuyWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">金条兑换(需要1000000金币和20元宝)</Data></Cell>
+    <Cell><Data ss:Type="String">是否消费1000000金币和20元宝兑换1条金条</Data></Cell>
+    <Cell><Data ss:Type="String">tips</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">金砖兑换(需要5根金条)</Data></Cell>
+    <Cell><Data ss:Type="String">是否消耗5根金条兑换成1块金砖</Data></Cell>
+    <Cell><Data ss:Type="String">tips</Data></Cell>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">买羽毛</Data></Cell>
+    <Cell><Data ss:Type="String">买羽毛</Data></Cell>
+    <Cell><Data ss:Type="String">npcBuyWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿2层</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿2层</Data></Cell>
+    <Cell><Data ss:Type="String">needGoods</Data></Cell>
+    <Cell><Data ss:Type="String">31003_110224_10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿3层</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿3层</Data></Cell>
+    <Cell><Data ss:Type="String">needGoods</Data></Cell>
+    <Cell><Data ss:Type="String">31004_110224_10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">进入神秘探宝</Data></Cell>
+    <Cell><Data ss:Type="String">打开神秘探宝</Data></Cell>
+    <Cell><Data ss:Type="String">treasureWin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿1层</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿1层</Data></Cell>
+    <Cell><Data ss:Type="String">needGoods</Data></Cell>
+    <Cell><Data ss:Type="String">31002_0_0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">进入BOSS之家2层</Data></Cell>
+    <Cell><Data ss:Type="String">进入boss之家2层</Data></Cell>
+    <Cell><Data ss:Type="String">needVip</Data></Cell>
+    <Cell><Data ss:Type="String">32102_5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">进入BOSS之家3层</Data></Cell>
+    <Cell><Data ss:Type="String">进入boss之家3层</Data></Cell>
+    <Cell><Data ss:Type="String">needVip</Data></Cell>
+    <Cell><Data ss:Type="String">32103_7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿2层</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿2层</Data></Cell>
+    <Cell><Data ss:Type="String">needGoods</Data></Cell>
+    <Cell><Data ss:Type="String">32110_110224_10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿3层</Data></Cell>
+    <Cell><Data ss:Type="String">进入火龙神殿3层</Data></Cell>
+    <Cell><Data ss:Type="String">needGoods</Data></Cell>
+    <Cell><Data ss:Type="String">32111_110224_10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">进入BOSS之家4层</Data></Cell>
+    <Cell><Data ss:Type="String">进入boss之家4层</Data></Cell>
+    <Cell><Data ss:Type="String">needVip</Data></Cell>
+    <Cell><Data ss:Type="String">32116_9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">进入变异地宫2层</Data></Cell>
+    <Cell><Data ss:Type="String">进入变异地宫2层</Data></Cell>
+    <Cell><Data ss:Type="String">killBossNum</Data></Cell>
+    <Cell><Data ss:Type="String">32122_2_32123</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">进入变异地宫3层</Data></Cell>
+    <Cell><Data ss:Type="String">进入变异地宫3层</Data></Cell>
+    <Cell><Data ss:Type="String">killBossNum</Data></Cell>
+    <Cell><Data ss:Type="String">32123_2_32124</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">进入变异地宫4层</Data></Cell>
+    <Cell><Data ss:Type="String">进入变异地宫4层</Data></Cell>
+    <Cell><Data ss:Type="String">killBossNum</Data></Cell>
+    <Cell><Data ss:Type="String">32124_2_32125</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>9</TopRowBottomPane>
+   <SplitVertical>2</SplitVertical>
+   <LeftColumnRightPane>2</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>3</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>30</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="说明">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="105.75"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">needVip</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">31002_12</Data></Cell>
+    <Cell><Data ss:Type="String">需要VIP及进入场景</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">needGoods</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">31003_110199_20</Data></Cell>
+    <Cell><Data ss:Type="String">需要材料进入场景，同时在场景那边填上这个物品</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">killBossNum</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">32124_2_32125</Data></Cell>
+    <Cell><Data ss:Type="String">需要击杀多少boss开启下个场景的传送；（当前场景_需要击杀BOSS数_跳转场景）</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

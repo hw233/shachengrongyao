@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>li</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2016-08-17T12:14:46Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13800</WindowHeight>
+  <WindowWidth>34300</WindowWidth>
+  <WindowTopX>16020</WindowTopX>
+  <WindowTopY>2000</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="适中">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#993300"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="开服活动详细信息表">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="111" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="77"/>
+   <Column ss:StyleID="s63" ss:Width="93" ss:Span="1"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">num_min</Data></Cell>
+    <Cell><Data ss:Type="String">num_max</Data></Cell>
+    <Cell><Data ss:Type="String">weight</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">掉落万分比下限</Data></Cell>
+    <Cell><Data ss:Type="String">掉落万分比上限</Data></Cell>
+    <Cell><Data ss:Type="String">掉落权重</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">1001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">2001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">3001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">4001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">5001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">6000</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">6001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">7000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">7001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">8000</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">8001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">9000</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">9001</Data></Cell>
+    <Cell ss:Formula="=R[-1]C+1000"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:AutoFitHeight="0" ss:StyleID="s67" ss:Span="6"/>
+   <Row ss:Index="45" ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="1"/>
+   <Row ss:Index="103" ss:AutoFitHeight="0" ss:StyleID="s67" ss:Span="6"/>
+   <Row ss:Index="110" ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="1"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">type</Data></Cell>
+    <Cell><Data ss:Type="String">1个数字1个类型</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">类型10，装备排行，value条件参数：  {50,5} 表示50级以上装备穿戴5件</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

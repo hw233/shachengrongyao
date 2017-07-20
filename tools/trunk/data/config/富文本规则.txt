@@ -1,0 +1,4 @@
+文字:<font face='字体' size='字体大小' color='0x颜色值' opacity='透明度'>文字内容</font>
+换行:<br gap='行距'/>
+
+注意:face='字体' 要连续写，不要写成face ='字体'

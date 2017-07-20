@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'chuangqi' target in the 'chuangqi' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
+
+#ifndef <?php echo strtoupper($proj_name)."\r\n"; ?>
+#define <?php echo strtoupper($proj_name); ?> 1 //渠道
+#endif

@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>li</LastAuthor>
+  <Created>2015-07-21T11:17:28Z</Created>
+  <LastSaved>2016-06-30T03:43:37Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8700</WindowHeight>
+  <WindowWidth>31700</WindowWidth>
+  <WindowTopX>8500</WindowTopX>
+  <WindowTopY>3500</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="宋体" x:CharSet="134" x:Family="Modern" ss:Size="12"
+    ss:Color="#DD0806"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="套装属性">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="25" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="91"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">id_qian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">id_qian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">后端部位ID</Data></Cell>
+    <Cell><Data ss:Type="String">前端部位ID</Data></Cell>
+    <Cell><Data ss:Type="String">部位名字</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[1]</Data></Cell>
+    <Cell><Data ss:Type="String">武器</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">801</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[2]</Data></Cell>
+    <Cell><Data ss:Type="String">衣服</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">802</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[3]</Data></Cell>
+    <Cell><Data ss:Type="String">头盔</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">803</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[4]</Data></Cell>
+    <Cell><Data ss:Type="String">项链</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">804</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[5]</Data></Cell>
+    <Cell><Data ss:Type="String">勋章</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">805</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">[6,11]</Data></Cell>
+    <Cell><Data ss:Type="String">手镯</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">806</Data></Cell>
+    <Cell><Data ss:Type="Number">811</Data></Cell>
+    <Cell ss:Formula="=RC[-2]-800"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">[7,12]</Data></Cell>
+    <Cell><Data ss:Type="String">戒指</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">807</Data></Cell>
+    <Cell><Data ss:Type="Number">812</Data></Cell>
+    <Cell ss:Formula="=RC[-2]-800"><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[8]</Data></Cell>
+    <Cell><Data ss:Type="String">腰带</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">808</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[9]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">裤子</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">809</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[10]</Data></Cell>
+    <Cell><Data ss:Type="String">鞋子</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">810</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[13]</Data></Cell>
+    <Cell><Data ss:Type="String">翅膀</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">813</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[14]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">宠物</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">814</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[15]</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">坐骑</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">815</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[21]</Data></Cell>
+    <Cell><Data ss:Type="String">特武</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">821</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[22]</Data></Cell>
+    <Cell><Data ss:Type="String">特甲</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">822</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">22</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[23]</Data></Cell>
+    <Cell><Data ss:Type="String">护符</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">823</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">23</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[24]</Data></Cell>
+    <Cell><Data ss:Type="String">护腿</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">824</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">24</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[25]</Data></Cell>
+    <Cell><Data ss:Type="String">面具</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">825</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[26]</Data></Cell>
+    <Cell><Data ss:Type="String">头巾</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">826</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">26</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[27]</Data></Cell>
+    <Cell><Data ss:Type="String">耳环</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">827</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">27</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:Formula="=&quot;[&quot;&amp;RC[5]&amp;&quot;]&quot;"><Data
+      ss:Type="String">[28]</Data></Cell>
+    <Cell><Data ss:Type="String">护肩</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">828</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-2]-800"><Data ss:Type="Number">28</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">[29,30]</Data></Cell>
+    <Cell><Data ss:Type="String">特戒</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">829</Data></Cell>
+    <Cell><Data ss:Type="Number">830</Data></Cell>
+    <Cell ss:Formula="=RC[-2]-800"><Data ss:Type="Number">29</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>9</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:Print>     </x:Print>
+   <x:Print>    </x:Print>
+   <x:Print>    </x:Print>
+   <x:Print>    </x:Print>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

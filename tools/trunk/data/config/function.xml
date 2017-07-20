@@ -1,0 +1,2398 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-06-23T12:05:48Z</Created>
+  <LastSaved>2017-03-17T09:27:38Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6260</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10350</WindowHeight>
+  <WindowWidth>21495</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="常规 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#FABF8F" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior ss:Color="#FABF8F" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior ss:Color="#FABF8F" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior ss:Color="#FABF8F" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#FABF8F" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s85">
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Font ss:FontName="STHeiti SC" x:Family="Roman"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior ss:Color="#FABF8F" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="equips">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=equips!R1C3:R103C3"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="131" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="65.25"
+   ss:DefaultRowHeight="14.0625">
+   <Column ss:Index="2" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="102"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="186.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="53.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="93.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="90"/>
+   <Column ss:StyleID="s63" ss:Width="140.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="81" ss:Span="1"/>
+   <Column ss:Index="11" ss:StyleID="s64" ss:Width="120.75" ss:Span="1"/>
+   <Column ss:Index="13" ss:StyleID="s63" ss:Width="236.25"/>
+   <Column ss:StyleID="s63" ss:Width="150.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">lv</Data></Cell>
+    <Cell><Data ss:Type="String">task_id</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">begin_time</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">end_time</Data></Cell>
+    <Cell><Data ss:Type="String">consume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">lv</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">describe</Data></Cell>
+    <Cell><Data ss:Type="String">icon_file</Data></Cell>
+    <Cell><Data ss:Type="String">window</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">功能id</Data></Cell>
+    <Cell><Data ss:Type="String">功能名称</Data></Cell>
+    <Cell><Data ss:Type="String">操作描述</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">开启等级</Data></Cell>
+    <Cell><Data ss:Type="String">开启任务id</Data></Cell>
+    <Cell><Data ss:Type="String">开启时是否引导</Data></Cell>
+    <Cell><Data ss:Type="String">未开启时点击提示</Data></Cell>
+    <Cell><Data ss:Type="String">图标</Data></Cell>
+    <Cell><Data ss:Type="String">开启是否弹窗</Data></Cell>
+    <Cell><Data ss:Type="String">功能类型</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">开启时间</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">关闭时间</Data></Cell>
+    <Cell><Data ss:Type="String">消耗</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">主线任务</Data></Cell>
+    <Cell><Data ss:Type="String">无</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">角色</Data></Cell>
+    <Cell><Data ss:Type="String">打开角色窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">背包</Data></Cell>
+    <Cell><Data ss:Type="String">打开背包窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">技能</Data></Cell>
+    <Cell><Data ss:Type="String">打开技能窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">行会</Data></Cell>
+    <Cell><Data ss:Type="String">打开行会窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">35级</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">社交（好友、</Data></Cell>
+    <Cell><Data ss:Type="String">打开好友窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">社交（邮件）</Data></Cell>
+    <Cell><Data ss:Type="String">打开邮件窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">组队</Data></Cell>
+    <Cell><Data ss:Type="String">打开组队窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">系统设置</Data></Cell>
+    <Cell><Data ss:Type="String">打开系统窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">聊天系统</Data></Cell>
+    <Cell><Data ss:Type="String">打开聊天窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">装备强化</Data></Cell>
+    <Cell><Data ss:Type="String">打开强化窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">装备洗练</Data></Cell>
+    <Cell><Data ss:Type="String">打开洗练窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">28级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">装备打造</Data></Cell>
+    <Cell><Data ss:Type="String">打开打造窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">30级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">PK模式</Data></Cell>
+    <Cell><Data ss:Type="String">打开PK模式列表</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">36级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">首充</Data></Cell>
+    <Cell><Data ss:Type="String">打开首充窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">攻城战</Data></Cell>
+    <Cell><Data ss:Type="String">打开沙巴克窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">41级开启</Data></Cell>
+    <Cell><Data ss:Type="String">scene_sbkBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">今日目标</Data></Cell>
+    <Cell><Data ss:Type="String">打开每日任务窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">38级开启</Data></Cell>
+    <Cell><Data ss:Type="String">scene_dailyBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">排位赛</Data></Cell>
+    <Cell><Data ss:Type="String">打开排位赛窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">36级开启</Data></Cell>
+    <Cell><Data ss:Type="String">scene_qualifyingBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">日常活动</Data></Cell>
+    <Cell><Data ss:Type="String">打开活动中心窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scene_dailyBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">福利中心</Data></Cell>
+    <Cell><Data ss:Type="String">打开福利中心窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">商城</Data></Cell>
+    <Cell><Data ss:Type="String">打开商城窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">挂机</Data></Cell>
+    <Cell><Data ss:Type="String">先打开确认进入提示，再进入挂机</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">30级开启</Data></Cell>
+    <Cell><Data ss:Type="String">scene_hangupBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">功勋任务</Data></Cell>
+    <Cell><Data ss:Type="String">自动寻路去找皇城监军7522，打开对话</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">38级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">膜拜功能</Data></Cell>
+    <Cell><Data ss:Type="String">自动寻路去找第一战士7523，打开对话</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">38级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">世界<Font
+       html:Face="Cambria" x:Family="Roman" html:Size="12" html:Color="#000000">BOSS</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">打开世界BOSS窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">20级开启</Data></Cell>
+    <Cell><Data ss:Type="String">scene_bossBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">个人副本</Data></Cell>
+    <Cell><Data ss:Type="String">打开个人副本窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">40级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">分包下载</Data></Cell>
+    <Cell><Data ss:Type="String">打开分包下载窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">99级开启</Data></Cell>
+    <Cell><Data ss:Type="String">scene_downBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">游戏攻略</Data></Cell>
+    <Cell><Data ss:Type="String">打开游戏攻略窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scene_strategyBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">充值</Data></Cell>
+    <Cell><Data ss:Type="String">打开充值窗口</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">装备</Data></Cell>
+    <Cell><Data ss:Type="String">打开装备2级菜单</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">提纯</Data></Cell>
+    <Cell><Data ss:Type="String">打开提纯界面</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">25级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">分解</Data></Cell>
+    <Cell><Data ss:Type="String">打开分解界面</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">勋章</Data></Cell>
+    <Cell><Data ss:Type="String">打开勋章界面</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">38级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">签到</Data></Cell>
+    <Cell><Data ss:Type="String">打开签到界面</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scene_signBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">交易所</Data></Cell>
+    <Cell><Data ss:Type="String">打开交易所界面</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">36级开启</Data></Cell>
+    <Cell><Data ss:Type="String">scene_exchangeBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">日常任务</Data></Cell>
+    <Cell><Data ss:Type="String">自动寻路去找老兵7507，打开对话</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">35级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">未知暗殿</Data></Cell>
+    <Cell><Data ss:Type="String">打开未知暗殿窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell><Data ss:Type="String">打开屠龙大会窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">45级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">胜者为王</Data></Cell>
+    <Cell><Data ss:Type="String">打开胜者为王窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">40级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">开服活动</Data></Cell>
+    <Cell><Data ss:Type="String">打开开服活动界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scene_serveActivity.png</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">限时活动</Data></Cell>
+    <Cell><Data ss:Type="String">打开限时活动界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scene_timingBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">竞技活动</Data></Cell>
+    <Cell><Data ss:Type="String">打开竞技活动界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scene_competitionBtn.png</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="String">行会Boss</Data></Cell>
+    <Cell><Data ss:Type="String">打开行会boss窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">行会秘境</Data></Cell>
+    <Cell><Data ss:Type="String">打开行会秘境窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">屠龙大会（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">45级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">屠龙大会（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">45级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">胜者为王1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">胜者为王（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">40级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">胜者为王1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">胜者为王（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">40级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未知暗殿每天</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未知暗殿（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未知暗殿每天</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未知暗殿（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">攻城战</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">攻城战（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">41级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">scene_sbkBtn.png</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">攻城战</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">攻城战（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">41级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">scene_sbkBtn.png</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11.0625">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">行会Boss</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">行会Boss（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">行会Boss</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">行会Boss（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">行会秘境</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">行会秘境（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">行会秘境</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">行会秘境（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">沙城秘境</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">沙城秘境（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">沙城秘境</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">沙城秘境（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">胜者为王2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">胜者为王2（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">40级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">胜者为王2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">胜者为王2（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">40级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未知暗殿周末</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未知暗殿2（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未知暗殿周末</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">未知暗殿2（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">35级才能抢红包</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">35级才能抢红包</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">35级才能抢红包</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包4</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">35级才能抢红包</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包5</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">开服红包5</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">35级才能抢红包</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">强化继承</Data></Cell>
+    <Cell><Data ss:Type="String">打开强化继承界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级才能开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell><Data ss:Type="String">装备铸魂</Data></Cell>
+    <Cell><Data ss:Type="String">打开铸魂界面</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">51级才能开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">行会红包</Data></Cell>
+    <Cell><Data ss:Type="String">行会红包</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">幸运转盘</Data></Cell>
+    <Cell><Data ss:Type="String">打开幸运转盘界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{3,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[{1,[{1,20},{10,180}]},{2,[{1,50},{10,450}]},{3,[{1,50},{10,450}]},{4,[{1,80},{10,720}]}]</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[{轮数,[{次数,消耗的元宝}]}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="String">行会宣战</Data></Cell>
+    <Cell><Data ss:Type="String">打开战绩界面</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scene_unionWar</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">怪物攻城（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">怪物攻城（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell><Data ss:Type="String">打开怪物攻城</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">神秘探宝</Data></Cell>
+    <Cell><Data ss:Type="String">打开神秘探宝NPC界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{3,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11.0625">
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="String">精彩活动</Data></Cell>
+    <Cell><Data ss:Type="String">打开精彩活动</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="String">装备展示</Data></Cell>
+    <Cell><Data ss:Type="String">打开装备展示界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell><Data ss:Type="String">智慧答题</Data></Cell>
+    <Cell><Data ss:Type="String">打开答题界面</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">个人BOSS之家</Data></Cell>
+    <Cell><Data ss:Type="String">打开个人BOSS之家</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">55级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">跨服BOSS</Data></Cell>
+    <Cell><Data ss:Type="String">打开个人跨服BOSS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell><Data ss:Type="String">智慧答题</Data></Cell>
+    <Cell><Data ss:Type="String">答题（进行中）</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">藏宝图任务</Data></Cell>
+    <Cell><Data ss:Type="String">寻找藏宝图NPC</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">55级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿</Data></Cell>
+    <Cell><Data ss:Type="String">火龙神殿（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="String">节日活动</Data></Cell>
+    <Cell><Data ss:Type="String">打开节日活动界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">30级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿每天</Data></Cell>
+    <Cell><Data ss:Type="String">打开跨服暗殿界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">合服雪山</Data></Cell>
+    <Cell><Data ss:Type="String">合服雪山开启</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">由于雪域魔境里怪物过于强劲，在本服务器完成首次合服后才会开启.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="String">一生一次</Data></Cell>
+    <Cell><Data ss:Type="String">一生一次</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">45级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">合服活动</Data></Cell>
+    <Cell><Data ss:Type="String">合服活动</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="String">神皇秘境</Data></Cell>
+    <Cell><Data ss:Type="String">打开神皇秘境界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[{1,[{1,200},{5,950},{10,1800}]},{2,[{1,200},{5,900},{10,1800}]},{3,[{1,200},{5,900},{10,1800}]}]</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[{轮数,[{次数,消耗的元宝}]}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.75">
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿每天</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.75">
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿每天</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell><Data ss:Type="String">王城乱斗</Data></Cell>
+    <Cell><Data ss:Type="String">打开王城乱斗界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">王城乱斗</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">王城乱斗（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">95</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">王城乱斗</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">王城乱斗（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="String">行会结盟</Data></Cell>
+    <Cell><Data ss:Type="String">打开行会结盟窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="String">跨服暗殿周末</Data></Cell>
+    <Cell><Data ss:Type="String">打开跨服暗殿界面</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">跨服暗殿周末</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">跨服暗殿（即将开启）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">跨服暗殿周末</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">跨服暗殿（进行中）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">未知暗殿周末</Data></Cell>
+    <Cell><Data ss:Type="String">打开未知暗殿窗口</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String">全服双倍经验</Data></Cell>
+    <Cell><Data ss:Type="String">开启全服双倍经验</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿</Data></Cell>
+    <Cell><Data ss:Type="String">火龙神殿（即将开启）</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙神殿（每日）</Data></Cell>
+    <Cell><Data ss:Type="String">打开本服火龙界面</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙神殿（每日）</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙即将开启（即将开启）</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙神殿（每日）</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙即将开启（进行中）</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">打开跨服火龙界面</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙即将开启（即将开启）</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙即将开启（进行中）</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙神殿（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">打开本服火龙（周末）界面</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙神殿（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙（周末）即将开启（即将开启）</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙神殿（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙（周末）即将开启（进行中）</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell><Data ss:Type="String">跨服幻境之地</Data></Cell>
+    <Cell><Data ss:Type="String">打开跨服幻境之地界面</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">70级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell><Data ss:Type="String">跨服幻境之地</Data></Cell>
+    <Cell><Data ss:Type="String">跨服幻境之地即将开启（即将开启）</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">70级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">114</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">跨服幻境之地</Data></Cell>
+    <Cell><Data ss:Type="String">跨服幻境之地即将开启（进行中）</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">70级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell><Data ss:Type="String">幻境之地</Data></Cell>
+    <Cell><Data ss:Type="String">打开幻境之地界面</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">116</Data></Cell>
+    <Cell><Data ss:Type="String">幻境之地</Data></Cell>
+    <Cell><Data ss:Type="String">幻境之地即将开启（即将开启）</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">117</Data></Cell>
+    <Cell><Data ss:Type="String">幻境之地</Data></Cell>
+    <Cell><Data ss:Type="String">幻境之地即将开启（进行中）</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">118</Data></Cell>
+    <Cell><Data ss:Type="String">敬请期待</Data></Cell>
+    <Cell><Data ss:Type="String">日常活动敬请期待用</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">敬请期待</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">跨服变异地宫</Data></Cell>
+    <Cell><Data ss:Type="String">打开变异地宫界面</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">70级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">跨服变异地宫</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">变异地宫即将开启（即将开启）</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">70级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">121</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">跨服变异地宫</Data></Cell>
+    <Cell><Data ss:Type="String">变异地宫即将开启（进行中）</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">70级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s80">
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿</Data></Cell>
+    <Cell><Data ss:Type="String">（即将开启）上午</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s80">
+    <Cell><Data ss:Type="Number">123</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿</Data></Cell>
+    <Cell><Data ss:Type="String">（进行中）上午</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s80">
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">（即将开启）上午</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s80">
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙神殿（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">（进行中）上午</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">80级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">{7,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s80">
+    <Cell><Data ss:Type="Number">126</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙神殿</Data></Cell>
+    <Cell><Data ss:Type="String">（即将开启）上午</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s80">
+    <Cell><Data ss:Type="Number">127</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙神殿</Data></Cell>
+    <Cell><Data ss:Type="String">（进行中）上午</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">{0,{0,0}}</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">{999,{0,0}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">128</Data></Cell>
+    <Cell><Data ss:Type="String">七天签到</Data></Cell>
+    <Cell><Data ss:Type="String">打开七天签到界面</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>96</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>117</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>133</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C3:R103C3"
+   xmlns="urn:schemas-microsoft-com:office:excel">
+  </AutoFilter>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="12">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">子类型</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">武器 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">衣服 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">头盔 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">项链 4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">勋章 5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">手镯 6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">戒指 7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">腰带 8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">裤子 9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">鞋子 10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">翅膀 13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">宠物 14</Data></Cell>
+   </Row>
+   <Row ss:Index="15" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">黄色区域用于活动开启提示</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <TopRowVisible>2</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

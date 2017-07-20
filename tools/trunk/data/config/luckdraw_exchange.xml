@@ -1,0 +1,695 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2017-01-03T16:31:19Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6135</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9930</WindowHeight>
+  <WindowWidth>20880</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="神皇秘境兑换">
+  <Table ss:ExpandedColumnCount="22" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:Index="3" ss:Width="75.75"/>
+   <Column ss:Width="96.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="61.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="70.5"/>
+   <Column ss:Index="20" ss:Width="75.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">lv</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">point</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">goods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">lv</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">point</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">goods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">兑换等级</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">兑换积分</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">物品ID</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,1,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{110319,1,1}]</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110319</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">幻金秘钥</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,1,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{110304,1,1}]</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110304</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">赤炼魂石</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="10" ss:Formula="=RC[-2]/200"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,1,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{110259,1,10}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">110259</Data></Cell>
+    <Cell><Data ss:Type="String">通灵神石</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=120*RC[-1]"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:Index="10" ss:Formula="=RC[-2]/200"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{110095,0,6}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">110095</Data></Cell>
+    <Cell><Data ss:Type="String">玄冰铁+7</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]*500"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell ss:Index="10" ss:Formula="=RC[-2]/200"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">金刚石</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">上古神石</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell><Data ss:Type="String">元宝价值</Data></Cell>
+    <Cell><Data ss:Type="String">rmb价值</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{200061,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">200061</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">白虎战甲</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">18000</Data></Cell>
+    <Cell><Data ss:Type="Number">4200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s74"><Data ss:Type="String">白虎战甲</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">4200</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">4200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{202061,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">202061</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">青龙道袍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">18000</Data></Cell>
+    <Cell><Data ss:Type="Number">4200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s76"><Data ss:Type="String">青龙道袍</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data
+      ss:Type="Number">4200</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">4200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{201061,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">201061</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">朱雀披风</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">18000</Data></Cell>
+    <Cell><Data ss:Type="Number">4200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s76"><Data ss:Type="String">朱雀披风</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">4200</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">4200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{200071,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">200071</Data></Cell>
+    <Cell><Data ss:Type="String">圣武衣服</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">27000</Data></Cell>
+    <Cell><Data ss:Type="Number">27200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">136</Data></Cell>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">圣武衣服</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">7200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">27200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">28000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">1400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{202071,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">202071</Data></Cell>
+    <Cell><Data ss:Type="String">圣魂衣服</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">27000</Data></Cell>
+    <Cell><Data ss:Type="Number">27200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">136</Data></Cell>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">圣魂衣服</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">7200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">27200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">28000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">1400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{201071,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">201071</Data></Cell>
+    <Cell><Data ss:Type="String">圣魔衣服</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">27000</Data></Cell>
+    <Cell><Data ss:Type="Number">27200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">136</Data></Cell>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">圣魔衣服</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">7200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">27200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">28000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">1400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{200081,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">200081</Data></Cell>
+    <Cell><Data ss:Type="String">主宰战甲</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">84000</Data></Cell>
+    <Cell><Data ss:Type="Number">92200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">461</Data></Cell>
+    <Cell><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">主宰战甲</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C+50"><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C+50"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">22200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">70000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">92200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">461</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">92000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">4600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{202081,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">202081</Data></Cell>
+    <Cell><Data ss:Type="String">主宰道袍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">84000</Data></Cell>
+    <Cell><Data ss:Type="Number">92200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">461</Data></Cell>
+    <Cell><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">主宰道袍</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">22200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">70000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">92200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">461</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">92000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">4600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{201081,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">201081</Data></Cell>
+    <Cell><Data ss:Type="String">主宰法衣</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">84000</Data></Cell>
+    <Cell><Data ss:Type="Number">92200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">461</Data></Cell>
+    <Cell><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">主宰法衣</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">22200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">70000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">92200</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">461</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">92000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">4600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{200060,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">200060</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">混沌</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">127500</Data></Cell>
+    <Cell><Data ss:Type="Number">6300</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s74"><Data ss:Type="String">混沌</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">6300</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">6300</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">6000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{202060,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">202060</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">天蛇</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">127500</Data></Cell>
+    <Cell><Data ss:Type="Number">6300</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s76"><Data ss:Type="String">天蛇</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data
+      ss:Type="Number">6300</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">6300</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">6000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{201060,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">201060</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">狂龙</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">127500</Data></Cell>
+    <Cell><Data ss:Type="Number">6300</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s76"><Data ss:Type="String">狂龙</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data
+      ss:Type="Number">6300</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">6300</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">6000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{200070,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">200070</Data></Cell>
+    <Cell><Data ss:Type="String">战刃</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">217500</Data></Cell>
+    <Cell><Data ss:Type="Number">41100</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">205.5</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">战刃</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-3]C+16"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">11100</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">41100</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">205.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">42000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">2100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{202070,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">202070</Data></Cell>
+    <Cell><Data ss:Type="String">太虚</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">217500</Data></Cell>
+    <Cell><Data ss:Type="Number">41100</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">205.5</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">太虚</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">11100</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">41100</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">205.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">42000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">2100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{201070,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">201070</Data></Cell>
+    <Cell><Data ss:Type="String">轮回</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">217500</Data></Cell>
+    <Cell><Data ss:Type="Number">41100</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">205.5</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">轮回</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">11100</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">41100</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">205.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">42000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">2100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{200080,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">200080</Data></Cell>
+    <Cell><Data ss:Type="String">主宰战刃</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">327000</Data></Cell>
+    <Cell><Data ss:Type="Number">138600</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">693</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">主宰战刃</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C+75"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C+75"><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">33600</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">105000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">138600</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">693</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">140000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">7000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{202080,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">202080</Data></Cell>
+    <Cell><Data ss:Type="String">主宰道剑</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">327000</Data></Cell>
+    <Cell><Data ss:Type="Number">138600</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">693</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">主宰道剑</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C"><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">33600</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">105000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">138600</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">693</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">140000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">7000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=RC[8]"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,&quot;&amp;RC[3]&amp;&quot;}]&quot;"><Data
+      ss:Type="String">[{201080,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">201080</Data></Cell>
+    <Cell><Data ss:Type="String">主宰法杖</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">327000</Data></Cell>
+    <Cell><Data ss:Type="Number">138600</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/200"><Data ss:Type="Number">693</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">主宰法杖</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s75" ss:Formula="=R[-1]C"><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=RC[-2]*300"><Data ss:Type="Number">33600</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]*1000"><Data ss:Type="Number">105000</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">138600</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=RC[-1]/200"><Data ss:Type="Number">693</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:Formula="=RC[-1]*200"><Data ss:Type="Number">140000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]/20"><Data ss:Type="Number">7000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:Index="8" ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8"><Data ss:Type="String">标准价</Data></Cell>
+    <Cell><Data ss:Type="String">成本价</Data></Cell>
+    <Cell><Data ss:Type="String">积分换算</Data></Cell>
+    <Cell><Data ss:Type="String">最终积分</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1积分=200元宝</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

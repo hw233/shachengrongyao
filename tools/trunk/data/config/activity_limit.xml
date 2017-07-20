@@ -1,0 +1,949 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>apple</LastAuthor>
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2017-03-14T10:21:39Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6206</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10350</WindowHeight>
+  <WindowWidth>20880</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="常规 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s75" ss:Parent="s62">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s62">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s88" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s89" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s92">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="暗殿活动介绍配置">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=暗殿活动介绍配置!R1C5:R28C5"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="20" ss:ExpandedRowCount="28" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="13.5">
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="57"/>
+   <Column ss:Index="3" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="89.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="51.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="50.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="676.5"/>
+   <Column ss:StyleID="s63" ss:Width="69.75" ss:Span="3"/>
+   <Column ss:Index="12" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:Index="15" ss:StyleID="s63" ss:Width="103.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Column ss:StyleID="s63" ss:Width="83.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="153.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625" ss:StyleID="s65">
+    <Cell ss:Index="15" ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">activity_id</Data></Cell>
+    <Cell><Data ss:Type="String">open_time1</Data></Cell>
+    <Cell><Data ss:Type="String">type</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">state</Data></Cell>
+    <Cell><Data ss:Type="String">des</Data></Cell>
+    <Cell><Data ss:Type="String">reward_txt</Data></Cell>
+    <Cell><Data ss:Type="String">drop_list_1000</Data></Cell>
+    <Cell><Data ss:Type="String">drop_list_2000</Data></Cell>
+    <Cell><Data ss:Type="String">drop_list_3000</Data></Cell>
+    <Cell><Data ss:Type="String">button_tipsID</Data></Cell>
+    <Cell><Data ss:Type="String">open_day</Data></Cell>
+    <Cell><Data ss:Type="String">colse_day</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">open_week</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">tips_time</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">open_time</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">close_time</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">副本id</Data></Cell>
+    <Cell><Data ss:Type="String">活动名</Data></Cell>
+    <Cell><Data ss:Type="String">活动id(functionID)</Data></Cell>
+    <Cell><Data ss:Type="String">开启时间段1</Data></Cell>
+    <Cell><Data ss:Type="String">分页类型</Data><Comment ss:Author="apple"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Size="9"
+        html:Color="#000000">世豪：&#10;</Font></ss:Data></Comment><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">活动状态（1开启，0即将开启）</Data><Comment ss:Author="apple"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Size="9"
+         html:Color="#000000">世豪:1：能正常开启的活动&#10;2：正常开启的活动，不显示进入按钮&#10;0：未开启的活动&#10;</Font></B></ss:Data></Comment></Cell>
+    <Cell><Data ss:Type="String">活动描述</Data></Cell>
+    <Cell><Data ss:Type="String">开放周期</Data></Cell>
+    <Cell><Data ss:Type="String">战士展示列表</Data></Cell>
+    <Cell><Data ss:Type="String">法师展示列表</Data></Cell>
+    <Cell><Data ss:Type="String">道士展示列表</Data></Cell>
+    <Cell><Data ss:Type="String">红点ID</Data></Cell>
+    <Cell><Data ss:Type="String">开启时间</Data><Comment ss:Author="scott"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Size="9">scott:</Font></B><Font
+        html:Size="9">&#13;天数，当日0点时间&#13;0表示开服则开启&#13;数字表示，第几天0点开启</Font></ss:Data></Comment></Cell>
+    <Cell><Data ss:Type="String">关闭时间</Data><Comment ss:Author="scott"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Size="9">scott:</Font></B><Font
+        html:Size="9">&#13;天数，为当日0点时间&#13;0表示不关闭&#13;天数表示开服第几天0点关闭</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">开启周期</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">即将开启</Data></Cell>
+    <Cell><Data ss:Type="String">开始时间</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">结束时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">金鸡送福</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">9:00-9:30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">近期开放，敬请期待！</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">9,30,0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10,0,0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10,30,0</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375" ss:StyleID="s68">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">押运夺标</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">10:00-11:00</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">近期开放，敬请期待！</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">15,30,0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">16,0,0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">16,45,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">神秘暗殿</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">11:00-11:30</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启，每日定时开放神秘暗殿，共两层，二层需要60级才可进入！神秘暗殿是个扭曲的时空，低级的怪物会变得异常强大，那极少数的扭曲怪物是极品装备的来源！</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110163,0,1},{110109,0,1},{110025,0,1},{200032,0,1},{110140,0,1},{110091,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110163,0,1},{110109,0,1},{110040,0,1},{201032,0,1},{110140,0,1},{110091,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110163,0,1},{110109,0,1},{110032,0,1},{202032,0,1},{110140,0,1},{110091,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">10,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">11,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">11,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">跨服暗殿</Data></Cell>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="String">11:00-11:30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">60级开启跨服暗殿，跨服暗殿将与来自各个服务器的玩家一起探寻暗殿深处的宝物，跨服暗殿奖励非常丰厚但也异常危险！</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110294,0,1},{110163,0,1},{305021,0,1},{110222,0,1},{110260,0,1},{110102,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110294,0,1},{110163,0,1},{305021,0,1},{110222,0,1},{110260,0,1},{110102,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110294,0,1},{110163,0,1},{305021,0,1},{110222,0,1},{110260,0,1},{110102,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">10,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">11,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">11,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">火龙神殿</Data></Cell>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">12:00-13:00</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启火龙神殿，火龙神殿共1层，当场景杀怪达到一定数量时，会出现火龙BOSS，击杀它可获得大量宝物哦！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200062,0,1},{201062,0,1},{202062,0,1},{200032,0,1},{110109,0,1},{110091,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200062,0,1},{201062,0,1},{202062,0,1},{200032,0,1},{110109,0,1},{110091,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200062,0,1},{201062,0,1},{202062,0,1},{200032,0,1},{110109,0,1},{110091,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">11,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">12,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">13,0,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">跨服火龙</Data></Cell>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">12:00-13:00</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日（除周末）定时开放跨服火龙，进入等级80级，火龙神殿具有3层，当场景杀怪达到一定数量时，会出现火龙BOSS，击杀它可获得大量宝物哦！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">周一至周五</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200080,0,1},{200081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{201080,0,1},{201081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{202080,0,1},{202081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">11,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">12,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">13,0,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">跨服火龙</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">12:00-13:00</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">周末福利活动，进入等级80级，增加两个阶段的BOSS刷新，火龙神殿具有3层，当场景杀怪达到一定数量时，会出现火龙BOSS，击杀它可获得大量宝物哦！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">周六、日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200080,0,1},{200081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{201080,0,1},{201081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{202080,0,1},{202081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">11,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">12,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">13,0,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">行会Boss</Data></Cell>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">13:00-13:30</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">行会等级达到3级后开启行会BOSS，行会BOSS每日定时刷新，击杀可获得丰厚奖励</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200030,0,1},{110145,0,1},{110007,0,1},{110006,0,1},{110083,0,1},{110003,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200030,0,1},{110145,0,1},{110007,0,1},{110006,0,1},{110083,0,1},{110003,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200030,0,1},{110145,0,1},{110007,0,1},{110006,0,1},{110083,0,1},{110003,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">12,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">13,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">13,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">行会秘境</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">14:00-14:30</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">行会等级达到3级后开启行会秘境，秘境分为3层，秘境内藏有稀有BOSS，行会等级越高开放更多秘境层数！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200030,0,1},{110146,0,1},{110007,0,1},{110006,0,1},{110086,0,1},{110003,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200030,0,1},{110146,0,1},{110007,0,1},{110006,0,1},{110086,0,1},{110003,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200030,0,1},{110146,0,1},{110007,0,1},{110006,0,1},{110086,0,1},{110003,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">13,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">14,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">14,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">胜者为王</Data></Cell>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">15:00-15:30</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">40级开启胜者为王，场景内有功勋泡点，15分钟后进入死斗模式，被击杀的玩家不可再次进入，最后的王者会获得终极奖励！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110065,0,1000},{110009,0,100000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110065,0,1000},{110009,0,100000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110065,0,1000},{110009,0,100000}]</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">14,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">15,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">15,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375" ss:StyleID="s68">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">跨服胜者为王</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">15:00-15:30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">近期开放，敬请期待！</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">14,30,0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">15,0,0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">15,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">膜拜城主</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">16:00-16:30</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">近期开放，敬请期待！</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">周日</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">13,30,0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">14,0,0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">14,20,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">全服双倍</Data></Cell>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String">17:00-18:00</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">活动期间击杀野外怪物均可享受双倍经验奖励，可与多倍经验进行叠加</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110057,0,500000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110057,0,500000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110057,0,500000}]</Data></Cell>
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">16,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">17,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">18,0,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">18:00-18:30</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">45级开启屠龙大会，每日定时出现BOSS【至尊魔龙】，击杀【至尊魔龙】会掉落大量无归属稀有物品，攻击BOSS后可获得伤害参与奖；伤害排名前十可获额外奖励</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110109,0,1},{110064,0,1},{110130,0,1},{110063,0,1},{110129,0,1},{110057,0,500000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110109,0,1},{110064,0,1},{110130,0,1},{110063,0,1},{110129,0,1},{110057,0,500000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110109,0,1},{110064,0,1},{110130,0,1},{110063,0,1},{110129,0,1},{110057,0,500000}]</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">17,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">18,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">18,30,0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">19:00-19:45</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">50级开启怪物攻城，城门外会出现大量怪物进攻城内的龙柱，必须守护龙柱！共15波怪物，守城波数越多，奖励越丰厚。活动时间内清除所有怪物才算胜利！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110045,0,1000},{110195,0,10000},{110196,0,10000},{110197,0,10000},{110198,0,10000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110045,0,1000},{110195,0,10000},{110196,0,10000},{110197,0,10000},{110198,0,10000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110045,0,1000},{110195,0,10000},{110196,0,10000},{110197,0,10000},{110198,0,10000}]</Data></Cell>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">18,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">19,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">19,45,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.75">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">神秘暗殿</Data></Cell>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">20:00-20:30</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启，每日定时开放神秘暗殿，共两层，二层需要60级才可进入！神秘暗殿是个扭曲的时空，低级的怪物会变得异常强大，那极少数的扭曲怪物是极品装备的来源！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110163,0,1},{110109,0,1},{110025,0,1},{200032,0,1},{110140,0,1},{110091,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110163,0,1},{110109,0,1},{110040,0,1},{201032,0,1},{110140,0,1},{110091,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110163,0,1},{110109,0,1},{110032,0,1},{202032,0,1},{110140,0,1},{110091,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">19,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">20,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">20,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">跨服暗殿</Data></Cell>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">20:00-20:30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">60级开启跨服暗殿，跨服暗殿将与来自各个服务器的玩家一起探寻暗殿深处的宝物，跨服暗殿奖励非常丰厚但也异常危险！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每天</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110294,0,1},{110163,0,1},{305021,0,1},{110222,0,1},{110260,0,1},{110102,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110294,0,1},{110163,0,1},{305021,0,1},{110222,0,1},{110260,0,1},{110102,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110294,0,1},{110163,0,1},{305021,0,1},{110222,0,1},{110260,0,1},{110102,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">19,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">20,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">20,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625" ss:StyleID="s83">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">沙城战</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">21:00-21:30</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">开服第四天为首次攻沙，之后每次攻城为星期六。攻沙期间场景内可定时获得泡点经验，场景定时刷新沙城宝箱。最终占领沙城的行会可获得大量奖励，呼唤兄弟们来征战沙城吧！</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">周六</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">[{305010,0,1},{110008,0,5000},{110109,0,1},{110064,0,1},{110140,0,1},{110057,0,500000}]</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">[{305010,0,1},{110008,0,5000},{110109,0,1},{110064,0,1},{110140,0,1},{110057,0,500000}]</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">[{305010,0,1},{110008,0,5000},{110109,0,1},{110064,0,1},{110140,0,1},{110057,0,500000}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">[6]</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">20,30,0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">21,0,0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">21,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625" ss:StyleID="s83">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">跨服沙城战</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">21:00-21:30</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">近期开放，敬请期待！</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">周日</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">[7]</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">20,30,0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">21,0,0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">21,30,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">幻境之地</Data></Cell>
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell><Data ss:Type="String">21:00-21:45</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启活动【幻境之地】，传说这里有100个不同的房间，每个房间都有守护者，击败守护者有机会获得【金刚石】，活动结束会进行排名奖励，可获得大量元宝！闯过房间房间越多，奖励越丰厚。</Data></Cell>
+    <Cell><Data ss:Type="String">周六不开启</Data></Cell>
+    <Cell><Data ss:Type="String">[{110008,0,1500},{110163,0,1},{110109,0,1},{110193,0,1},{110007,0,1},{110090,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="String">[{110008,0,1500},{110163,0,1},{110109,0,1},{110193,0,1},{110007,0,1},{110090,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="String">[{110008,0,1500},{110163,0,1},{110109,0,1},{110193,0,1},{110007,0,1},{110090,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">20,30,0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">21,0,0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">21,45,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">跨服幻境之地</Data></Cell>
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell><Data ss:Type="String">21:00-21:45</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">70级开启跨服活动【幻境之地】，传说这里有100个不同的房间，每个房间都有守护者，击败守护者有机会获得【幻金宝箱】、【幻金秘钥】，宝箱内有大量特装！闯过所有房间，会有更多奖励。</Data></Cell>
+    <Cell><Data ss:Type="String">周六不开启</Data></Cell>
+    <Cell><Data ss:Type="String">[{110319,0,1},{110318,0,1},{110163,0,1},{110193,0,1},{110093,0,1},{110003,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="String">[{110319,0,1},{110318,0,1},{110163,0,1},{110193,0,1},{110093,0,1},{110003,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="String">[{110319,0,1},{110318,0,1},{110163,0,1},{110193,0,1},{110093,0,1},{110003,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">20,30,0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">21,0,0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">21,45,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">跨服变异地宫</Data></Cell>
+    <Cell><Data ss:Type="Number">119</Data></Cell>
+    <Cell><Data ss:Type="String">22:00-23:00</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">70级开启跨服变异地宫，变异地宫共4层，怪物难度根据层数递增，奖励也愈发丰厚，变异地宫怪物被击杀时有几率变异成强力BOSS，击杀变异BOSS可获得大量奖励！</Data></Cell>
+    <Cell><Data ss:Type="String">每天</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110194,0,1},{110109,0,1},{110163,0,1},{110294,0,1},{110320,0,1},{110304,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110194,0,1},{110109,0,1},{110163,0,1},{110294,0,1},{110320,0,1},{110304,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110194,0,1},{110109,0,1},{110163,0,1},{110294,0,1},{110320,0,1},{110304,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">21,30,0</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">22,0,0</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">23,0,0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">火龙神殿</Data></Cell>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">23:00-24:00</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">50级开启火龙神殿，火龙神殿共1层，当场景杀怪达到一定数量时，会出现火龙BOSS，击杀它可获得大量宝物哦！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200062,0,1},{201062,0,1},{202062,0,1},{200032,0,1},{110109,0,1},{110091,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200062,0,1},{201062,0,1},{202062,0,1},{200032,0,1},{110109,0,1},{110091,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200062,0,1},{201062,0,1},{202062,0,1},{200032,0,1},{110109,0,1},{110091,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">22,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">23,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">23,59,59</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">跨服火龙</Data></Cell>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">23:00-24:00</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日（除周末）定时开放跨服火龙，进入等级80级，火龙神殿具有3层，当场景杀怪达到一定数量时，会出现火龙BOSS，击杀它可获得大量宝物哦！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">周一至周五</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200080,0,1},{200081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{201080,0,1},{201081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{202080,0,1},{202081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">22,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">23,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">23,59,59</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">跨服火龙</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">23:00-24:00</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">周末福利活动，进入等级80级，增加两个阶段的BOSS刷新，火龙神殿具有3层，当场景杀怪达到一定数量时，会出现火龙BOSS，击杀它可获得大量宝物哦！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">周六、日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200080,0,1},{200081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{201080,0,1},{201081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{202080,0,1},{202081,0,1},{110163,0,1},{305026,0,1},{305021,0,1},{110095,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">22,30,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">23,0,0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">23,59,59</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>34</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C5:R28C5"
+   xmlns="urn:schemas-microsoft-com:office:excel">
+  </AutoFilter>
+ </Worksheet>
+ <Worksheet ss:Name="说明">
+  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{物品ID,是否绑定,数量}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">不绑定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">绑定</Data></Cell>
+   </Row>
+   <Row ss:Index="8" ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">副本id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">未知暗殿</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">屠龙大会</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">胜者为王</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">怪物攻城</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">智慧答题</Data></Cell>
+   </Row>
+   <Row ss:Index="15" ss:AutoFitHeight="0" ss:Height="12.9375" ss:StyleID="s63">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">胜者为王</Data></Cell>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21:30-22:00</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日(除周六)定时开启胜者为王，场景内有功勋泡点，15分钟后进入死斗模式，被击杀的玩家不可再次进入，最后的王者会获得终极奖励！</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">每日(除周六)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110065,0,1000},{110009,0,100000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110065,0,1000},{110009,0,100000}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110065,0,1000},{110009,0,100000}]</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">21,50,0</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">21,0,0</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0" ss:StyleID="s63">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">沙城秘境</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">不定时</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">沙城城主可开启沙城秘境，沙城秘境内拥有大量BOSS，可掉落高级稀有装备。</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">不定时开启</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{200066,0,1,{200035,0,1,{110016,0,1,{110130,0,1,{110091,0,1,{110003,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{201066,0,1,{201035,0,1,{110016,0,1,{110130,0,1,{110091,0,1,{110003,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{202066,0,1,{202035,0,1,{110016,0,1,{110130,0,1,{110091,0,1,{110003,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0,0,</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0,0,</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0,0,</Data></Cell>
+   </Row>
+   <Row ss:Index="20" ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">夺宝奇兵</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">18:00-18:30</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">近期开放，敬请期待！</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">每日</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">17,30,0,</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">18,0,0,</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">18,30,0,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625" ss:StyleID="s68">
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">冰与火之歌</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">21:00-22:00</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">近期开放，敬请期待！</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">周一至周五</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">[{110311,0,1}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">20,30,0,</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">21,0,0,</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">22,0,0,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">幻境之地</Data></Cell>
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell><Data ss:Type="String">21:00-22:00</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">60级开启跨服活动【幻境之地】，传说这里有100个不同的房间，每个房间都有守护者，击败守护者有机会获得大量奖励，闯过所有房间，会有丰厚元宝奖励哦！（七天后升级为跨服幻境之地，奖励更丰厚）</Data></Cell>
+    <Cell><Data ss:Type="String">周六不开启</Data></Cell>
+    <Cell><Data ss:Type="String">[{110319,0,1},{110318,0,1},{110304,0,1},{110294,0,1},{110163,0,1},{110008,0,300}]</Data></Cell>
+    <Cell><Data ss:Type="String">[{110319,0,1},{110318,0,1},{110304,0,1},{110294,0,1},{110163,0,1},{110008,0,300}]</Data></Cell>
+    <Cell><Data ss:Type="String">[{110319,0,1},{110318,0,1},{110304,0,1},{110294,0,1},{110163,0,1},{110008,0,300}]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">20,30,0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">21,0,0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">22,0,0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>43</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

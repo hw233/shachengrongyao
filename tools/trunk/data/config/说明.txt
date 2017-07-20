@@ -1,0 +1,63 @@
+active_instance	—— 活动副本时间配置
+artifact_attr 	—— 神器属性配置
+artifact_exp 	—— 神器升级经验配置
+buff		—— buff效果配置
+button_tips	—— 按钮提示配置
+buy_power_need	—— 购买挂机体力需求配置
+counter 	—— 计数器配置
+equips_baptize 	—— 装备洗练配置
+equips_forge 	—— 普通打造刷新配置
+equips_plus 	—— 装备强化属性加成配置
+equips_quality 	—— 装备品质消耗
+equips_smelt 	—— 装备熔炼配置
+equips_stren 	—— 装备强化消耗
+equips 		—— 装备基础配置表
+forge_consume 	—— 普通打造消耗配置
+fusion 		—— 神装合成配置
+gem_upgrade 	—— 宝石升级配置
+goods 		—— 物品配置
+hook_scene	—— 挂机场景配置
+hook_star_reward—— 挂机星级奖励配置
+monster 	—— 怪物属性配置
+player_upgrade 	—— 玩家升级经验配置
+player_attr 	—— 玩家等级属性配置
+instance_single	—— 个人副本配置
+instance	—— 副本配置
+notice		—— 公告配置
+scene_activity	—— 场景活动配置
+scene		—— 场景配置
+sensitive_word	—— 敏感词配置
+skill_tree	—— 技能树配置
+skill		—— 技能配置
+transfer	—— 传送阵配置
+world_boss	—— 世界boss配置player_attr 	—— 玩家等级属性配置
+city_officer_qian --前端 沙巴克官员任命 配置表 aidan
+city_officer --沙巴克 官员任命配置表 aidan
+package_goods --分包奖励配置表 aidan
+task_complete --元宝完成任务 消耗元宝配置 aidan
+task --任务配置表 aidan
+taskreward --活跃度任务 奖励配置表 aidan
+vip --vip配置表 aidan
+worship_goods --膜拜奖励配置表 aidan
+active_instance 	—— 活动副本配置
+active_reward 		—— 活动奖励配置
+activity_list 		—— 活动列表配置
+arena_reward 		—— 竞技场奖励配置
+arena_shop 		—— 竞技场商店配置
+bag 			—— 礼包配置
+charge 			—— 首充配置
+decompose_stren 	—— 分解配置
+decompose 		—— 分解配置
+goods_type 		—— 道具cd配置
+guild 			—— 行会配置
+guild_shop 		—— 行会商店配置
+guild_activity_boss 	—— 行会boss配置
+guild_active 		—— 行会活动配置
+mail 			—— 邮件配置
+medal 			—— 勋章配置
+shop 			—— 商店配置
+skill_tree 		—— 技能树配置
+wing 			—— 翅膀配置
+world_boss_reward 	—— 屠龙大会奖励配置
+world_boss 		—— 屠龙大会配置	
+

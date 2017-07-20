@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>li</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2016-08-22T02:18:34Z</LastSaved>
+  <Version>15.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14180</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>460</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="翅膀升级配置">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="33" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="63"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell><Data ss:Type="String">wing_id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">时效翅膀</Data></Cell>
+    <Cell><Data ss:Type="String">正版翅膀</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309000</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309001</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309002</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309003</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309004</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309005</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309006</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309007</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307007</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309008</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307008</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309009</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307009</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309200</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309201</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307201</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309202</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307202</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309203</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307203</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309204</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307204</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309205</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307205</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309206</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307206</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309207</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307207</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309208</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307208</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309209</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307209</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309400</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309401</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307401</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309402</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307402</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309403</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307403</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309404</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307404</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309405</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307405</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309406</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307406</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309407</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307407</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309408</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307408</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309409</Data></Cell>
+    <Cell ss:Formula="=RC[-1]-2000"><Data ss:Type="Number">307409</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C1:R13C1</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(翅膀升级配置!C1, 翅膀升级配置!R[1047768]C)&gt;1,NOT(ISBLANK(翅膀升级配置!R[1047768]C)))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R14C1:R23C1</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(翅膀升级配置!C1, 翅膀升级配置!R[1047738]C)&gt;1,NOT(ISBLANK(翅膀升级配置!R[1047738]C)))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R24C1:R33C1</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(翅膀升级配置!C1, 翅膀升级配置!R[1047708]C)&gt;1,NOT(ISBLANK(翅膀升级配置!R[1047708]C)))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>

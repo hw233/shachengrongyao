@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>li</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2017-01-18T01:26:00Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6135</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10350</WindowHeight>
+  <WindowWidth>20880</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="公会活动配置表">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultColumnWidth="65.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="156.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="297"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="252.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="102.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="150.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="86.25" ss:Span="2"/>
+   <Column ss:Index="11" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="99.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">is_push</Data></Cell>
+    <Cell><Data ss:Type="String">open_limit</Data></Cell>
+    <Cell><Data ss:Type="String">enter_limit</Data></Cell>
+    <Cell><Data ss:Type="String">open_type</Data></Cell>
+    <Cell><Data ss:Type="String">open_week</Data></Cell>
+    <Cell><Data ss:Type="String">open_time</Data></Cell>
+    <Cell><Data ss:Type="String">close_time</Data></Cell>
+    <Cell><Data ss:Type="String">count_type</Data></Cell>
+    <Cell><Data ss:Type="String">limit_count</Data></Cell>
+    <Cell><Data ss:Type="String">enter_instance</Data></Cell>
+    <Cell><Data ss:Type="String">sub_instance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">is_push</Data></Cell>
+    <Cell><Data ss:Type="String">open_limit</Data></Cell>
+    <Cell><Data ss:Type="String">enter_limit</Data></Cell>
+    <Cell><Data ss:Type="String">open_type</Data></Cell>
+    <Cell><Data ss:Type="String">open_week</Data></Cell>
+    <Cell><Data ss:Type="String">open_time</Data></Cell>
+    <Cell><Data ss:Type="String">close_time</Data></Cell>
+    <Cell><Data ss:Type="String">count_type</Data></Cell>
+    <Cell><Data ss:Type="String">limit_count</Data></Cell>
+    <Cell><Data ss:Type="String">enter_instance</Data></Cell>
+    <Cell><Data ss:Type="String">sub_instance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">活动id</Data></Cell>
+    <Cell><Data ss:Type="String">描述</Data></Cell>
+    <Cell><Data ss:Type="String">是否推送活动信息给前端</Data></Cell>
+    <Cell><Data ss:Type="String">开启条件</Data></Cell>
+    <Cell><Data ss:Type="String">进入条件</Data></Cell>
+    <Cell><Data ss:Type="String">开启时间类型</Data></Cell>
+    <Cell><Data ss:Type="String">开启周期</Data></Cell>
+    <Cell><Data ss:Type="String">开始时间</Data></Cell>
+    <Cell><Data ss:Type="String">结束时间</Data></Cell>
+    <Cell><Data ss:Type="String">开启次数类型</Data></Cell>
+    <Cell><Data ss:Type="String">每天开启次数限制</Data></Cell>
+    <Cell><Data ss:Type="String">进入副本id</Data></Cell>
+    <Cell><Data ss:Type="String">子副本id列表</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">2级行会BOSS</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[{guild_lv,2}]</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">day</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">20300</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">4级行会BOSS</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[{guild_lv,4}]</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">day</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">20301</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">6级行会BOSS</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[{guild_lv,6}]</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">day</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">20302</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">行会秘境</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[{guild_lv,3}]</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{14,00,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{14,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">day</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">20303</Data></Cell>
+    <Cell><Data ss:Type="String">[20305,20306]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">沙巴克秘境</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">[is_sbk,is_guild_hz,{guild_capital, 1000}]</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,35}]</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">week</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">20304</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">8级行会BOSS</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[{guild_lv,8}]</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">day</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">20307</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">10级行会BOSS</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[{guild_lv,10}]</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">{13,0,0}</Data></Cell>
+    <Cell><Data ss:Type="String">{13,30,0}</Data></Cell>
+    <Cell><Data ss:Type="String">day</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">20308</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s65"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <LeftColumnVisible>3</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">[{物品ID,是否绑定,数量}]</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">0:非绑定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1:绑定</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

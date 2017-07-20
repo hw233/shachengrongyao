@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-10-23T07:58:15Z</Created>
+  <LastSaved>2017-03-02T10:32:27Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6206</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10350</WindowHeight>
+  <WindowWidth>21495</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65" ss:Name="常规 11 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="常规 6">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="boss之家">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="21" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s67" ss:AutoFitWidth="0"/>
+   <Column ss:Index="4" ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="102.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="290.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">scene_id</Data></Cell>
+    <Cell><Data ss:Type="String">boss_id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">scene_id</Data></Cell>
+    <Cell><Data ss:Type="String">boss_id</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">drop_list</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">场景id</Data></Cell>
+    <Cell><Data ss:Type="String">boss id</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BOSS名（策划用）</Data></Cell>
+    <Cell><Data ss:Type="String">掉落列表</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">32001</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8401</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">骷髅精灵</Data></Cell>
+    <Cell><Data ss:Type="String">[200050,201050,202050,110010,110050,110109]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">32001</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8408</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">巨型多角虫</Data></Cell>
+    <Cell><Data ss:Type="String">[200022,201022,202022,200023,201023,110109]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">32001</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8409</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">巨型钳虫</Data></Cell>
+    <Cell><Data ss:Type="String">[200021,201021,202021,200027,201027,110109]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">32001</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8402</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">铁甲尸王</Data></Cell>
+    <Cell><Data ss:Type="String">[200035,201035,202035,110025,110040,110032]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">32001</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8403</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">奥玛教主</Data></Cell>
+    <Cell><Data ss:Type="String">[200039,201039,202039,110049,110048,110109]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">32001</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8404</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">邪恶触龙</Data></Cell>
+    <Cell><Data ss:Type="String">[200031,201031,202031,110013,110090,110109]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">32002</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8405</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">白野猪王</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">[200032,201032,202032,200033,201033,202033]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">32002</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8406</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">祖玛教主</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">[200030,201030,202030,200035,201035,202035]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">32002</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8410</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">巨型双头恶魔</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">[200061,201061,202061,200062,201062,202062]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">32002</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8407</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">赤月老魔</Data></Cell>
+    <Cell><Data ss:Type="String">[305000,305001,305002,200060,201060,202060]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">32003</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8411</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">冥蛇女妖</Data></Cell>
+    <Cell><Data ss:Type="String">[200075,201075,202075,110163,305013,110222]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">32003</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8412</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">冥海领主</Data></Cell>
+    <Cell><Data ss:Type="String">[200071,201071,202071,200072,201072,202072]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">32004</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8413</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">虹魔教主</Data></Cell>
+    <Cell><Data ss:Type="String">[200073,201073,202073,305016,305017,305018]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">32004</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8414</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">牛魔王</Data></Cell>
+    <Cell><Data ss:Type="String">[200070,201070,202070,200076,201076,202076]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">32117</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8415</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">冰封雪魔</Data></Cell>
+    <Cell><Data ss:Type="String">[110294,305021,305023,200070,201070,202070]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">32117</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8416</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">四翼魔帝</Data></Cell>
+    <Cell><Data ss:Type="String">[110294,305025,305024,200070,201070,202070]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">32121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8528</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">魔龙统领</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">[110320,110294,305025,305024,201070,202070]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">32121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8529</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">魔龙教主</Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">[110320,110294,305025,200070,201070,202070]</Font></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="411.75"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s79"><Data ss:Type="String">&lt;font color='0xffffff' size='20' opacity='255'&gt;hhghgg&lt;/font&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2017-03-20T10:46:32Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6260</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7920</WindowHeight>
+  <WindowWidth>18285</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="活动提醒配置表">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s62" ss:Width="136.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="120" ss:Span="1"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="333"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="86.25" ss:Span="5"/>
+   <Column ss:Index="12" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">enter_limit</Data></Cell>
+    <Cell><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">time_list</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">优先级</Data><Comment ss:Author="apple"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Size="9"
+        html:Color="#000000">世豪：不可更改ID&#10;&#10;</Font></ss:Data></Comment></Cell>
+    <Cell><Data ss:Type="String">描述</Data></Cell>
+    <Cell><Data ss:Type="String">进入条件</Data></Cell>
+    <Cell><Data ss:Type="String">时间类型</Data><Comment
+      ss:Author="Microsoft Office 用户"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="MS PGothic"
+         x:Family="Swiss" html:Size="11" html:Color="#000000">0 代表每日开启&#13;1 周一开启&#13;2 周二开启&#13;3 周三开启&#13;4 周四开启&#13;5 周五开启&#13;6 周六开启&#13;7 周日开启</Font></B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">开始时间1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,45}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">[{45,{17,30,0},{17,59,59}},{46,{18,0,0},{18,30,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">胜者为王1</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,40}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell><Data ss:Type="String">[{47,{14,30,0},{14,59,59}},{48,{15,0,0},{15,30,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">胜者为王2</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,40}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.9375">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,50},{sbk_open_limit}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell><Data ss:Type="String">[{73,{18,30,0},{19,0,0}},{74,{19,0,0},{19,45,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">跨服BOSS火龙每日</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell><Data ss:Type="String">[{102,{22,30,0},{22,59,59}},{84,{23,0,0},{23,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">跨服暗殿每天</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,60}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{91,{19,30,0},{19,59,59}},{92,{16,0,0},{20,30,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">神秘暗殿每天</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{49,{19,30,0},{19,59,59}},{50,{20,0,0},{20,30,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">跨服暗殿上午</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,60}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{98,{15,00,0},{18,0,0}},{99,{11,0,0},{11,30,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">神秘暗殿上午</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{61,{10,30,0},{11,0,0}},{62,{11,0,0},{11,30,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">全服双倍</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">[{101,{17,0,0},{18,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙（每日）</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{104,{22,30,0},{22,59,59}},{105,{23,0,0},{23,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙（周日）</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{110,{11,30,0},{11,59,59}},{111,{12,0,0},{13,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙（周末）</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{107,{22,30,0},{22,59,59}},{108,{23,0,0},{23,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">跨服幻境</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,70}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{113,{20,30,0},{20,59,59}},{114,{21,0,0},{21,45,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">本服幻境</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,60}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[{116,{20,30,0},{20,59,59}},{117,{21,0,0},{21,45,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">跨服变异地宫</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,70}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">[{120,{21,30,0},{21,59,59}},{121,{22,0,0},{23,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙（每日）上午</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell><Data ss:Type="String">[{122,{11,30,0},{11,59,59}},{123,{12,0,0},{13,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">跨服火龙（周末）上午</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">[{124,{11,30,0},{11,59,59}},{125,{12,0,0},{13,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">本服火龙（每日）上午</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell><Data ss:Type="String">[{126,{11,30,0},{11,59,59}},{127,{12,0,0},{13,0,0}}]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="36" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="173.25"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">[{活动(function)ID,{即将开启时间},{活动ID,{进行中时间}}]</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">0:非绑定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1:绑定</Data></Cell>
+   </Row>
+   <Row ss:Index="8" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">[{guild_lv,2}]行会&#13;[{player_lv,30}]人物等级</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s62">
+    <Cell ss:Index="2"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">跨服BOSS2</Data></Cell>
+    <Cell><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell><Data ss:Type="String">[{84,{1,0,0},{23,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s62"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">跨服暗殿</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{86,{1,0,0},{23,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:Index="15" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">enter_limit</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">time_list</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">优先级</Data><Comment
+      ss:Author="apple"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
+        html:Size="9" html:Color="#000000">世豪：不可更改ID&#10;&#10;</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">描述</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">进入条件</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">时间类型</Data><Comment
+      ss:Author="Microsoft Office 用户"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="MS PGothic"
+         x:Family="Swiss" html:Size="11" html:Color="#000000">0 代表每日开启&#13;1 周一开启&#13;2 周二开启&#13;3 周三开启&#13;4 周四开启&#13;5 周五开启&#13;6 周六开启&#13;7 周日开启</Font></B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">开始时间1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,45}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{45,{17,30,0},{17,59,59}},{46,{18,0,0},{18,30,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">胜者为王1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,40}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{47,{14,30,0},{14,59,59}},{48,{15,0,0},{15,30,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">胜者为王2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,40}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">[]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,50},{sbk_open_limit}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{73,{18,30,0},{19,0,0}},{74,{19,0,0},{19,45,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">跨服BOSS火龙每日</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{102,{21,30,0},{21,59,59}},{84,{22,0,0},{23,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">跨服暗殿每天</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,60}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{91,{19,30,0},{19,59,59}},{92,{20,0,0},{20,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">神秘暗殿每天</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{49,{19,30,0},{19,59,59}},{50,{20,0,0},{20,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">跨服暗殿周末</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,60}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{98,{10,30,0},{11,0,0}},{99,{11,0,0},{12,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">神秘暗殿周末</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{61,{10,30,0},{11,0,0}},{62,{11,0,0},{12,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">全服双倍</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{101,{17,0,0},{18,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">本服火龙（每日）</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{104,{21,30,0},{21,59,59}},{105,{22,0,0},{23,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">本服火龙（周日）</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{110,{21,30,0},{21,59,59}},{111,{22,0,0},{23,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">跨服火龙（周末）</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{107,{21,30,0},{21,59,59}},{108,{22,0,0},{23,59,59}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">跨服幻境</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,70}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{113,{20,30,0},{20,59,59}},{114,{21,0,0},{22,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">本服幻境</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,60}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{116,{20,30,0},{20,59,59}},{117,{21,0,0},{22,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">跨服变异地宫</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,70}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{120,{0,30,0},{20,59,59}},{121,{0,0,0},{22,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">跨服火龙（每日）上午</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{122,{0,30,0},{20,59,59}},{123,{0,0,0},{22,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">跨服火龙（周末）上午</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,80}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{124,{0,30,0},{20,59,59}},{125,{0,0,0},{22,0,0}}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">本服火龙（每日）上午</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{player_lv,50}]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[1,2,3,4,5,6,7]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">[{126,{0,30,0},{20,59,59}},{127,{0,0,0},{22,0,0}}]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <RangeSelection>R18C1:R36C5</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

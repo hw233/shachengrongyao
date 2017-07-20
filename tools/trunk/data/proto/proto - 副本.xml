@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PacketProtocol>
+	<Types>
+		<Type name="proto_login_info" describe="玩家登录信息">
+			<Param name="player_id" type="int64" describe="玩家唯一id"/>
+			<Param name="name" type="string" describe="玩家名"/>
+			<Param name="sex" type="int8" describe="性别"/>
+			<Param name="career" type="int16" describe="职业"/>
+			<Param name="lv" type="int16" describe="等级"/>
+		</Type>
+
+		<Type name="proto_attr_base" describe="玩家基础属性">
+			<Param name="cur_hp" type="int32" describe="当前血量"/>
+			<Param name="cur_mp" type="int32" describe="当前魔法"/>
+			<Param name="hp" type="int32" describe="血量"/>
+			<Param name="mp" type="int32" describe="魔法"/>
+			<Param name="min_ac" type="int32" describe="最小物理攻击"/>
+			<Param name="max_ac" type="int32" describe="最大物理攻击"/>
+			<Param name="min_mac" type="int32" describe="最小魔法攻击"/>
+			<Param name="max_mac" type="int32" describe="最大魔法攻击"/>
+			<Param name="min_sc" type="int32" describe="最小道术攻击"/>
+			<Param name="max_sc" type="int32" describe="最大道术攻击"/>
+			<Param name="min_def" type="int32" describe="最小物防"/>
+			<Param name="max_def" type="int32" describe="最大物防"/>
+			<Param name="min_res" type="int32" describe="最小魔防"/>
+			<Param name="max_res" type="int32" describe="最大魔防"/>
+			<Param name="crit" type="int32" describe="暴击"/>
+			<Param name="crit_att" type="int32" describe="暴击伤害"/>
+			<Param name="hit" type="int32" describe="准确"/>
+			<Param name="dodge" type="int32" describe="敏捷"/>
+			<Param name="damage_deepen" type="int16" describe="伤害加深"/>
+			<Param name="damage_reduction" type="int16" describe="伤害减免"/>
+			<Param name="holy" type="int32" describe="神圣"/>
+			<Param name="skill_add" type="int32" describe="技能伤害追加"/>
+			<Param name="m_hit" type="int32" describe="魔法命中"/>
+			<Param name="m_dodge" type="int32" describe="魔法闪避"/>
+			<Param name="hp_recover" type="int8" describe="生命恢复"/>
+			<Param name="mp_recover" type="int8" describe="魔法恢复"/>
+			<Param name="resurgence" type="int8" describe="死亡恢复"/>
+			<Param name="damage_offset" type="int8" describe="伤害抵消"/>
+		</Type>
+
+		<Type name="proto_guise" describe="外观属性">
+			<Param name="weapon" type="int8" describe="武器外观"/>
+			<Param name="clothes" type="int8" describe="衣服外观"/>
+		</Type>
+
+		<Type name="proto_money" describe="货币属性">
+			<Param name="coin" type="int32" describe="金币"/>
+			<Param name="jade" type="int32" describe="元宝"/>
+		</Type>
+
+		<Type name="proto_player_info" describe="玩家信息">
+			<Param name="player_id" type="int64" describe="玩家唯一id"/>
+			<Param name="name" type="string" describe="玩家名"/>
+			<Param name="sex" type="int8" describe="性别"/>
+			<Param name="career" type="int16" describe="职业"/>
+			<Param name="lv" type="int16" describe="等级"/>
+			<Param name="exp" type="int32" describe="经验"/>
+			<Param name="atk" type="int32" describe="战斗力"/>
+			<Param name="attr_base" type="proto_attr_base" describe="玩家基础属性"/>
+			<Param name="guise" type="proto_guise" describe="外观属性"/>
+			<Param name="money" type="proto_money" describe="货币属性"/>
+		</Type>
+
+		<Type name="proto_obj_flag" describe="场景对象唯一标识">
+			<Param name="type" type="int8" describe="对象类型"/>
+			<Param name="id" type="int64" describe="对象唯一id"/>
+		</Type>
+
+		<Type name="proto_point" describe="场景坐标">
+			<Param name="x" type="int16" describe="x"/>
+			<Param name="y" type="int16" describe="y"/>
+		</Type>
+
+		<Type name="proto_scene_player" describe="场景玩家信息">
+			<Param name="obj_flag" type="proto_obj_flag" describe="对象唯一标识"/>
+			<Param name="name" type="string" describe="玩家名"/>
+			<Param name="sex" type="int8" describe="性别"/>
+			<Param name="career" type="int16" describe="职业"/>
+			<Param name="lv" type="int16" describe="等级"/>
+			<Param name="cur_hp" type="int32" describe="当前血量"/>
+			<Param name="cur_mp" type="int32" describe="当前魔法"/>
+			<Param name="hp" type="int32" describe="血量"/>
+			<Param name="mp" type="int32" describe="魔法"/>
+			<Param name="direction" type="int8" describe="朝向"/>
+			<Param name="begin_point" type="proto_point" describe="起始坐标"/>
+			<Param name="end_point" type="proto_point" describe="结束坐标"/>
+			<Param name="guise" type="proto_guise" describe="外观属性"/>
+		</Type>
+
+		<Type name="proto_scene_monster" describe="场景怪物信息">
+			<Param name="obj_flag" type="proto_obj_flag" describe="对象唯一标识"/>
+			<Param name="monster_id" type="int16" describe="怪物模板id"/>
+			<Param name="cur_hp" type="int32" describe="当前血量"/>
+			<Param name="cur_mp" type="int32" describe="当前魔法"/>
+			<Param name="hp" type="int32" describe="血量"/>
+			<Param name="mp" type="int32" describe="魔法"/>
+			<Param name="direction" type="int8" describe="朝向"/>
+			<Param name="begin_point" type="proto_point" describe="起始坐标"/>
+			<Param name="end_point" type="proto_point" describe="结束坐标"/>
+		</Type>
+
+		<Type name="proto_scene_drop" describe="场景掉落信息">
+			<Param name="obj_flag" type="proto_obj_flag" describe="对象唯一标识"/>
+			<Param name="goods_id" type="int32" describe="道具id"/>
+			<Param name="point" type="proto_point" describe="坐标"/>
+		</Type>
+
+		<Type name="proto_skill" describe="技能信息">
+			<Param name="skill_id" type="int16" describe="技能模板id"/>
+			<Param name="lv" type="int8" describe="技能等级"/>
+		</Type>
+
+		<!--
+			1 等级,
+			2 当前血量,
+			3 当前魔法,
+			4 血量上限,
+			5 魔法上限
+		-->
+		<Type name="proto_player_update" describe="玩家信息(只能更新数值型数据)">
+			<Param name="key" type="int16" describe="key"/>
+			<Param name="value" type="int32" describe="对应key的值"/>
+		</Type>
+
+		<Type name="proto_harm" describe="更新场景对象信息(只能更新数值型数据)">
+			<Param name="obj_flag" type="proto_obj_flag" describe="对象唯一标识"/>
+			<Param name="harm_status" type="int8" describe="伤害状态: 0 miss, 1 普通, 2 暴击"/>
+			<Param name="harm_value" type="int32" describe="伤害值"/>
+			<Param name="cur_hp" type="int32" describe="当前血量"/>
+			<Param name="cur_mp" type="int32" describe="当前魔法"/>
+		</Type>
+
+		<Type name="proto_hook_monster" describe="挂机怪物信息">
+			<Param name="obj_flag" type="proto_obj_flag" describe="对象唯一标识"/>
+			<Param name="monster_id" type="int16" describe="怪物模板id"/>
+			<Param name="cur_hp" type="int32" describe="当前血量"/>
+			<Param name="cur_mp" type="int32" describe="当前魔法"/>
+			<Param name="hp" type="int32" describe="血量"/>
+			<Param name="mp" type="int32" describe="魔法"/>
+		</Type>
+
+        <Type name="proto_goods_info" describe="道具信息">
+            <Param name="id" type="int64" describe="道具唯一id"/>
+            <Param name="goods_id" type="int32" describe="道具id"/>
+            <Param name="is_bind" type="int8" describe="是否绑定 0非绑 1绑定"/>
+            <Param name="num" type="int32" describe="数量"/>
+            <Param name="stren_lv" type="int8" describe="强化等级"/>
+            <Param name="location" type="int8" describe="存放位置"/>
+            <Param name="grid" type="int8" describe="存放所在格子"/>
+        </Type>
+
+        <Type name="proto_equips_info" describe="装备信息">
+            <Param name="id" type="int64" describe="道具唯一id"/>
+            <Param name="goods_id" type="int32" describe="道具id"/>
+            <Param name="is_bind" type="int8" describe="是否绑定 0非绑 1绑定"/>
+            <Param name="num" type="int32" describe="数量"/>
+            <Param name="stren_lv" type="int8" describe="强化等级"/>
+            <Param name="location" type="int8" describe="存放位置"/>
+            <Param name="grid" type="int8" describe="存放所在格子"/>
+        </Type>
+	</Types>
+
+	<Modules>
+		<!-- 角色系统 -->
+		<Module proto_class="10" name="角色系统">
+			<Packet proto="10000" type="c2s" name="req_player_list" describe="获取角色列表">
+				<Param name="open_id" type="string" describe="平台id"/>
+				<Param name="platform" type="int16" describe="渠道编号"/>
+			</Packet>
+			<Packet proto="10000" type="s2c" name="rep_player_list" describe="获取角色列表">
+				<Param name="result" type="int16" describe="结果: 0 成功, 非零失败"/>
+				<Param name="player_list" type="list" sub_type="proto_login_info" describe="角色信息"/>
+			</Packet>
+
+			<Packet proto="10001" type="c2s" name="req_create" describe="创建角色">
+				<Param name="open_id" type="string" describe="平台id"/>
+				<Param name="platform" type="int16" describe="渠道编号"/>
+				<Param name="name" type="string" describe="玩家名"/>
+				<Param name="sex" type="int8" describe="性别"/>
+				<Param name="career" type="int16" describe="职业"/>
+			</Packet>
+			<Packet proto="10001" type="s2c" name="rep_create" describe="创建角色">
+				<Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+				<Param name="player_info" type="proto_login_info" describe="角色信息"/>
+			</Packet>
+
+			<Packet proto="10002" type="c2s" name="req_enter" describe="进入游戏">
+				<Param name="player_id" type="int64" describe="玩家唯一id"/>
+				<Param name="os_type" type="int8" describe="系统类型：1 ios, 2 android"/>
+			</Packet>
+			<Packet proto="10002" type="s2c" name="rep_enter" describe="进入游戏">
+				<Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+			</Packet>
+
+			<Packet proto="10003" type="c2s" name="req_player_info" describe="获取自己属性">
+			</Packet>
+			<Packet proto="10003" type="s2c" name="rep_player_info" describe="获取自己属性">
+				<Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+				<Param name="player_info" type="proto_player_info" describe="玩家信息"/>
+			</Packet>
+
+			<Packet proto="10004" type="s2c" name="rep_update_player" describe="更新玩家信息">
+				<Param name="update_list" type="list" sub_type="proto_player_update" describe="玩家信息"/>
+			</Packet>
+		</Module>
+
+		<!-- 场景系统 -->
+		<Module proto_class="11" name="场景系统">
+			<Packet proto="11001" type="c2s" name="req_change_scene" describe="切换场景">
+				<Param name="scene_id" type="int16" describe="场景id"/>
+			</Packet>
+			<Packet proto="11001" type="s2c" name="rep_change_scene" describe="切换场景">
+				<Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+				<Param name="scene_id" type="int16" describe="场景id"/>
+				<Param name="player_list" type="list" sub_type="proto_scene_player" describe="场景角色信息"/>
+				<Param name="monster_list" type="list" sub_type="proto_scene_monster" describe="场景怪物信息"/>
+				<Param name="drop_list" type="list" sub_type="proto_scene_drop" describe="场景掉落信息"/>
+			</Packet>
+
+			<Packet proto="11002" type="c2s" name="req_start_move" describe="开始移动">
+				<Param name="direction" type="int8" describe="朝向"/>
+				<Param name="begin_point" type="proto_point" describe="起始坐标"/>
+				<Param name="end_point" type="proto_point" describe="结束坐标"/>
+			</Packet>
+			<Packet proto="11002" type="s2c" name="rep_start_move" describe="开始移动">
+				<Param name="obj_flag" type="proto_obj_flag" describe="对象唯一标识"/>
+				<Param name="direction" type="int8" describe="朝向"/>
+				<Param name="begin_point" type="proto_point" describe="起始坐标"/>
+				<Param name="end_point" type="proto_point" describe="结束坐标"/>
+			</Packet>
+
+			<Packet proto="11003" type="c2s" name="req_move_sync" describe="移动同步">
+				<Param name="direction" type="int8" describe="朝向"/>
+				<Param name="point" type="proto_point" describe="坐标"/>
+			</Packet>
+			<Packet proto="11003" type="s2c" name="rep_move_sync" describe="移动同步">
+				<Param name="obj_flag" type="proto_obj_flag" describe="对象唯一标识"/>
+				<Param name="direction" type="int8" describe="朝向"/>
+				<Param name="point" type="proto_point" describe="坐标"/>
+			</Packet>
+
+			<Packet proto="11004" type="s2c" name="rep_obj_leave" describe="对象离屏">
+				<Param name="obj_list" type="list" sub_type="proto_obj_flag" describe="离屏对象列表"/>
+			</Packet>
+
+			<Packet proto="11005" type="s2c" name="rep_obj_enter" describe="对象进屏">
+				<Param name="player_list" type="list" sub_type="proto_scene_player" describe="场景角色信息"/>
+				<Param name="monster_list" type="list" sub_type="proto_scene_monster" describe="场景怪物信息"/>
+				<Param name="drop_list" type="list" sub_type="proto_scene_drop" describe="场景掉落信息"/>
+			</Packet>
+
+			<Packet proto="11006" type="c2s" name="req_pickup" describe="拾取掉落">
+				<Param name="drop_id" type="int64" describe="掉落物品唯一id"/>
+			</Packet>
+			<Packet proto="11006" type="s2c" name="rep_pickup" describe="拾取掉落">
+				<Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+			</Packet>
+		</Module>
+
+		<!-- 技能系统 -->
+		<Module proto_class="12" name="技能系统">
+			<Packet proto="12001" type="c2s" name="req_skill_list" describe="获取当前学习的技能列表">
+			</Packet>
+			<Packet proto="12001" type="s2c" name="rep_skill_list" describe="获取当前学习的技能列表">
+				<Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+				<Param name="skill_list" type="list" sub_type="proto_skill" describe="技能信息"/>
+			</Packet>
+
+			<Packet proto="12002" type="c2s" name="req_use_skill" describe="释放技能">
+				<Param name="direction" type="int8" describe="朝向"/>
+				<Param name="skill_id" type="int16" describe="技能模板id"/>
+				<Param name="target_type" type="int8" describe="目标类型: 1 对象, 2 地面坐标"/>
+				<Param name="target_flag" type="proto_obj_flag" describe="目标对象唯一标识"/>
+				<Param name="target_point" type="proto_point" describe="目标坐标"/>
+			</Packet>
+			<Packet proto="12002" type="s2c" name="rep_use_skill" describe="释放技能">
+				<Param name="caster_flag" type="proto_obj_flag" describe="施法者唯一标识"/>
+				<Param name="caster_point" type="proto_point" describe="施法者坐标"/>
+				<Param name="direction" type="int8" describe="朝向"/>
+				<Param name="skill_id" type="int16" describe="技能模板id"/>
+				<Param name="target_type" type="int8" describe="目标类型: 1 对象, 2 地面坐标"/>
+				<Param name="target_flag" type="proto_obj_flag" describe="目标对象唯一标识"/>
+				<Param name="target_point" type="proto_point" describe="目标坐标"/>
+				<Param name="harm_list" type="list" sub_type="proto_harm" describe="伤害列表"/>
+			</Packet>
+		</Module>
+
+		<!-- 挂机系统 -->
+		<Module proto_class="13" name="挂机系统">
+			<Packet proto="13001" type="c2s" name="req_change_hook_scene" describe="切换挂机场景">
+                <Param name="scene_id" type="int16" describe="场景id"/>
+			</Packet>
+			<Packet proto="13001" type="s2c" name="rep_change_hook_scene" describe="切换挂机场景">
+				<Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+				<Param name="scene_id" type="int16" describe="场景id"/>
+			</Packet>
+
+			<Packet proto="13002" type="c2s" name="req_get_hook_monster" describe="获取场景刷怪信息">
+			</Packet>
+			<Packet proto="13002" type="s2c" name="rep_get_hook_monster" describe="获取场景刷怪信息">
+				<Param name="monster_list" type="list" sub_type="proto_hook_monster" describe="挂机怪物信息"/>
+			</Packet>
+
+			<Packet proto="13003" type="c2s" name="req_hook_use_skill" describe="挂机释放技能">
+				<Param name="caster_flag" type="proto_obj_flag" describe="施法者唯一标识"/>
+				<Param name="skill_id" type="int16" describe="技能模板id"/>
+				<Param name="target_list" type="list" sub_type="proto_obj_flag" describe="受击者列表"/>
+			</Packet>
+			<Packet proto="13003" type="s2c" name="rep_hook_use_skill" describe="挂机释放技能">
+				<Param name="harm_list" type="list" sub_type="proto_harm" describe="伤害列表"/>
+			</Packet>
+
+			<Packet proto="13004" type="s2c" name="rep_round_result" describe="回合结果">
+				<Param name="status" type="int8" describe="回合结果: 0 战斗失败, 1 战斗胜利"/>
+				<Param name="next_time" type="int8" describe="下回合开始倒计时(单位秒)"/>
+			</Packet>
+		</Module>
+
+        <!-- 道具系统 -->
+        <Module proto_class="14" name="道具系统">
+            <Packet proto="14001" type="c2s" name="req_goods_list" describe="请求道具信息列表">
+            </Packet>
+            <Packet proto="14001" type="s2c" name="rep_goods_list" describe="道具信息列表">
+                <Param name="goods_list" type="list" sub_type="proto_goods_info" describe="道具信息列表"/>
+            </Packet>
+
+            <Packet proto="14002" type="s2c" name="rep_broadcast_goods_info" describe="道具信息变更广播">
+                <Param name="goods_info" type="proto_goods_info" describe="变更的道具信息"/>
+            </Packet>
+
+            <Packet proto="14003" type="c2s" name="req_add_goods" describe="添加道具">
+                <Param name="goods_id" type="int32" describe="道具id"/>
+                <Param name="is_bind" type="int8" describe="是否绑定 0非绑 1绑定"/>
+                <Param name="num" type="int32" describe="数量"/>
+            </Packet>
+            <Packet proto="14003" type="s2c" name="rep_add_goods" describe="添加道具">
+                <Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+            </Packet>
+
+            <Packet proto="14004" type="c2s" name="req_batch_sell_equips" describe="根据装备品质批量出售装备">
+                <Param name="quality" type="int8" describe="装备品质"/>
+            </Packet>
+            <Packet proto="14004" type="s2c" name="rep_batch_sell_equips" describe="根据装备品质批量出售装备">
+                <Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+            </Packet>
+
+            <Packet proto="14005" type="c2s" name="req_sell_goods_list_by_id" describe="根据唯一id批量出售道具">
+                <Param name="goods_list" type="list" sub_type="int64" describe="道具id列表"/>
+            </Packet>
+            <Packet proto="14005" type="s2c" name="rep_sell_goods_list_by_id" describe="根据唯一id批量出售道具">
+                <Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+            </Packet>
+
+            <Packet proto="14006" type="c2s" name="req_sell_goods_by_num" describe="出售指定数量的道具">
+                <Param name="id" type="int64" describe="道具唯一id"/>
+                <Param name="num" type="int32" describe="数量"/>
+            </Packet>
+            <Packet proto="14006" type="s2c" name="rep_sell_goods_by_num" describe="出售指定数量的道具">
+                <Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+            </Packet>
+
+
+
+            <Packet proto="14020" type="c2s" name="req_equips_list" describe="请求装备信息列表">
+            </Packet>
+            <Packet proto="14020" type="s2c" name="rep_equips_list" describe="装备信息列表">
+                <Param name="equips_list" type="list" sub_type="proto_equips_info" describe="装备信息列表"/>
+            </Packet>
+
+            <Packet proto="14021" type="s2c" name="rep_broadcast_equips_info" describe="装备信息变更广播">
+                <Param name="equips_info" type="proto_equips_info" describe="变更的装备信息"/>
+            </Packet>
+
+            <Packet proto="14022" type="c2s" name="req_change_equips" describe="装备更换">
+                <Param name="id" type="int64" describe="道具唯一id"/>
+                <Param name="goods_id" type="int32" describe="道具id"/>
+                <Param name="grid" type="int32" describe="装备穿戴的格子"/>
+            </Packet>
+            <Packet proto="14022" type="s2c" name="rep_change_equips" describe="装备更换">
+                <Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+            </Packet>
+
+            <Packet proto="14023" type="c2s" name="req_get_off_equips" describe="装备拆卸">
+                <Param name="grid" type="int32" describe="装备穿戴的格子"/>
+            </Packet>
+            <Packet proto="14023" type="s2c" name="rep_get_off_equips" describe="装备拆卸">
+                <Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+            </Packet>
+
+            <Packet proto="14024" type="c2s" name="req_equips_upgrade" describe="装备强化">
+                <Param name="id" type="int64" describe="装备唯一id"/>
+            </Packet>
+            <Packet proto="14024" type="s2c" name="rep_equips_upgrade" describe="装备强化">
+                <Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+            </Packet>
+
+            <Packet proto="14025" type="c2s" name="req_equips_smelt" describe="装备熔炼">
+                <Param name="id_list" type="list" sub_type="int64" describe="装备唯一id列表"/>
+            </Packet>
+            <Packet proto="14025" type="s2c" name="rep_equips_smelt" describe="装备熔炼">
+                <Param name="result" type="int8" describe="结果: 0 成功, 非零失败"/>
+                <Param name="smelt" type="int32" describe="得到的熔炼值"/>
+                <Param name="goods_id_list" type="list" sub_type="int32" describe="熔炼得到的装备列表"/>
+            </Packet>
+        </Module>
+	</Modules>
+</PacketProtocol>

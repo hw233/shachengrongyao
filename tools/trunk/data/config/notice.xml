@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-10-20T02:24:29Z</Created>
+  <LastSaved>2017-02-09T03:56:37Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6065</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8820</WindowHeight>
+  <WindowWidth>18585</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="工作表1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="79" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="63"/>
+   <Column ss:StyleID="s63" ss:Width="179.25"/>
+   <Column ss:StyleID="s62" ss:Width="93" ss:Span="1"/>
+   <Column ss:Index="5" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="675"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="197.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">notice_id</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">notice_macro</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">broadcast_type</Data><Comment
+      ss:Author="Microsoft Office 用户"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="MS PGothic"
+         x:Family="Swiss" html:Size="11" html:Color="#000000">Microsoft Office 用</Font><Font
+         html:Size="11" html:Color="#000000">户</Font><Font html:Face="MS PGothic"
+         x:Family="Swiss" html:Size="11" html:Color="#000000">:</Font></B><Font
+        html:Face="MS PGothic" x:Family="Swiss" html:Size="11" html:Color="#000000">&#13;广播</Font><Font
+        html:Size="11" html:Color="#000000">类</Font><Font html:Face="MS PGothic"
+        x:Family="Swiss" html:Size="11" html:Color="#000000">型:&#13;1. 世界广播</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">priority</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">content</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">notice_id</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">priority</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">content</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">公告id</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">公告宏</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">广播类型</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">优先级</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">内容</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">备注</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_BOSS_BEFALL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffd200' size='20'&gt;大陆的某个地方有BOSS刷新了，大家赶紧过去消灭他吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_TEST</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0xff0303' size='20'&gt;BOSS%s&lt;/font&gt;们准备降临大陆，请勇士%s做好准备。~&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_BOSS_REST</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;夜深人静，BOSS们不再刷新，大家注意休息~&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_PLAYER_DIE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;%s在&lt;font color='0xf5f146' size='20'&gt;%s&lt;/font&gt;被击杀，掉落了%s&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">XXX（玩家名）在BBB（地图名）被击杀，掉落了CCCC（装备名）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_SHACHENG_WILL_START_1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;今天晚上&lt;font color='0x00ff00' size='20'&gt;21:00开启攻城战&lt;/font&gt;，所有玩家都可以通过攻城战界面直接传送进入，活动奖励丰富，请踊跃参加&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_SHACHENG_WILL_START_2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x00ff00' size='20'&gt;30分钟后&lt;/font&gt;开启攻城战，各大行会勇士可以提前进入沙漠皇城占据有利位置，大战一触即发&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_SHACHENG_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;攻城战正式开始，完全占领皇宫的行会将会获得最高荣誉&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_SHACHENG_TEMP_OCCUPY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0xf5f146' size='20'&gt;%s&lt;/font&gt;临时占领了沙城皇宫，该行会可以使用防守复活点，活动结束时临时占领行会将成为最终胜利者&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_SHACHENG_OCCUPY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;经过激烈的战斗，&lt;font color='0xf5f146' size='20'&gt;%s&lt;/font&gt;成为了皇城主宰，获得至高无上的荣誉&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_SHACHENG_NOT_OCCUPY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;各大行会实力相当，没有分出胜负，至高无上的荣誉暂时悬空!&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_WORD_BOSS_REF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;BOSS &lt;font color='0xff0303' size='20'&gt;%s&lt;/font&gt;出现在&lt;font color='0x02e5f9' size='20'&gt;%s&lt;/font&gt;，难道就没人可以收拾他了吗？&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">参数1表示boss名称，参数2 表示地图名称</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_WORD_BOSS_DIE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0xff0303' size='20'&gt;%s&lt;/font&gt;在&lt;font color='0x02f9b0' size='20'&gt;%s&lt;/font&gt;被击败，但他还会再来的！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">参数1表示boss名称</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_BACK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;%s&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_GUILD_BOSS</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0xff0303' size='20'&gt;行会BOSS&lt;/font&gt;已经刷新了，大家赶紧过去通过行会活动界面进去挑战吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_GUILD_MJ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;行会秘境&lt;/font&gt;已经开启了，大家赶紧过去通过行会活动界面进去挑战吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_SBK_OPEN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;沙城秘境&lt;/font&gt;已经开启了，大家赶紧过去通过行会活动界面进去挑战吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_EQUIPS_STREN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;恭喜&lt;font color='0x00ff4e' size='20'&gt;%s&lt;/font&gt;将&lt;font color='0xffae00' size='20'&gt;%s&lt;/font&gt;强化到%s，战力飙升&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示玩家名字、参数2表示装备名字、参数3表示强化等级</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_MONSTER_LOOT</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xfed701' size='20'&gt;%s在%s被%s击杀，掉落了&lt;font color='0xfea201' size='20'&gt;%s&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示小怪、参数2表示场景名字、参数3表示玩家名字、参数4表示掉落道具名字。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_WZAD_OPEN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;未知暗殿&lt;/font&gt;大门已开启，英勇的战士们啊，快去挑战这未知的世界吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_WZAD_CLOSE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;未知暗殿&lt;/font&gt;大门即将关闭，下次再来挑战吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_TLDH_OPEN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0xff0303' size='20'&gt;至尊魔龙&lt;/font&gt;已降临，勇士们啊，赶紧去给点颜色它瞧瞧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_TLDH_CLOSE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;屠龙大会已结束，请期待下一次屠龙盛宴吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_TLDH_KILL</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0xff0303' size='20'&gt;至尊魔龙&lt;/font&gt;已被击败，自尊心倍受打击的它将会变得更加强大哦！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_SZWW_OPEN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff size='20'&gt;&lt;font color='0x00ff00' size='20'&gt;胜者为王&lt;/font&gt;活动已开启，快拿起你饥渴的大刀，登上霸者擂台吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_SZWW_WIN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;恭喜&lt;font color='0x00ff4e' size='20'&gt;%s&lt;/font&gt;决战到最后，成为今天胜者为王的霸主！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_SZWW_CLOSE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;胜者为王活动已结束，没有得到名次的玩家请再接再厉！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_CAREER_ZHANSHI</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;全服第一战士&lt;font color='0xffcc00' size='20'&gt;%s&lt;/font&gt;上线，大家顶礼膜拜吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示玩家名字</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_CAREER_FASHI</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;全服第一法师&lt;font color='0xffcc00' size='20'&gt;%s&lt;/font&gt;上线，大家顶礼膜拜吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示玩家名字</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_CAREER_DAOSHI</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;全服第一道士&lt;font color='0xffcc00' size='20'&gt;%s&lt;/font&gt;上线，大家顶礼膜拜吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示玩家名字</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_CITY_TITLE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffea00' size='20'&gt;君临天下的皇城主宰者&lt;font color='0xff8400' size='20'&gt;%s&lt;/font&gt;上线了，小的们赶紧跟上！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示玩家名字</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_GUILD_CHALLENGE_BEGIN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0xff8400' size='20'&gt;%s&lt;/font&gt;行会向&lt;font color='0xff8400' size='20'&gt;%s&lt;/font&gt;行会宣战成功，1小时内两个行会成员战斗不会产生PK值&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_GUILD_CHALLENGE_KILL</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xff3000' size='20'&gt;%s行会的%s%s在%s被击杀，甚是耻辱&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数：行会名，职位，名称，场景</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_GUILD_CHALLENGE_WIN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;恭喜&lt;font color='0xff8400' size='20'&gt;%s&lt;/font&gt;在行会战中击败&lt;font color='0xff8400' size='20'&gt;%s&lt;/font&gt;，期间他们一共击败了敌对行会成员%s次&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_GUILD_CHALLENGE_DRAW</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0xff8400' size='20'&gt;%s&lt;/font&gt;与&lt;font color='0xff8400' size='20'&gt;%s&lt;/font&gt;势均力敌，杀敌数%s：%s，行会战打成了平手&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_MONSTER_ATK_OPEN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;怪物攻城活动开启，大量怪物进攻沙漠皇城，大家可以通过活动入口进入皇城保卫龙柱！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_MONSTER_ATK_LOSE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;很遗憾,大量的怪物把皇城龙柱破坏了，整个大陆受到前所未有的伤害。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_MONSTER_ATK_WIN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;进攻皇城的怪物已经全部被勇士们击败，大家将会获得大量奖励。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_MONSTER_ATK_REFUSE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第%s波怪物已经刷新，请赶紧阻止它们破坏龙柱。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NOTICE_MONSTER_ATK_REFUSE_BOX</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第%s波怪物已经被消灭，大量宝箱降临。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_RANDOM_BOSS_REF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;&lt;font color='0xff0303' size='20'&gt;%s&lt;/font&gt;出现在&lt;font color='0x02e5f9' size='20'&gt;%s&lt;/font&gt;，击杀可获得大量宝物！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">参数1表示boss名称，参数2 表示地图名称</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NOTICE_RANDOM_BOSS_DIE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0xff0303' size='20'&gt;%s&lt;/font&gt;为求保命丢下大量宝物，但它还会再来的！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">参数1表示boss名称</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_RANDOM_BOSS_LOOT</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;%s在%s被击杀，掉落了&lt;font color='0xffae00' size='20'&gt;%s&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示小怪、参数2表示场景名字、参数3表示玩家名字、参数4表示掉落道具名字。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_XUNBAO</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;%s在%s挖宝的时候发现了&lt;font color='0xffae00' size='20'&gt;%s&lt;/font&gt;，笑的合不拢嘴了。&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示玩家名、参数2表示场景名字、参数3表示表示掉落道具名字。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_XUNBAO_KILL</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;%s在挖宝的时候挖出了千年尸王，并从它身上摸出了&lt;font color='0xffae00' size='20'&gt;%s&lt;/font&gt;，真是走狗屎运了！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示玩家名、参数2表示掉落道具名字</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_EXAM</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;%s在智慧答题中力压群雄，夺得第一！真是太厉害啦！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">参数1表示玩家名</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_CROSS</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;跨服活动-&lt;font color='0x02e5f9' size='20'&gt;火龙神殿&lt;/font&gt;开启，各个服务器的勇士们可以通过限时活动或活动按钮进入跨服地图，与所有服务器玩家一起PK打宝！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_BOSS_1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第1阶段杀怪目标达成，刷新第一层精英。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_BOSS_2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第1阶段杀怪目标达成，刷新第二层BOSS。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_BOSS_3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第2阶段杀怪目标达成，刷新第三层BOSS。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_BOSS_4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第3阶段杀怪目标达成，刷新第二层BOSS。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_BOSS_5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第4阶段杀怪目标达成，刷新第三层BOSS。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_UNION_1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;与&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;双方成功缔结同盟，势力更强大了！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_UNION_2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;、&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;、&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;缔结三方同盟，独霸一方！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_UNION_3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;与&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;解除联盟关系&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_UNION_4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;脱离与&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;和&lt;font color='0x00ff0d' size='20'&gt;%s服%s&lt;/font&gt;的三方同盟&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_PALACE</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;跨服神秘暗殿&lt;/font&gt;已开启，各个服务器的勇士们可以通过活动按钮进入跨服地图，与所有服务器玩家一起杀怪打宝！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s63">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_PALACE_CLOSE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;跨服神秘暗殿&lt;/font&gt;大门即将关闭，各位勇士请明天同一时间再来挑战吧！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_CROSS_CLOSE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;跨服活动-&lt;font color='0x02e5f9' size='20'&gt;火龙神殿&lt;/font&gt;现已关闭，来自各服务器的勇士们，请明天同一时间再来挑战吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_WZAD_WEEKEND_OPEN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;周末福利-&lt;font color='0x02e5f9' size='20'&gt;未知暗殿&lt;/font&gt;大门已开启，英勇的战士们啊，快去挑战这未知的世界吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_WZAD_WEEKEND_CLOSE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffffff' size='20'&gt;周末福利-&lt;font color='0x02e5f9' size='20'&gt;未知暗殿&lt;/font&gt;大门即将关闭，下次再来挑战吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s63">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_WEEKEND_OPEN</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;周末福利-&lt;font color='0x02e5f9' size='20'&gt;跨服神秘暗殿&lt;/font&gt;已开启，各个服务器的勇士们可以通过活动按钮进入跨服地图，与所有服务器玩家一起杀怪打宝！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s63">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_WEEKEND_CLOSE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;周末福利-&lt;font color='0x02e5f9' size='20'&gt;跨服神秘暗殿&lt;/font&gt;大门即将关闭，各位勇士请下次再来挑战吧！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE__DOUBLE_EXP_OPEN</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;全服双倍经验&lt;/font&gt;现已开启，击杀野外怪物均可享受双倍经验奖励，可与多倍经验进行叠加&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE__DOUBLE_EXP_CLOSE</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;全服双倍经验&lt;/font&gt;现已结束，请明天同一时间再来吧！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_LOCAL_BOSS_1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;杀怪目标达成，出现终极火龙BOSS。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_BOSS_6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第5阶段杀怪目标达成，刷新第二层BOSS。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_CROSS_BOSS_7</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;第6阶段杀怪目标达成，刷新第三层BOSS。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_NATIVE_BOSS_OPEN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;火龙神殿&lt;/font&gt;已经开启，各位勇士们快来挑战吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NOTICE_NATIVE_BOSS_CLOSE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0xffae00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;火龙神殿&lt;/font&gt;现已关闭，请下回再来挑战吧！&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_HJZC</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;跨服幻境之地&lt;/font&gt;已开启，快去寻找幻境里的秘宝吧！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_HJZC_END</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;跨服幻境之地&lt;/font&gt;已关闭，明天再来吧！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_HJBX</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;%s在幻境之间发现了幻金宝箱，采集获得了%s真是运气爆棚！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_HJBX2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;%s小心翼翼地打开了幻金宝箱，翻出了&lt;font color='0xf0f314' size='20'&gt;%s&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_NATIVE_HJZC</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;幻境之地&lt;/font&gt;已开启，快去寻找幻境里的秘宝吧！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_NATIVE_HJZC_END</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;幻境之地&lt;/font&gt;已关闭，明天再来吧！&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">NOTICE_BYDG</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&lt;font color='0x00ff00' size='20'&gt;&lt;font color='0x02e5f9' size='20'&gt;%s&lt;/font&gt;在变异地宫击杀的怪物突发变异成&lt;font color='0x02e5f9' size='20'&gt;%s&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>57</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>79</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R65C2</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(R65C2,RC)&gt;1,NOT(ISBLANK(RC)))</Value1>
+    <Format Style='background:#FF9900;mso-pattern:none'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R66C2</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(R66C2,RC)&gt;1,NOT(ISBLANK(RC)))</Value1>
+    <Format Style='background:#FF9900;mso-pattern:none'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R67C2</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(R67C2,RC)&gt;1,NOT(ISBLANK(RC)))</Value1>
+    <Format Style='background:#FF9900;mso-pattern:none'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R60C2:R61C2</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(R60C2:R61C2,RC)&gt;1,NOT(ISBLANK(RC)))</Value1>
+    <Format Style='background:#FF9900;mso-pattern:none'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>

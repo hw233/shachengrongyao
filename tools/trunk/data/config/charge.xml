@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2016-05-04T09:42:17Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11625</WindowHeight>
+  <WindowWidth>19440</WindowWidth>
+  <WindowTopX>9420</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="充值">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="87"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="98.25"/>
+   <Column ss:StyleID="s62" ss:Width="129.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="98.25"/>
+   <Column ss:Index="8" ss:StyleID="s62" ss:Width="110.25"/>
+   <Column ss:Index="10" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="112.5"/>
+   <Column ss:StyleID="s62" ss:Width="296.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="96.75" ss:Span="2"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell><Data ss:Type="String">jade</Data></Cell>
+    <Cell><Data ss:Type="String">first_giving</Data></Cell>
+    <Cell><Data ss:Type="String">common_giving</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">rmb</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">counter_id</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">time_counter_id</Data></Cell>
+    <Cell><Data ss:Type="String">month_day</Data></Cell>
+    <Cell><Data ss:Type="String">month_jade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell><Data ss:Type="String">jade</Data></Cell>
+    <Cell><Data ss:Type="String">first_giving</Data></Cell>
+    <Cell><Data ss:Type="String">common_giving</Data></Cell>
+    <Cell><Data ss:Type="String">giving_desc</Data></Cell>
+    <Cell><Data ss:Type="String">common_desc</Data></Cell>
+    <Cell><Data ss:Type="String">rmb</Data></Cell>
+    <Cell><Data ss:Type="String">icon</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">markIcon</Data></Cell>
+    <Cell><Data ss:Type="String">number</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">shu xdui yde</PhoneticText><Data
+      ss:Type="String">属性对应的key</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">充值元宝</Data></Cell>
+    <Cell><Data ss:Type="String">第一次返利</Data></Cell>
+    <Cell><Data ss:Type="String">正常返利</Data></Cell>
+    <Cell><Data ss:Type="String">第一次返利描述</Data></Cell>
+    <Cell><Data ss:Type="String">正常返利描述</Data></Cell>
+    <Cell><Data ss:Type="String">人民币</Data></Cell>
+    <Cell><Data ss:Type="String">图标</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">ji shu qi</PhoneticText><Data
+      ss:Type="String">计数器id</Data></Cell>
+    <Cell><Data ss:Type="String">充值计数器ID</Data></Cell>
+    <Cell><Data ss:Type="String">月卡天数（大于0表示月卡，等于0表示普通充值）</Data></Cell>
+    <Cell><Data ss:Type="String">月卡领取元宝</Data></Cell>
+    <Cell><Data ss:Type="String">左上角图标</Data></Cell>
+    <Cell><Data ss:Type="String">排序字段</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">charge_monthCard</Data></Cell>
+    <Cell><Data ss:Type="Number">10050</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">chargeLimit</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">首次充值返利60元宝</Data></Cell>
+    <Cell ss:Index="7" ss:Formula="=RC[-5]/10"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">coin2</Data></Cell>
+    <Cell><Data ss:Type="Number">10013</Data></Cell>
+    <Cell><Data ss:Type="Number">10131</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0.11</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">6.6</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">首次充值返利250元宝</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">coin3</Data></Cell>
+    <Cell><Data ss:Type="Number">10014</Data></Cell>
+    <Cell><Data ss:Type="Number">10131</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0.12</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">118</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">680</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">680</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">首次充值返利680元宝</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">coin4</Data></Cell>
+    <Cell><Data ss:Type="Number">10015</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0.13</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">88.4</Data></Cell>
+    <Cell><Data ss:Type="Number">258</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">980</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">980</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">首次充值返利980元宝</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">98</Data></Cell>
+    <Cell><Data ss:Type="String">coin5</Data></Cell>
+    <Cell><Data ss:Type="Number">10016</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0.14000000000000001</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">137.20000000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">460</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3280</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">3280</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">首次充值返利3280元宝</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">328</Data></Cell>
+    <Cell><Data ss:Type="String">coin6</Data></Cell>
+    <Cell><Data ss:Type="Number">10018</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">0.16</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">524.79999999999995</Data></Cell>
+    <Cell><Data ss:Type="Number">1580</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6480</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">6480</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">首次充值返利6480元宝</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">648</Data></Cell>
+    <Cell><Data ss:Type="String">coin6</Data></Cell>
+    <Cell><Data ss:Type="Number">10019</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.17</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">1101.6000000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">3366</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">19980</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">19980</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">首次充值返利19980元宝</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1998</Data></Cell>
+    <Cell><Data ss:Type="String">coin6</Data></Cell>
+    <Cell><Data ss:Type="Number">10047</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1980</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">1980</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">首次充值返利1980元宝</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">198</Data></Cell>
+    <Cell><Data ss:Type="String">coin5</Data></Cell>
+    <Cell><Data ss:Type="Number">10017</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>9</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

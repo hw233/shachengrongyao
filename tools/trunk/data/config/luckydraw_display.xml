@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>apple</Author>
+  <LastAuthor>柱鹏</LastAuthor>
+  <Created>2015-11-30T07:23:00Z</Created>
+  <LastSaved>2017-01-03T12:30:20Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6135</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10350</WindowHeight>
+  <WindowWidth>20880</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="常规 10 2 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68" ss:Name="常规 11">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66" ss:Name="常规 17">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="正文字体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65" ss:Name="常规 7">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67" ss:Name="常规 9">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s73" ss:Parent="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s78" ss:Parent="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s80" ss:Parent="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="神皇秘境奖励展示">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:StyleID="s69" ss:AutoFitWidth="0" ss:Span="1"/>
+   <Column ss:Index="3" ss:Width="96.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">group</Data></Cell>
+    <Cell><Data ss:Type="String">goods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">组数</Data></Cell>
+    <Cell><Data ss:Type="String">物品ID</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{200080,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">200080</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">主宰战刃</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{201080,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">201080</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">主宰法杖</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{202080,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">202080</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">主宰道剑</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{200081,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">200081</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">主宰战甲</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{201081,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">201081</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">主宰法衣</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{202081,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">202081</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">主宰道袍</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,1,1}]&quot;"><Data
+      ss:Type="String">[{110319,1,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">110319</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">幻金秘钥</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{110294,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">110294</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">女娲神石</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{110163,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">110163</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上古神石</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,1,1}]&quot;"><Data
+      ss:Type="String">[{110304,1,1}]</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">110304</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">赤炼魂石</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,0,1}]&quot;"><Data
+      ss:Type="String">[{110222,0,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">绝世秘籍</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71" ss:Formula="=&quot;[{&quot;&amp;RC[1]&amp;&quot;,1,1}]&quot;"><Data
+      ss:Type="String">[{110259,1,1}]</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">110259</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">通灵神石</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202080,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202081,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202082,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202083,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202085,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202086,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202087,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202089,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202090,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202091,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202092,0,1}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">[{202093,0,1}]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R15C4,R10C4:R12C4,R5C4:R8C4</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(C1,RC)&gt;1,NOT(ISBLANK(RC)))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE;mso-pattern:none'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R14C4</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(C1,R[974153]C)&gt;1,NOT(ISBLANK(R[974153]C)))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE;mso-pattern:none'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:Index="2"><Data ss:Type="String">组1是开服3天</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:Index="2"><Data ss:Type="String">组2是</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:Index="2"><Data ss:Type="String">组3是合服</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2016-07-20T04:13:00Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7980</WindowHeight>
+  <WindowWidth>14805</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="常规 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s216" ss:Name="常规 2 2 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="常规 3 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65" ss:Name="常规 5">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66" ss:Name="适中 2">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#993300"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75" ss:Parent="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s130" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s341" ss:Parent="s216">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s367" ss:Parent="s216">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="装备展示">
+  <Table ss:ExpandedColumnCount="32" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s67" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="13.5">
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s68" ss:Width="90"/>
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0"/>
+   <Column ss:Index="5" ss:StyleID="s68" ss:Width="76.5" ss:Span="1"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">career_id</Data></Cell>
+    <Cell><Data ss:Type="String">type_id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">strength_lv</Data></Cell>
+    <Cell><Data ss:Type="String">soul_lv</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">固定ID</Data></Cell>
+    <Cell><Data ss:Type="String">职业id</Data></Cell>
+    <Cell><Data ss:Type="String">所属ID</Data></Cell>
+    <Cell><Data ss:Type="String">套装名称</Data></Cell>
+    <Cell><Data ss:Type="String">强化等级</Data></Cell>
+    <Cell><Data ss:Type="String">铸魂等级</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">武器</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">衣服</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">项链</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">戒指</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">头盔</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">手镯</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">腰带</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">鞋子</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">勋章</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">翅膀</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">赤月套装</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200020</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200021</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200022</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200023</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200025</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200026</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200027</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200029</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">306035</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307029</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">雷霆套装</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">200030</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">200031</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">200032</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">200033</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">200035</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">200036</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">200037</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">200039</Data></Cell>
+    <Cell ss:StyleID="s130"><Data ss:Type="Number">306053</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307039</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">白虎套装</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200060</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200061</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200062</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200063</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200065</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200066</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200067</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">200069</Data></Cell>
+    <Cell ss:StyleID="s367"><Data ss:Type="Number">306071</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307079</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">金牛套装</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200070</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200071</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200072</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200073</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200075</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200076</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200077</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200079</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">306080</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307099</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">赤月套装</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">201020</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">201021</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">201022</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">201023</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">201025</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">201026</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">201027</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">201029</Data></Cell>
+    <Cell ss:StyleID="s367"><Data ss:Type="Number">306235</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307229</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">烈焰套装</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">201030</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">201031</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">201032</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">201033</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">201035</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">201036</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">201037</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">201039</Data></Cell>
+    <Cell ss:StyleID="s367"><Data ss:Type="Number">306253</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307239</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">朱雀套装</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">201060</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">201061</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">201062</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">201063</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">201065</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">201066</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">201067</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">201069</Data></Cell>
+    <Cell ss:StyleID="s367"><Data ss:Type="Number">306271</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307279</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">金牛套装</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">201070</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">201071</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">201072</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">201073</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">201075</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">201076</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">201077</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">201079</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">306280</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307299</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">赤月套装</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202020</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202021</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202022</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202023</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202025</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202026</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202027</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202029</Data></Cell>
+    <Cell ss:StyleID="s367"><Data ss:Type="Number">306435</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307429</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">光芒套装</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202030</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202031</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202032</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202033</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202035</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202036</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202037</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202039</Data></Cell>
+    <Cell ss:StyleID="s367"><Data ss:Type="Number">306453</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307439</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">青龙套装</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202060</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202061</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202062</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202063</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202065</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202066</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202067</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">202069</Data></Cell>
+    <Cell ss:StyleID="s367"><Data ss:Type="Number">306471</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307479</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">金牛套装</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">202070</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">202071</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">202072</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">202073</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">202075</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">202076</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">202077</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">202079</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">306480</Data></Cell>
+    <Cell ss:StyleID="s341"><Data ss:Type="Number">307499</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>13</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

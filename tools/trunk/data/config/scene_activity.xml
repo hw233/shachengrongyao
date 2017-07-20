@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2015-12-18T07:16:36Z</Created>
+  <LastSaved>2016-04-19T10:04:20Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>3435</WindowHeight>
+  <WindowWidth>19440</WindowWidth>
+  <WindowTopX>4815</WindowTopX>
+  <WindowTopY>1305</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="活动配置">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:Width="75"/>
+   <Column ss:Width="165"/>
+   <Column ss:Width="315"/>
+   <Column ss:AutoFitWidth="0" ss:Width="153"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">activity_id</Data></Cell>
+    <Cell><Data ss:Type="String">start_time</Data></Cell>
+    <Cell><Data ss:Type="String">effect</Data></Cell>
+    <Cell><Data ss:Type="String">frist_time</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">huo'dong</PhoneticText><Data
+      ss:Type="String">活动id</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">kai'qishi'j</PhoneticText><Data
+      ss:Type="String">开启时间</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">huo'dongqi'jduichang'jying'x</PhoneticText><Data
+      ss:Type="String">活动期间对场景影响</Data></Cell>
+    <Cell><Data ss:Type="String">第一次开启时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">{0, 6, {21, 00}, {21, 30}}</Data></Cell>
+    <Cell><Data ss:Type="String">{revive_area, {{90,62},{98,68}}, {{56,18},{62,23}}}</Data></Cell>
+    <Cell><Data ss:Type="String">{3, {21, 00}, {21, 30}}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">{0, 6, {21, 00}, {21, 30}}</Data></Cell>
+    <Cell><Data ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="String">{3, {21, 00}, {21, 30}}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+   <x:Print>     </x:Print>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="说明">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="506.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s62"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">huo'dongkai'qishi'jzhou'jibiao'shimei'tkai'qibiao'shizhou'ri</PhoneticText><Data
+      ss:Type="String">活动开启时间:&#13;{开服几天后开启, 周几, 开启时间, 结束时间}, 开始时间/结束时间格式:{小时, 分钟}&#13;周几:0表示每天开启, 7表示周日</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:AutoFitHeight="0" ss:Height="74.0625">
+    <Cell ss:StyleID="s62"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">huo'dongqi'jduichang'jying'xfu'huoquying'xgong'fangfangfu'huo'qiqufangfu'huo'qiqu</PhoneticText><Data
+      ss:Type="String">活动期间对场景影响:&#13;{revive_area, {{87,59},{92,63}}, {{87,59},{92,63}}}&#13;复活区影响, {revive_area, 攻方复活区, 守方复活区}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+   <x:Print>     </x:Print>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

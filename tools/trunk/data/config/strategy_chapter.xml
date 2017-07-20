@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>柱鹏</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2016-02-27T09:41:25Z</Created>
+  <LastSaved>2016-07-21T10:01:34Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9660</WindowHeight>
+  <WindowWidth>1980</WindowWidth>
+  <WindowTopX>5580</WindowTopX>
+  <WindowTopY>2355</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="工作表1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="44" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="90"
+    ss:Span="3"/>
+   <Column ss:Index="6" ss:StyleID="s62" ss:Width="164.25"/>
+   <Column ss:StyleID="s62" ss:Width="1533.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">strategy_id</Data></Cell>
+    <Cell><Data ss:Type="String">chapter_type</Data></Cell>
+    <Cell><Data ss:Type="String">title</Data></Cell>
+    <Cell><Data ss:Type="String">level</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">icon_file</Data></Cell>
+    <Cell><Data ss:Type="String">content</Data></Cell>
+    <Cell><Data ss:Type="String">button_label</Data></Cell>
+    <Cell><Data ss:Type="String">function_id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">唯一id</Data></Cell>
+    <Cell><Data ss:Type="String">攻略所属id</Data></Cell>
+    <Cell><Data ss:Type="String">显示类型</Data><Comment ss:Author="apple"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Size="9"
+        html:Color="#000000">对应菜单大小&#10;类型&#10;</Font></ss:Data></Comment></Cell>
+    <Cell><Data ss:Type="String">标题内容</Data></Cell>
+    <Cell><Data ss:Type="String">开启等级</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">图标名</Data></Cell>
+    <Cell><Data ss:Type="String">攻略内容</Data></Cell>
+    <Cell><Data ss:Type="String">按钮标签</Data></Cell>
+    <Cell><Data ss:Type="String">功能id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">1-15级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;新手任务进行快速升级，骷髅洞野外打怪&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">16-29级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;奥玛寺庙任务，打怪升级&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">30级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;挂机开启，一键扫荡快速升级&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">前往挂机</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">35级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;日常任务开启，完成获取大量经验&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">日常任务</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">30-37级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;蜈蚣洞任务、打怪升级&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">膜拜英雄</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">38级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;膜拜英雄开启，前往膜拜可获取大量经验&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">40级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;挑战个人副本，轻松获取经验、金币、强化材料&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">个人副本</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">40级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;胜者为王开启，可前往参与pk乱斗&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">胜者为王</Data></Cell>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">41级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;攻城战开启，攻城日可参与，共夺霸主之位&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">攻城战</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">42级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;神秘暗殿开启，前往挑战获取大量装备&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">神秘暗殿</Data></Cell>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">43-44级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;野猪洞任务、打怪升级&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">45级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;屠龙大会开启，参与击杀获得大量奖励&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">46-49级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;蜈蚣洞2层任务、打怪升级&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">50级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;怪物攻城开启，可前往保卫皇城龙柱&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">51-56级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;祖玛地宫任务、打怪升级&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">57-60级</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;赤月地图任务、打怪升级&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33.9375">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">2001</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">scene_hangupBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;挂机系统里面，可以挑战BOSS，每次挑战成功会切换到下一张地图，获得更高的挂机经验。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">挂机</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33.9375">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">2001</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">scene_dailytask.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;完成日常任务能获得大量经验，是提升等级的快速途径。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">日常任务</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="Number">2001</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">scene_worshipBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;每日能进行2次英雄膜拜，膜拜英雄可以获得大量经验。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">前往膜拜</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">2001</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">scene_instance.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;个人副本中的经验副本可以获得较多的经验，通关成功还能获取经验丹，加快升级进度。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">个人副本</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">2001</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">scene_dragonBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;屠龙大会能获得大量经验值，击杀至尊魔龙后，还会掉落大量的经验丹。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">2002</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">scene_forge.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;打造装备可获得更高级的装备套装，是获取高阶装备的主流方式，打造材料可以从世界BOSS身上掉落。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">装备打造</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">2002</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">scene_bossBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;每隔一段时间野外地图的深处会刷新实力强劲的世界BOSS，击杀世界BOSS会掉落大量珍稀装备。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">世界BOSS</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">2002</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">scene_unionBossBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;行会BOSS在每天的21：00都会刷新，通过行会进入，击杀可以获得大量装备和道具。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">行会BOSS</Data></Cell>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">2002</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">scene_unionAreaBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;3级以上行会可开启行会秘境，每周日21:00开放一次，秘境BOSS有几率掉落高级装备和强化道具。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">行会秘境</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">2002</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">scene_darkPalaceBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;神秘暗殿里的部分怪物会掉落大量高级装备和材料，是前期轻松获取高级装备的捷径。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">神秘暗殿</Data></Cell>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="Number">2002</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">scene_monsterAttack.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;怪物攻城里的怪物有较高的几率掉落高级装备和材料，掉落物品的稀有度与波数成正比。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">2002</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">scene_storeBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;商城可以购买战神、法神、天尊武器箱，打开后可以获得极品的稀有装备。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">商城</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="Number">2003</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">scene_strengthen.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;强化装备可以提升装备的基础属性，强化材料可以通过材料副本和怪物掉落获得。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">装备强化</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2003</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">scene_baptize.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;洗练装备可以获得额外的洗练属性，洗炼属性分白绿蓝紫，装备洗的次数越多，属性出现紫色概率越高；不同部位对应不同的属性类型，洗练石可以通过材料副本和怪物掉落获得。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">装备洗练</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">2003</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">scene_equipSoul.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;装备铸魂可以提升装备的基础属性，铸魂共5个等级，铸魂需要消耗铸魂精华，铸魂精华可以通过分解装备获得。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">装备铸魂</Data></Cell>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="Number">2003</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">scene_medal.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;消耗功勋值升级勋章获得大量属性。功勋可以通过完成每日功勋任务、胜者为王获得，如果使用一键完成，可以额外获得大量功勋。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">勋章升级</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="Number">2004</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">scene_instance.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;每天可以进行1次金币副本、1次购买机会。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">金币副本</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="Number">2004</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">scene_qualifyingBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;在排位赛每次挑战别的玩家可以获得声望，每天根据排名也会给予大量声望奖励，声望可以在竞技场商店购买物品&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">排位赛</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">2004</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">scene_hangupBtn.png</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;野外打怪和挂机产出的不需要的装备，可以在背包出售，获得金币。&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">3001</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">坐骑</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;上马下马：装备坐骑后，向上滑动屏幕为上马操作，向下滑动为下马操作；&lt;br/&gt;坐骑可在商城购买或VIP赠送。&lt;br/&gt;在设置界面可以关闭自动上马哦！&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">商城</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="Number">3001</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">诱惑之光</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;法师可以通过击杀世界BOSS获得诱惑之光技能书，可以同时诱惑多个怪物作为自己的伙伴作战，并且可以升级。&lt;/font&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">世界BOSS</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">3001</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">迷阵走法</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;石墓迷阵走法：上下上下上下。&lt;br/&gt;祖玛迷阵走法：左上上上右。&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="Number">3002</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">可诱惑怪物：</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;银杏村&amp;#58;鹿&amp;#40;Lv1&amp;#41;&lt;br/&gt;蜈蚣洞&amp;#58;蜈蚣&amp;#40;Lv24&amp;#41;&amp;#59;跳跳蜂&amp;#40;Lv26&amp;#41;&amp;#59;钢甲钳虫&amp;#40;Lv30&amp;#41;&lt;br/&gt;野猪洞&amp;#58;黑色恶蛆&amp;#40;Lv30&amp;#41;&lt;br/&gt;虎卫堂&amp;#58;虎卫&amp;#40;Lv1&amp;#41;&lt;br/&gt;迷失森林&amp;#58;天狼蜘蛛&amp;#40;Lv35&amp;#41;&amp;#59;鹰卫&amp;#40;Lv1&amp;#41;&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">3002</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">神兽升级</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;道士的神兽通过计算击杀怪物的数量可以提升等级，等级越高能力越强。&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="Number">3002</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">虎卫鹰卫</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;font color='0xDBAE67' size='18' opacity='255'&gt;在虎卫堂每隔一段时间会刷新实力劲爆的虎卫法师可以诱惑之；远程攻击的鹰卫刷新在迷失森林。&lt;/font&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>15</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

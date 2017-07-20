@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>柱鹏</Author>
+  <LastAuthor>apple</LastAuthor>
+  <Created>2016-01-26T07:14:53Z</Created>
+  <LastSaved>2017-03-02T15:59:33Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>1155</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>-105</WindowTopX>
+  <WindowTopY>3165</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="工作表1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="30" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="131.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="714.75"/>
+   <Column ss:Index="8" ss:StyleID="s62" ss:Width="83.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="77.25"/>
+   <Column ss:Width="129.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell><Data ss:Type="String">is_show_num</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">function_id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">is_high_yield</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">icon_file</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">text_file</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">describe</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">btn_label</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">time</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">is_show_num</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">function_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">skip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">类型</Data><Comment ss:Author="柱鹏"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Size="10"
+         html:Color="#000000">柱鹏:</Font></B><Font html:Size="10" html:Color="#000000">&#13;1表示日常活动&#13;2.表示限时活动</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">是否高收益</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">图标文件名</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">图片文字文件名</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">HTML描述</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">按钮文字</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">时间显示</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">是否显示数量</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">活动ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">跳转</Data><Comment
+      ss:Author="apple"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Size="9" html:Color="#000000">活动ID&#10;跳转两者只能都有时，优先调用后者&#10;</Font></B></ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity26.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity13.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;主要&lt;font color='0x00EE00' size='20' opacity='255'&gt;经验&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">日常任务</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">npc,7507,1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">activity22.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity16.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;巨额&lt;font color='0x00EE00' size='20' opacity='255'&gt;经验&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">膜拜英雄</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">npc,7524,1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">activity22.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity14.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;大量&lt;font color='0x00EE00' size='20' opacity='255'&gt;声望&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">排位赛</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity20.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity12.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;大量&lt;font color='0x00EE00' size='20' opacity='255'&gt;功勋&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">功勋任务</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">npc,7522,1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity46.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity47.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;各种&lt;font color='0x00EE00' size='20' opacity='255'&gt;奖励&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">藏宝图</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">npc,7590,1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity21.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity15.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;各种&lt;font color='0x00EE00' size='20' opacity='255'&gt;材料&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">个人副本</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">26</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity49.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity6.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;各种&lt;font color='0x00EE00' size='20' opacity='255'&gt;奖励&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">敬请期待</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">118</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity28.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity38.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;大量&lt;font color='0x00EE00' size='20' opacity='255'&gt;奖励&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">屠龙大会</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">12:15&#45;-12:45</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">38</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity29.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity39.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;大量&lt;font color='0x00EE00' size='20' opacity='255'&gt;功勋&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">胜者为王</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">14:00&#45;-14:30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">39</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity33.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity37.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;稀有&lt;font color='0x00EE00' size='20' opacity='255'&gt;装备&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">神秘暗殿</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">15:30&#45;-16:00</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity30.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity32.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;大量&lt;font color='0x00EE00' size='20' opacity='255'&gt;装备&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">行会Boss</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21:00&#45;-21:30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">43</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity34.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity18.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;稀有&lt;font color='0x00EE00' size='20' opacity='255'&gt;装备&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">行会秘境</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21:00&#45;-22:00</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">44</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">main_guildIcon.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">activity19.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;独特&lt;font color='0x00EE00' size='20' opacity='255'&gt;装备&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">沙城秘境</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">不定时</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">207</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">activity41.png</Data></Cell>
+    <Cell><Data ss:Type="String">activity40.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;大量&lt;font color='0x00EE00' size='20' opacity='255'&gt;装备&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">怪物攻城</Data></Cell>
+    <Cell><Data ss:Type="String">20:00&#45;-20:45</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">75</Data></Cell>
+   </Row>
+   <Row ss:Index="29" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="说明">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="19" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id            唯一id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">type          活动类型</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">is_high_yield 是否高收益，是1否0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">icon_file     图标文件名</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">text_file     图片文字文件名</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">describe      HTML描述</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">btn_label     按钮文字</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">target_window 点击按钮之后前往的窗口</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">活动类型1：日常活动、2：限时活动、 3：其他活动</Data></Cell>
+   </Row>
+   <Row ss:Index="19" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">activity42.png</Data></Cell>
+    <Cell><Data ss:Type="String">activity43.png</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xDBAE67' size='20' opacity='255'&gt;大量&lt;font color='0x00EE00' size='20' opacity='255'&gt;奖励&lt;/font&gt;&lt;/font&gt;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">智慧答题</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">16:30-17:30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">82</Data></Cell>
+    <Cell><Data ss:Type="String">win,answeringWin,1</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <RangeSelection>R19C1:R19C11</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

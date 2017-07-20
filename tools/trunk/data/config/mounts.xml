@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>li</LastAuthor>
+  <Created>2015-07-22T02:25:11Z</Created>
+  <LastSaved>2016-08-24T09:07:56Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11325</WindowHeight>
+  <WindowWidth>21840</WindowWidth>
+  <WindowTopX>13005</WindowTopX>
+  <WindowTopY>4935</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="坐骑升级配置">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="113.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="120" ss:Span="2"/>
+   <Column ss:Index="6" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="99.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell><Data ss:Type="String">goods_id</Data></Cell>
+    <Cell><Data ss:Type="String">limit_lv</Data></Cell>
+    <Cell><Data ss:Type="String">rate</Data></Cell>
+    <Cell><Data ss:Type="String">stuff</Data></Cell>
+    <Cell><Data ss:Type="String">next_id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">key</Data></Cell>
+    <Cell><Data ss:Type="String">goods_id</Data></Cell>
+    <Cell><Data ss:Type="String">limit_lv</Data></Cell>
+    <Cell><Data ss:Type="String">rate</Data></Cell>
+    <Cell><Data ss:Type="String">stuff</Data></Cell>
+    <Cell><Data ss:Type="String">next_id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">zuo qchi bang</PhoneticText><Data
+      ss:Type="String">坐骑强化id</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">sheng jidezuo qichi bangxun zdao ju</PhoneticText><Data
+      ss:Type="String">升级的坐骑道具id</Data></Cell>
+    <Cell><Data ss:Type="String">等级限制</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">sheng jichneg glü</PhoneticText><Data
+      ss:Type="String">升级成功率</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">sheng jicai liao</PhoneticText><Data
+      ss:Type="String">升级材料</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">sheng jihouxun zhang</PhoneticText><Data
+      ss:Type="String">升级后坐骑id</Data></Cell>
+    <Cell><Data ss:Type="String">备注</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309411</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,60}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309412</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309412</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,200}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309413</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309413</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,800}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309414</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309414</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,2400}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309415</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1004</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309415</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1005</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309416</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,60}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309417</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1006</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309417</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,200}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309418</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1007</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309418</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,800}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309419</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1008</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309419</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,2400}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309420</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1009</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309420</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1010</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309421</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,60}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309422</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1011</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309422</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,200}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309423</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1012</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309423</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,800}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309424</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1013</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309424</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[{110259,2400}]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309425</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1014</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">309425</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">dao jushu liang</PhoneticText><Data
+      ss:Type="String">[]</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>4</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>3</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>16</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+   <x:Print>    </x:Print>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R9C2:R13C2</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(R1C1:R259C1, R[1048552]C[16381])+COUNTIF(R267C1:R1048576C1, R[1048552]C[16381])&gt;1,NOT(ISBLANK(R[1048552]C[16381])))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R9C6:R12C6</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(R1C1:R259C1, R[1048552]C[16369])+COUNTIF(R267C1:R1048576C1, R[1048552]C[16369])&gt;1,NOT(ISBLANK(R[1048552]C[16369])))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R14C2:R18C2</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(R1C1:R259C1, R[1048537]C[16381])+COUNTIF(R267C1:R1048576C1, R[1048537]C[16381])&gt;1,NOT(ISBLANK(R[1048537]C[16381])))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R14C6:R17C6</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(R1C1:R259C1, R[1048537]C[16369])+COUNTIF(R267C1:R1048576C1, R[1048537]C[16369])&gt;1,NOT(ISBLANK(R[1048537]C[16369])))</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">[{物品ID,是否绑定,数量}]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4"><Data ss:Type="String">货币类型</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">0:非绑定</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">1  金币</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1:绑定</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2  元宝</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4"><Data ss:Type="String">3  礼卷</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">战士</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">法师</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">道士</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

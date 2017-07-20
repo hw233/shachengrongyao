@@ -1,0 +1,2337 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office 用户</Author>
+  <LastAuthor>li</LastAuthor>
+  <Created>2015-08-10T11:12:22Z</Created>
+  <LastSaved>2017-03-13T13:34:15Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6260</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10350</WindowHeight>
+  <WindowWidth>21495</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s102">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s103">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s104">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s105">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s106">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s107">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s108">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s109">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s110">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s113">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="技能升级配置">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="96" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="87.75"/>
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="83.25"/>
+   <Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="366.75"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"/>
+   <Column ss:AutoFitWidth="0" ss:Width="315"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">skill_id</Data></Cell>
+    <Cell><Data ss:Type="String">lv</Data></Cell>
+    <Cell><Data ss:Type="String">type</Data></Cell>
+    <Cell><Data ss:Type="String">auto_type</Data></Cell>
+    <Cell><Data ss:Type="String">career</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">limit_lv</Data></Cell>
+    <Cell><Data ss:Type="String">goods_1</Data></Cell>
+    <Cell><Data ss:Type="String">num_1</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">next_exp</Data></Cell>
+    <Cell><Data ss:Type="String">trigger_type</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">lv</Data></Cell>
+    <Cell><Data ss:Type="String">type</Data></Cell>
+    <Cell><Data ss:Type="String">autoType</Data></Cell>
+    <Cell><Data ss:Type="String">career</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">pLv</Data></Cell>
+    <Cell><Data ss:Type="String">bookId</Data></Cell>
+    <Cell><Data ss:Type="String">bookNum</Data></Cell>
+    <Cell><Data ss:Type="String">nextLv</Data></Cell>
+    <Cell><Data ss:Type="String">nextExp</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">desc</Data></Cell>
+    <Cell><Data ss:Type="String">list</Data></Cell>
+    <Cell><Data ss:Type="String">jump</Data></Cell>
+    <Cell><Data ss:Type="String">autodesc</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">技能id</Data></Cell>
+    <Cell><Data ss:Type="String">技能等级</Data></Cell>
+    <Cell><Data ss:Type="String">技能类型</Data></Cell>
+    <Cell><Data ss:Type="String">自动技能类型</Data><Comment
+      ss:Author="Microsoft Office 用户"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="MS PGothic"
+         x:Family="Swiss" html:Size="11" html:Color="#000000">0 无&#13;1 </Font><Font
+         html:Size="11" html:Color="#000000">单</Font><Font html:Face="MS PGothic"
+         x:Family="Swiss" html:Size="11" html:Color="#000000">体&#13;2 群体&#13;3 自</Font><Font
+         html:Size="11" html:Color="#000000">动释</Font><Font html:Face="MS PGothic"
+         x:Family="Swiss" html:Size="11" html:Color="#000000">放无</Font><Font
+         html:Size="11" html:Color="#000000">论是否战斗&#13;4.自动战斗时才使用</Font></B></ss:Data></Comment></Cell>
+    <Cell><Data ss:Type="String">职业</Data></Cell>
+    <Cell><Data ss:Type="String">技能名称</Data></Cell>
+    <Cell><Data ss:Type="String">学习等级</Data></Cell>
+    <Cell><Data ss:Type="String">所需道具1</Data></Cell>
+    <Cell><Data ss:Type="String">道具1数量</Data></Cell>
+    <Cell><Data ss:Type="String">下一级等级</Data></Cell>
+    <Cell><Data ss:Type="String">下一级需要的经验</Data></Cell>
+    <Cell><Data ss:Type="String">触发条件</Data><Comment
+      ss:Author="Microsoft Office 用户"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="MS PGothic"
+         x:Family="Swiss" html:Size="11" html:Color="#000000">0 不增加熟练度&#13;1 使用一次增加熟练度&#13;2 目标受伤害增加熟练度&#13;3 召唤成功增加熟练度&#13;4 被动技能触发一次增加熟练度&#13;5 对怪物使用一次增加熟练度（如诱惑之光）&#13;6 对方中状态增加熟练度</Font></B></ss:Data></Comment></Cell>
+    <Cell><Data ss:Type="String">技能描述</Data></Cell>
+    <Cell><Data ss:Type="String">技能顺序</Data></Cell>
+    <Cell><Data ss:Type="String">产出跳转</Data></Cell>
+    <Cell><Data ss:Type="String">自动技能描述</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s67">
+    <Cell><Data ss:Type="Number">10100</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">基本剑术</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">无消耗，每次攻击造成102%物理\n伤害</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">待定</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">基本剑术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110041</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，每次攻击造成105%物理\n伤害</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">基本剑术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，每次攻击造成108%物理\n伤害</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">攻杀术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110019</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">战士的每次攻击都有60%几率额外增加\n10%的攻击伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">攻杀术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">战士的每次攻击都有70%几率额外增加\n15%的攻击伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">攻杀术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">战士的每次攻击都有80%几率额外增加\n20%的攻击伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">刺杀术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110020</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:5，对身前直线2格范围内敌人造成\n攻击力120%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">刺杀术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:15，对身前直线2格范围内敌人造成\n攻击力135%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">刺杀术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:20，对身前直线2格范围内敌人造成\n攻击力150%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s73">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10300</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">刺杀术</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">MP:30，对身前直线2格范围内敌人造成\n攻击力165%物理伤害</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">半月剑法</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110021</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:10，对身前半圆形范围内敌人造成\n攻击力70%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">半月剑法</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:30，对身前半圆形范围内敌人造成\n攻击力80%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">半月剑法</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，对身前半圆形范围内敌人造成\n攻击力90%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">烈火斩</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110023</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，CD:5秒，释放后5秒内下一次攻击\n造成150%的物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用烈火斩</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">烈火斩</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，CD:5秒，释放后5秒内下一次攻击\n造成170%的物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用烈火斩</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">烈火斩</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:150，CD:5秒，释放后5秒内下一次攻击\n造成190%的物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用烈火斩</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s79">
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">10500</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">烈火斩</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">MP:180，CD:5秒，释放后5秒内下一次攻击\n造成210%的物理伤害</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用烈火斩</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">野蛮冲锋</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110022</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，CD:10秒，用蛮力冲击5格内目标\n敌人，将其撞晕2秒。</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">野蛮冲锋</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，CD:9秒，用蛮力冲击5格内目标\n敌人，将其撞晕2秒。</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">野蛮冲锋</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，CD:8秒，用蛮力冲击6格内目标\n敌人，将其撞晕3秒。</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">狂龙斩</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110024</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:60，对角色周围目标最多造成攻击力\n90%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">狂龙斩</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:80，对角色周围目标最多造成攻击力\n100%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">狂龙斩</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，对角色周围目标最多造成攻击力\n110%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">10700</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">狂龙斩</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">MP:120，对角色周围目标最多造成攻击力\n120%物理伤害</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">逐日剑术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110025</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:80，CD:8秒，对身前直线4格的敌人\n造成180%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用逐日剑法</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">逐日剑术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，CD:8秒，对身前直线4格的敌人\n造成190%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用逐日剑法</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">逐日剑术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:120，CD:8秒，对身前直线4格的敌人\n造成200%物理伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用逐日剑法</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s94">
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">10800</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">逐日剑术</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">MP:120，CD:8秒，对身前直线4格的敌人\n造成210%物理伤害</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用逐日剑法</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">火球术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，对目标造成魔法攻击110%魔法\n伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">火球术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，对目标造成魔法攻击115%魔法\n伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">火球术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，对目标造成魔法攻击120%魔法\n伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">雷电术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110033</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:10，对目标造成魔法攻击120%魔法\n伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">雷电术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:30，对目标造成魔法攻击130%魔法\n伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">雷电术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:40，对目标造成魔法攻击140%魔法\n伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s73">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">20200</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">雷电术</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">MP:50，对目标造成魔法攻击150%魔法\n伤害</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">202</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">火墙术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110034</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:40，在指定地点释放火墙，30秒内\n每1.5秒造成魔法攻击40%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动对目标优先释放火墙</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">火墙术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:50，在指定地点释放火墙，35秒内\n每1.5秒造成魔法攻击48%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动对目标优先释放火墙</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">火墙术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:60，在指定地点释放火墙，40秒内\n每1.5秒造成魔法攻击55%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动对目标优先释放火墙</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">魔法护盾</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110035</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，魔法保护自身，降低受到的伤害\n14%，附加25点伤害减免，持续20秒</Data></Cell>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用魔法盾</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">魔法护盾</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:60，魔法保护自身，降低受到的伤害\n17%，附加50点伤害减免，持续30秒</Data></Cell>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用魔法盾</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">魔法护盾</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:70，魔法保护自身，降低受到的伤害\n20%，附加70点伤害减免，持续40秒</Data></Cell>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用魔法盾</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">20400</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">魔法护盾</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">MP:80，魔法保护自身，降低受到的伤害\n25%，附加100点伤害减免，持续40秒</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用魔法盾</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">爆裂雷光</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110036</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，对自身周围的敌人造成魔法攻击\n110%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">爆裂雷光</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:60，对自身周围的敌人造成魔法攻击\n120%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">爆裂雷光</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:80，对自身周围的敌人造成魔法攻击\n130%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">冰咆术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110038</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:20，以寒冰之力对目标及周围敌人造成\n魔法攻击105%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">冰咆术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，以寒冰之力对目标及周围敌人造成\n魔法攻击110%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">冰咆术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:60，以寒冰之力对目标及周围敌人造成\n魔法攻击115%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">疾电术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110037</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，对直线区域内所有目标造成魔法\n攻击120%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">207</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">疾电术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:60，对直线区域内所有目标造成魔法\n攻击125%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">207</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">疾电术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:70，对直线区域内所有目标造成魔法\n攻击130%魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">207</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">抗拒之环</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110039</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，爆发魔力，将周围敌人推开</Data></Cell>
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">抗拒之环</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:150，爆发魔力，将周围敌人推开</Data></Cell>
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">抗拒之环</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:200，爆发魔力，将周围敌人推开</Data></Cell>
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">21000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">诱惑术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110067</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，有一定概率诱惑特定的野外怪物\n成为自己的伙伴，角色死亡后消失；当前\n技能等级可升级宠物至3级；</Data></Cell>
+    <Cell><Data ss:Type="Number">209</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">21000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">诱惑术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，有一定概率诱惑特定的野外怪物\n成为自己的伙伴，角色死亡后消失；当前\n技能等级可升级宠物至5级；</Data></Cell>
+    <Cell><Data ss:Type="Number">209</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">21000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">诱惑术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">MP:150，有一定概率诱惑特定的野外怪物\n成为自己的伙伴，角色死亡后消失；当前\n技能等级可升级宠物至7级；</Data></Cell>
+    <Cell><Data ss:Type="Number">209</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s79">
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">21000</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">诱惑术</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">MP:200，有一定概率诱惑特定的野外怪物\n成为自己的伙伴，角色死亡后消失；当前\n技能等级可升级宠物至7级；</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">209</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20900</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">流星火雨</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110040</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:80，对目标区域造成魔法攻击130%\n魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20900</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">流星火雨</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，对目标区域造成魔法攻击140%\n魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20900</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">流星火雨</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">MP:120，对目标区域造成魔法攻击150%\n魔法伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s94">
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">20900</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">流星火雨</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">MP:120，对目标区域造成魔法攻击160%\n魔法伤害</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">火符术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，以道术加持神符，对目标造成\n道术攻击100%道术伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">火符术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，以道术加持神符，对目标造成\n道术攻击105%道术伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">火符术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，以道术加持神符，对目标造成\n道术攻击110%道术伤害</Data></Cell>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群疗术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110028</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，为范围内友方目标恢复11%道术\n攻击的治疗效果,持续20秒，每2秒恢复一次。</Data></Cell>
+    <Cell><Data ss:Type="Number">302</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自身生命低于70%时自动治疗</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群疗术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，为范围内友方目标恢复14%道术\n攻击的治疗效果，持续20秒，每2秒恢复一次。</Data></Cell>
+    <Cell><Data ss:Type="Number">302</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自身生命低于70%时自动治疗</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群疗术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:150，为方位内友方目标恢复17%道术\n攻击的治疗效果，持续20秒，每2秒恢复一次。</Data></Cell>
+    <Cell><Data ss:Type="Number">302</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自身生命低于70%时自动治疗</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">30200</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群疗术</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">MP:200，为方位内友方目标恢复20%道术\n攻击的治疗效果，持续20秒，每2秒恢复一次。</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">302</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自身生命低于70%时自动治疗</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群毒术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110027</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:35，使目标及周围中毒，减少14%双防，\n附加最高减防18点，并且每2秒造成25%道\n术伤害，持续20秒</Data></Cell>
+    <Cell><Data ss:Type="Number">303</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">优先对目标释放群毒</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群毒术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:70，使目标及周围中毒，减少17%双防，\n附加最高减防126点，并且每2秒造成28%道\n术伤害，持续30秒</Data></Cell>
+    <Cell><Data ss:Type="Number">303</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">优先对目标释放群毒</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群毒术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:105，使目标及周围中毒，减少20%双防，\n附加最高减防262点，并且每2秒造成31%道\n术伤害，持续40秒</Data></Cell>
+    <Cell><Data ss:Type="Number">303</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">优先对目标释放群毒</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s73">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30300</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群毒术</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">MP:140，使目标及周围中毒，减少23%双防，\n附加最高减防350点，并且每2秒造成35%道\n术伤害，持续50秒</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">303</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">优先对目标释放群毒</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">骷髅术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">110066</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">MP:50，召唤骷髅协助战斗,骷髅能力\n与技能等级有关；最高升级至3级。</Data></Cell>
+    <Cell><Data ss:Type="Number">304</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动召唤骷髅</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">骷髅术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">MP:70，召唤骷髅协助战斗,骷髅能力\n与技能等级有关；最高升级至5级。</Data></Cell>
+    <Cell><Data ss:Type="Number">304</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动召唤骷髅</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">骷髅术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:100，召唤骷髅协助战斗,骷髅能力\n与技能等级有关；最高升级至7级。</Data></Cell>
+    <Cell><Data ss:Type="Number">304</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动召唤骷髅</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群隐术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110029</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:150，施展隐身术，在15秒内不会被怪\n物发现</Data></Cell>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群隐术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:170，施展隐身术，在20秒内不会被怪\n物发现</Data></Cell>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30400</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群隐术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:200，施展隐身术，在25秒内不会被怪\n物发现</Data></Cell>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群防术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110030</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:150，增加范围内友方单位14%双防，\n并附加40到80点双防</Data></Cell>
+    <Cell><Data ss:Type="Number">306</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用群防术</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群防术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:170，增加范围内友方单位17%双防，\n并附加70到140点双防</Data></Cell>
+    <Cell><Data ss:Type="Number">306</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用群防术</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">群防术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MP:200，增加范围内友方单位20%双防，\n并附加100到200点双防</Data></Cell>
+    <Cell><Data ss:Type="Number">306</Data></Cell>
+    <Cell><Data ss:Type="String">1.可在各主城书店购买_购买_npcBuyWin_7533</Data></Cell>
+    <Cell><Data ss:Type="String">自动使用群防术</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">神兽术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110031</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">MP:100，从异空间召唤神兽协助道士战斗，\n神兽能力与技能等级有关；\n当前技能等级可升级神兽至3级。</Data></Cell>
+    <Cell><Data ss:Type="Number">307</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">自动召唤神兽</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">神兽术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">MP:120，从异空间召唤神兽协助道士战斗，\n神兽能力与技能等级有关；\n当前技能等级可升级神兽至5级。</Data></Cell>
+    <Cell><Data ss:Type="Number">307</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">自动召唤神兽</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">神兽术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:150，从异空间召唤神兽协助道士战斗，\n神兽能力与技能等级有关；\n当前技能等级可升级神兽至7级。</Data></Cell>
+    <Cell><Data ss:Type="Number">307</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">自动召唤神兽</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s79">
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">30600</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">神兽术</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">MP:180，从异空间召唤神兽协助道士战斗，\n神兽能力与技能等级有关；\n当前技能等级可升级神兽至9级。</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">307</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell><Data ss:Type="String">自动召唤神兽</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">嗜血术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">110032</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s101"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">MP:60，对目标造成道术攻击110%的\n道术伤害，并将伤害的8%用于自身治疗</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="Number">308</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">嗜血术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s101"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">MP:80，对目标造成道术攻击120%的\n道术伤害，并将伤害的10%用于自身治疗</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="Number">308</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">30700</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">嗜血术</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">MP:90，对目标造成道术攻击130%的\n道术伤害，并将伤害的12%用于自身治疗</Data></Cell>
+    <Cell><Data ss:Type="Number">308</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s94">
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">30700</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">嗜血术</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">110222</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s113"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">MP:100，对目标造成道术攻击140%的\n道术伤害，并将伤害的14%用于自身治疗</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">308</Data></Cell>
+    <Cell><Data ss:Type="String">1.击杀世界BOSS有几率获得_世界BOSS_challengeBossWin</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">51200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">特戒隐身</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，隐身特戒专属技能可施展隐身术，\n在25秒内不会被怪物发现</Data></Cell>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">1.穿戴隐身特戒可获得专属隐身技能</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">51200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">特戒隐身</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，隐身特戒专属技能可施展隐身术，\n在30秒内不会被怪物发现</Data></Cell>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">1.穿戴隐身特戒可获得专属隐身技能</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">51200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">特戒隐身</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">无消耗，隐身特戒专属技能可施展隐身术，\n在35秒内不会被怪物发现</Data></Cell>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">1.穿戴隐身特戒可获得专属隐身技能</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="String">待定</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <LeftColumnVisible>2</LeftColumnVisible>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>72</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>92</ActiveRow>
+     <ActiveCol>12</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="说明">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="53" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:Width="321"/>
+   <Column ss:Index="5" ss:Width="296.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">技能类型：</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">属性英文说明</Data></Cell>
+    <Cell><Data ss:Type="String">5   hp           血量上限 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell><Data ss:Type="String">1: 主动技能</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">hp </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 血量</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">6   mp           魔法上限,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">2: 被动技能</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">mp </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔法</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">7   min_ac       最小物理攻击,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">min_ac </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最小物理攻击</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">8   max_ac       最大物理攻击,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">受击目标：</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">max_ac </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最大物理攻击</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">9   min_mac      最小魔法攻击,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1: 自己</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">min_mac </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最小魔法攻击</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">10  max_mac      最大魔法攻击,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">2: 友方</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">max_mac </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最大魔法攻击</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">11  min_sc       最小道术攻击,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">3: 敌方</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">min_sc </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最小道术攻击</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">12  max_sc       最大道术攻击,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">max_sc </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最大道术攻击</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">13  min_def      最小物防,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">范围：</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">def </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 物防</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">14  max_def      最大物防,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">{single}: 单体</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">res </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔防</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">15  min_res      最小魔防,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">{rang, 半径}: 群攻</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s85"/>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">crit </Font><Font html:Face="Menlo" x:Family="Roman"
+       html:Color="#808080">%% 暴击</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">16  max_res      最大魔防,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">{circle, 半径}: 自己为圆心的圆形技能</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">crit_att </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 暴击伤害</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">17  crit         暴击,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">{sector, 半径, 夹角}: 扇形技能</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">hit </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 准确</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">18  crit_att     暴击伤害,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">{line, 长度}: 直线</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">dodge </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 敏捷</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">19  hit          准确,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">damage_deepen </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 伤害加深</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">20  dodge        敏捷,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">效果：</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">damage_reduction </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 伤害减免</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">21  damage_deepen     伤害加深,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">buff: {buff, buff id, 概率}</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">holy </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 神圣</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">22  damage_reduction  伤害减免,g</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">伤害: {dm, 伤害加成, 附加伤害}</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">skill_add </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 技能伤害追加</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">23  holy         神圣,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">加属性: {attr, 属性英文, 属性值}</Font><Font html:Face="宋体 (正文)"
+       x:CharSet="134" html:Color="#FF0000">一般只做被动技能使用</Font></ss:Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">m_hit </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔法命中</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">24  skill_add    技能伤害追加,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">治疗(瞬间回血): {cure, 道术百分比}</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">m_dodge </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔法闪避</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">25  m_hit        魔法命中,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">hp_recover </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 生命恢复</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">26  m_dodge      魔法闪避,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">mp_recover </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔法恢复</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">27  hp_recover   生命恢复,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">[{call_pet, 7007}]召唤神兽、怪物ID</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">resurgence </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 死亡恢复</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">28  mp_recover   魔法恢复,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">[{fire_wall, 2000, 25, 2}]火墙、伤害万分比、持续时间、伤害间隔</Data></Cell>
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">damage_offset </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 伤害减免</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">29  resurgence   死亡恢复,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">{impale_dm,&#160;10000,&#160;100}穿刺伤害、</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">30  damage_offset     伤害抵消</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">hp_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 血量百分比</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">mp_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔法百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">38 血量百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">min_ac_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最小物理攻击百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">39 魔法百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">max_ac_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最大物理攻击百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">40 最小物理攻击百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">min_mac_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最小魔法攻击百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">41 最大物理攻击百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">max_mac_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最大魔法攻击百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">42 最小魔法攻击百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">min_sc_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最小道术攻击百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">43 最大魔法攻击百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">max_sc_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 最大道术攻击百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">44 最小道术攻击百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">def_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 物防百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">45 最大道术攻击百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">res_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔防百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">46 最小物防百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">crit_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 暴击百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">47 最大物防百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">crit_att_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 暴击伤害百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">48 最小魔防百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">hit_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 准确百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">49 最大魔防百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">dodge_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 敏捷百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">50 暴击百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">damage_deepen_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 伤害加深百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">51 暴击伤害百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">damage_reduction_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 伤害减免百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">52 准确百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">holy_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 神圣百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">53 敏捷百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">skill_add_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 技能伤害追加百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">54 伤害加深百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">m_hit_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔法命中百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">55 伤害减免百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">m_dodge_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔法闪避百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">56 神圣百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">hp_recover_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 生命恢复百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">57 技能伤害追加百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">mp_recover_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 魔法恢复百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">58 魔法命中百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">resurgence_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 死亡恢复百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">59 魔法闪避百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">damage_offset_p </Font><Font
+       html:Face="Menlo" x:Family="Roman" html:Color="#808080">%% 伤害减免百分比</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">60 生命恢复百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6"><Data ss:Type="String">61 魔法恢复百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6"><Data ss:Type="String">62 死亡恢复百分比加成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6"><Data ss:Type="String">63 伤害减免百分比加成</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555596"/>
+    <Footer x:Margin="0.51180555555555596"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>27</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

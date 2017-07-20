@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>柱鹏</Author>
+  <LastAuthor>li</LastAuthor>
+  <Created>2016-01-11T02:15:05Z</Created>
+  <LastSaved>2017-01-15T13:48:25Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6135</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10350</WindowHeight>
+  <WindowWidth>20880</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Monaco" x:Family="Roman" ss:Size="13" ss:Color="#99CC00"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="工作表1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0"/>
+   <Column ss:Width="95.25"/>
+   <Column ss:Width="141"/>
+   <Column ss:Width="102.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="522.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">desc</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">isopen</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ruledesc</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">活动名字</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">活动描述</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">是否开启</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">规则描述</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">行会BOSS</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">行会等级越高可挑战的BOSS难度越高</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="74.0625">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">行会秘境</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">几率获得稀有装备</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xe4d6c5' size='18' opacity='255'&gt;1.行会等级达到3级时开启，人物等级达到35级才能进入；&lt;br/&gt;2.每日14：00-14：30自动开启；&lt;br/&gt;3.秘境分为4层，行会等级达到5级开启第二层，7级开启第三层，9级开启第四层；&lt;br/&gt;4.进入下一层，需要通过上一层的传送门进入。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">沙城秘境</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">几率获得高级稀有装备</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;font color='0xe4d6c5' size='18' opacity='255'&gt;1.秘境只对沙巴克行会开启，人物等级达到35级才能进入；&lt;br/&gt;2.秘境开放时间为攻城战次日至下次攻城战前日；&lt;br/&gt;3.在开放时间内，沙巴克行会最多可开启3次，每天最多开启1次；&lt;br/&gt;4.秘境开启需要消耗1000行会资金，资金不足无法开启；&lt;br/&gt;5.只有城主可开启秘境。&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="工作表2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65.25" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="303"/>
+   <Row ss:AutoFitHeight="0" ss:Height="168">
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#99CC00">&quot;******</Font><Font
+       html:Face="宋体" html:Color="#99CC00">配置表</Font><Font html:Color="#99CC00"> guide_body_click_type ******&quot;</Font><Font
+       html:Color="#333333"> &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;- target_type &#160;= </Font><Font
+       html:Face="宋体" html:Color="#333333">指引目标类型，详见目标类型说明，注意每一个目标类型的数据部分应该用不同的配置表来进行数据配置。</Font><Font
+       html:Color="#333333"> target_body &#160;= </Font><Font html:Face="宋体"
+       html:Color="#333333">指引目标数据，根据目标类型选择不同的表配置，这里应该直接填写该表的所在数据的</Font><Font
+       html:Color="#333333">id</Font><Font html:Face="宋体" html:Color="#333333">。</Font><Font
+       html:Color="#333333"> back_desktop = </Font><Font html:Face="宋体"
+       html:Color="#333333">是否回到桌面，确认</Font><Font html:Color="#333333"> = </Font><Font
+       html:Color="#FF6600">1</Font><Font html:Color="#333333">, </Font><Font
+       html:Face="宋体" html:Color="#333333">否则</Font><Font html:Color="#333333"> = </Font><Font
+       html:Color="#FF6600">0</Font><Font html:Color="#333333"> open_window &#160;= </Font><Font
+       html:Face="宋体" html:Color="#333333">指明了在引导此数据的时候，打开指定的窗口，详见</Font><Font
+       html:Color="#333333">window_tag</Font><Font html:Face="宋体"
+       html:Color="#333333">。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">target_type 目标类型&#13;============================================================&#13;【1】= 绝对坐标，此类型的数据应当填写点击区域的绝对坐标值。&#13;【2】= 自动坐标，此类型的数据应当只有在目标不固定位置，需要自动计算布局的时候才能使用，使用前与前端协商并定义目标对象。</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <TopRowVisible>1</TopRowVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
