@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\tools\fubenWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\tools\fubenWin\Resources</Resources>
+  <Name>fubenWin</Name>
+  <JsonFileName>fubenWin.json</JsonFileName>
+  <JsonFolder>D:\tools\fubenWin\Json</JsonFolder>
+  <JsonList>
+    <string>fubenWin_1.json</string>
+    <string>fubenWin_2.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>295</Width>
+    <Height>100</Height>
+  </CanvasSize>
+  <filePath>D:\tools\fubenWin\fubenWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>fubenWin0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>fubenWin0.png</string>
+    <string>com.png</string>
+    <string>fubenWin0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>fubenWin_2.json</CurrentUIJson>
+</UIProject>

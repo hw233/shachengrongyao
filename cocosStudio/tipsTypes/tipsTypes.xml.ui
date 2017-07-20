@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\tools\UI\tipsTypes</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\tools\UI\tipsTypes\Resources</Resources>
+  <Name>tipsTypes</Name>
+  <JsonFileName>tipsTypes.json</JsonFileName>
+  <JsonFolder>D:\tools\UI\tipsTypes\Json</JsonFolder>
+  <JsonList>
+    <string>tt_equip.json</string>
+    <string>tt_itemBox.json</string>
+    <string>tt_sell.json</string>
+    <string>tt_tips.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>422</Width>
+    <Height>180</Height>
+  </CanvasSize>
+  <filePath>D:\tools\UI\tipsTypes\tipsTypes.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>tt_equip.json</CurrentUIJson>
+</UIProject>

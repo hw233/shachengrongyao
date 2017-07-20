@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>festivalActivityWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>festivalKillReward</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>festivalKillWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>festivalCompoundWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>festivalCompoundlWin2_0</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>festivalCompoundItem</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

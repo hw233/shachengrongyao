@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\client\client\trunk\sourceRes\ui\cocosStudio\festivalActivityWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\client\client\trunk\sourceRes\ui\cocosStudio\festivalActivityWin\Resources</Resources>
+  <Name>festivalActivityWin</Name>
+  <JsonFileName>festivalActivityWin.json</JsonFileName>
+  <JsonFolder>D:\client\client\trunk\sourceRes\ui\cocosStudio\festivalActivityWin\Json</JsonFolder>
+  <JsonList>
+    <string>festivalActivityWin.json</string>
+    <string>festivalCompoundItem.json</string>
+    <string>festivalCompoundWin.json</string>
+    <string>festivalKillReward.json</string>
+    <string>festivalKillWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>658</Width>
+    <Height>310</Height>
+  </CanvasSize>
+  <filePath>D:\client\client\trunk\sourceRes\ui\cocosStudio\festivalActivityWin\festivalActivityWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>festivalActivityWin0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>festivalActivityWin.json</CurrentUIJson>
+</UIProject>

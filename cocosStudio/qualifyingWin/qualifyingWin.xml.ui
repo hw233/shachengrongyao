@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\tools\UI\qualifyingWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\tools\UI\qualifyingWin\Resources</Resources>
+  <Name>qualifyingWin</Name>
+  <JsonFileName>qualifyingWin.json</JsonFileName>
+  <JsonFolder>D:\tools\UI\qualifyingWin\Json</JsonFolder>
+  <JsonList>
+    <string>qualifyingWin.json</string>
+    <string>item_challenge_player.json</string>
+    <string>item_challenge_record.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>580</Width>
+    <Height>80</Height>
+  </CanvasSize>
+  <filePath>D:\tools\UI\qualifyingWin\qualifyingWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>item_challenge_player.json</CurrentUIJson>
+</UIProject>

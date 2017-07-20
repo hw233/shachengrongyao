@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>serverBossInfo</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverBossWin2</Project>
+    <GuidesList>
+      <GuidesInfo>
+        <GuidesName>HThumb</GuidesName>
+        <GuidesPosition>126.23306586855927</GuidesPosition>
+      </GuidesInfo>
+      <GuidesInfo>
+        <GuidesName>HThumb</GuidesName>
+        <GuidesPosition>73.018780154273713</GuidesPosition>
+      </GuidesInfo>
+    </GuidesList>
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverBossItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverBossItem2</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverBossItem3</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverBossItem4</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverBossItem5</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverDreamlandRank</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverRankItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverBossItem6</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serverBossItem7</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

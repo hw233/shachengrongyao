@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>strategyWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>strategyItemS</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>strategyItemM</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>strategyItemL</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>strategyEquip</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>strategyEquipList</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>exchangeShelfWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>exchangeSellWin</Project>
+    <GuidesList>
+      <GuidesInfo>
+        <GuidesName>VThumb</GuidesName>
+        <GuidesPosition>473.26677449544263</GuidesPosition>
+      </GuidesInfo>
+      <GuidesInfo>
+        <GuidesName>VThumb</GuidesName>
+        <GuidesPosition>493.26677449544263</GuidesPosition>
+      </GuidesInfo>
+      <GuidesInfo>
+        <GuidesName>HThumb</GuidesName>
+        <GuidesPosition>133.79923068576363</GuidesPosition>
+      </GuidesInfo>
+      <GuidesInfo>
+        <GuidesName>HThumb</GuidesName>
+        <GuidesPosition>151.79923068576397</GuidesPosition>
+      </GuidesInfo>
+    </GuidesList>
+  </GuidesProject>
+  <GuidesProject>
+    <Project>exchangeGetWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>exchangeBuyWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>exchangeBg</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>exchangeBuyItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>exchangeShelfItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>exchangeGetItem</Project>
+    <GuidesList>
+      <GuidesInfo>
+        <GuidesName>VThumb</GuidesName>
+        <GuidesPosition>-120</GuidesPosition>
+      </GuidesInfo>
+    </GuidesList>
+  </GuidesProject>
+</ArrayOfGuidesProject>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>roleWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleWin_propertyLayer</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleInfoWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleStampWin</Project>
+    <GuidesList>
+      <GuidesInfo>
+        <GuidesName>VThumb</GuidesName>
+        <GuidesPosition>-164.166717529297</GuidesPosition>
+      </GuidesInfo>
+    </GuidesList>
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleMountWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleMountLvWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleMountEquipWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleWin_10</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleRingWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleWin_11</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>roleWin_9</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

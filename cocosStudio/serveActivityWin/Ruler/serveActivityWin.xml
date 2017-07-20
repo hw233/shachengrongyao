@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>serveActivityWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveEquipItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveLuckMoneyItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveBossWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveBossItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveExpItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveRankWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveRankItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveRankWin_0</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveShopWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveShopItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveShopItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveGoodsItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>serveActivityWin_12</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\client\client\trunk\sourceRes\ui\cocosStudio\ActivityOpenCommView</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\client\client\trunk\sourceRes\ui\cocosStudio\ActivityOpenCommView\Resources</Resources>
+  <Name>alertExerciseView</Name>
+  <JsonFileName>alertExerciseView.json</JsonFileName>
+  <JsonFolder>D:\client\client\trunk\sourceRes\ui\cocosStudio\ActivityOpenCommView\Json</JsonFolder>
+  <JsonList>
+    <string>activityOpenCommViewWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>650</Width>
+    <Height>460</Height>
+  </CanvasSize>
+  <filePath>D:\client\client\trunk\sourceRes\ui\cocosStudio\ActivityOpenCommView\ActivityOpenCommView.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

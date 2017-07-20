@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\guildWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\guildWin\Resources</Resources>
+  <Name>guildWin</Name>
+  <JsonFileName>guildWin.json</JsonFileName>
+  <JsonFolder>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\guildWin\Json</JsonFolder>
+  <JsonList>
+    <string>activityListWin.json</string>
+    <string>BossListWin.json</string>
+    <string>guildBossWin.json</string>
+    <string>guildDreamland2Win.json</string>
+    <string>guildDreamlandWin.json</string>
+    <string>guildUnionItem.json</string>
+    <string>guildUnionRight.json</string>
+    <string>guildUnionRightItem.json</string>
+    <string>guildUnionWin.json</string>
+    <string>guildWarComfirmWin.json</string>
+    <string>guildWarItem.json</string>
+    <string>guildWarResultWin.json</string>
+    <string>guildWarWin.json</string>
+    <string>guildWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>880</Width>
+    <Height>500</Height>
+  </CanvasSize>
+  <filePath>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\guildWin\guildWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>guildWin0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>guildWin.json</CurrentUIJson>
+</UIProject>

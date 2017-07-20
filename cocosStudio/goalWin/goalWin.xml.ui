@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\tools\goalWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\tools\goalWin\Resources</Resources>
+  <Name>goalWin</Name>
+  <JsonFileName>goalWin.json</JsonFileName>
+  <JsonFolder>D:\tools\goalWin\Json</JsonFolder>
+  <JsonList>
+    <string>goalWin_1.json</string>
+    <string>goalWin_2.json</string>
+    <string>goalWin_3.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>465</Width>
+    <Height>130</Height>
+  </CanvasSize>
+  <filePath>D:\tools\goalWin\goalWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>goalWin0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>goalWin_2.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\client\client\trunk\sourceRes\ui\cocosStudio\welfareNewWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\client\client\trunk\sourceRes\ui\cocosStudio\welfareNewWin\Resources</Resources>
+  <Name>welfareNewWin</Name>
+  <JsonFileName>welfareNewWin.json</JsonFileName>
+  <JsonFolder>D:\client\client\trunk\sourceRes\ui\cocosStudio\welfareNewWin\Json</JsonFolder>
+  <JsonList>
+    <string>welfareNewWin.json</string>
+    <string>welfareOnlineItem.json</string>
+    <string>welfareOnlineWin.json</string>
+    <string>welfareRedeemCodeWin.json</string>
+    <string>welfareSignWin.json</string>
+    <string>welfareMonthCardWin.json</string>
+    <string>welfareLevelItem.json</string>
+    <string>welfareViplItem.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>688</Width>
+    <Height>98</Height>
+  </CanvasSize>
+  <filePath>D:\client\client\trunk\sourceRes\ui\cocosStudio\welfareNewWin\welfareNewWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>welfareNewWin0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>welfareMonthCardWin.json</CurrentUIJson>
+</UIProject>

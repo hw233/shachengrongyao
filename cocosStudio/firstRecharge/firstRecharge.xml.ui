@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\client\client\trunk\sourceRes\ui\cocosStudio\firstRecharge</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\client\client\trunk\sourceRes\ui\cocosStudio\firstRecharge\Resources</Resources>
+  <Name>firstRecharge</Name>
+  <JsonFileName>firstRecharge.json</JsonFileName>
+  <JsonFolder>D:\client\client\trunk\sourceRes\ui\cocosStudio\firstRecharge\Json</JsonFolder>
+  <JsonList>
+    <string>firstRecharge.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>D:\client\client\trunk\sourceRes\ui\cocosStudio\firstRecharge\firstRecharge.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>firstRecharge0.plist</string>
+    <string>firstRecharge1.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

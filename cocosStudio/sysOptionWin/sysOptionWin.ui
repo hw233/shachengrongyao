@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\sysOptionWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\sysOptionWin\Resources</Resources>
+  <Name>sysOptionWin</Name>
+  <JsonFileName>sysOptionWin.json</JsonFileName>
+  <JsonFolder>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\sysOptionWin\Json</JsonFolder>
+  <JsonList>
+    <string>SOW_Account.json</string>
+    <string>SOW_Drug.json</string>
+    <string>SOW_Effect.json</string>
+    <string>SOW_Pickup.json</string>
+    <string>sysOptionWin.json</string>
+    <string>SOW_PickupItem.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>160</Width>
+    <Height>43</Height>
+  </CanvasSize>
+  <filePath>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\sysOptionWin\sysOptionWin.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>SOW_Effect.json</CurrentUIJson>
+</UIProject>

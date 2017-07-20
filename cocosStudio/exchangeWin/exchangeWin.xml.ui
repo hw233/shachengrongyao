@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\client\client\trunk\sourceRes\ui\cocosStudio\exchangeWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\client\client\trunk\sourceRes\ui\cocosStudio\exchangeWin\Resources</Resources>
+  <Name>exchangeWin</Name>
+  <JsonFileName>exchangeWin.json</JsonFileName>
+  <JsonFolder>D:\client\client\trunk\sourceRes\ui\cocosStudio\exchangeWin\Json</JsonFolder>
+  <JsonList>
+    <string>exchangeBg.json</string>
+    <string>exchangeBuyItem.json</string>
+    <string>exchangeBuyWin.json</string>
+    <string>exchangeGetItem.json</string>
+    <string>exchangeGetWin.json</string>
+    <string>exchangeSellWin.json</string>
+    <string>exchangeShelfItem.json</string>
+    <string>exchangeShelfWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>760</Width>
+    <Height>444</Height>
+  </CanvasSize>
+  <filePath>D:\client\client\trunk\sourceRes\ui\cocosStudio\exchangeWin\exchangeWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>exchangeBuyItem.json</CurrentUIJson>
+</UIProject>

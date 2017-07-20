@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>sysOptionWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SOW_Account</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SOW_Drug</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SOW_Pickup</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SOW_Effect</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SOW_PickupItem</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>
