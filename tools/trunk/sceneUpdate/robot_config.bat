@@ -1,18 +1,16 @@
+cd..
 @set root=%cd%
+@set xmlName=robot
 
-rem php E:\chuanqi\tools\trunk\mconfig\config_script.php activity_list
-rem php E:\chuanqi\tools\trunk\mconfig\config_script.php function
-copy E:\chuanqi\tools\trunk\sceneUpdate\robot.xml E:\chuanqi\tools\trunk\data\config
+@set luaAdress=E:\chuanqi\client\trunk\src_lua\app\conf
+@set erlAdress=E:\chuanqi\server\trunk\server\src\config
 
-php E:\chuanqi\tools\trunk\mconfig\config_script.php robot
+copy %root%\sceneUpdate\%xmlName%.xml %root%\data\config
+php %root%\mconfig\config_script.php %xmlName%
+copy %root%\tag\config\%xmlName%Config.lua %luaAdress%
+copy %root%\tag\config\%xmlName%_config.erl %erlAdress%
 
-
-rem copy E:\chuanqi\tools\trunk\tag\config\monsterConfig.lua E:\chuanqi\client\trunk\src_lua\app\conf
-
-copy E:\chuanqi\tools\trunk\tag\config\robot_config.erl C:\robot\robot\src\config
-
-
-@echo "task complete"
-
+@echo "complete"
 
 pause
+

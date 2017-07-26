@@ -1,16 +1,15 @@
+cd..
 @set root=%cd%
+@set xmlName=goods
 
-php E:\chuanqi\tools\trunk\mconfig\config_script.php goods
+@set luaAdress=E:\chuanqi\client\trunk\src_lua\app\conf
+@set erlAdress=E:\chuanqi\server\trunk\server\src\config
 
+copy %root%\sceneUpdate\%xmlName%.xml %root%\data\config
+php %root%\mconfig\config_script.php %xmlName%
+copy %root%\tag\config\%xmlName%Config.lua %luaAdress%
+copy %root%\tag\config\%xmlName%_config.erl %erlAdress%
 
-copy E:\chuanqi\tools\trunk\tag\config\goodsConfig.lua E:\chuanqi\client\trunk\src_lua\app\conf
-
-copy E:\chuanqi\tools\trunk\tag\config\goods_config.erl E:\chuanqi\server\trunk\server\src\config
-
-rem set map1=20207
-rem copy D:\cupmap\map\%map1%\*.* E:\project\client\trunk\res\map\%map1%
-rem copy D:\cupmap\miniMap\%map1%.jpg E:\project\client\trunk\res\map\miniMap
-rem copy D:\res\map\complete\%map1%\M%map1%.lua E:\project\client\trunk\src_lua\app\conf\map
-rem copy D:\res\map\complete\%map1%\map_%map1%.erl  E:\project\server\trunk\src\map_data
+@echo "complete"
 
 pause

@@ -1,18 +1,15 @@
+cd..
 @set root=%cd%
+@set xmlName=activity_limit
 
-rem php E:\chuanqi\tools\trunk\mconfig\config_script.php activity_list
-rem php E:\chuanqi\tools\trunk\mconfig\config_script.php function
-rem copy E:\chuanqi\tools\trunk\sceneUpdate\monster.xml E:\chuanqi\tools\trunk\data\config
+@set luaAdress=E:\chuanqi\client\trunk\src_lua\app\conf
+@set erlAdress=E:\chuanqi\server\trunk\server\src\config
 
-php E:\chuanqi\tools\trunk\mconfig\config_script.php activity_limit
+copy %root%\sceneUpdate\%xmlName%.xml %root%\data\config
+php %root%\mconfig\config_script.php %xmlName%
+copy %root%\tag\config\%xmlName%Config.lua %luaAdress%
+copy %root%\tag\config\%xmlName%_config.erl %erlAdress%
 
-
-copy E:\chuanqi\tools\trunk\tag\config\activity_limitConfig.lua E:\chuanqi\client\trunk\src_lua\app\conf
-
-copy E:\chuanqi\tools\trunk\tag\config\activity_limit_config.erl E:\chuanqi\server\trunk\server\src\config
-
-
-@echo "task complete"
-
+@echo "complete"
 
 pause
