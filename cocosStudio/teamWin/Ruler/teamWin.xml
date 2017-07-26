@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>teamSendWin</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>teamInviteItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>teamInvite</Project>
+    <GuidesList>
+      <GuidesInfo>
+        <GuidesName>HThumb</GuidesName>
+        <GuidesPosition>661.93122965494877</GuidesPosition>
+      </GuidesInfo>
+    </GuidesList>
+  </GuidesProject>
+  <GuidesProject>
+    <Project>teamList</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>teamItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>teamLead</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>teamWin</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

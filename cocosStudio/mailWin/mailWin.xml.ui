@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\mailWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\mailWin\Resources</Resources>
+  <Name>mailWin</Name>
+  <JsonFileName>mailWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\mailWin\Json</JsonFolder>
+  <JsonList>
+    <string>socialMailWin.json</string>
+    <string>socialWin_l_mailLayer.json</string>
+    <string>socialWin_r_mailLayer.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>530</Width>
+    <Height>488</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\mailWin\mailWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

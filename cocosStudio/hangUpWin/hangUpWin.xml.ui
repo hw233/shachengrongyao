@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\hangUpWin挂机窗口</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\hangUpWin挂机窗口\Resources</Resources>
+  <Name>hangUpWin</Name>
+  <JsonFileName>hangUpWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\hangUpWin挂机窗口\Json</JsonFolder>
+  <JsonList>
+    <string>hangUpWin.json</string>
+    <string>hangUpRightWin.json</string>
+    <string>hangUpCleanWin.json</string>
+    <string>hangUpSetting.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>260</Width>
+    <Height>416</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\hangUpWin挂机窗口\hangUpWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>hangUpSetting.json</CurrentUIJson>
+</UIProject>

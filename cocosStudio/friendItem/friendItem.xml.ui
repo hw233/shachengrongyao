@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\friendItem</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\friendItem\Resources</Resources>
+  <Name>friendItem</Name>
+  <JsonFileName>friendItem.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\friendItem\Json</JsonFolder>
+  <JsonList>
+    <string>friendItem.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>596</Width>
+    <Height>44</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\friendItem\friendItem.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>friendItem.json</CurrentUIJson>
+</UIProject>

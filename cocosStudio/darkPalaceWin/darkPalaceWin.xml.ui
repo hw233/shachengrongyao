@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>H:\zsq_work_newChuanQi\res\resUI\a_uiComplete\darkPalaceWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>H:\zsq_work_newChuanQi\res\resUI\a_uiComplete\darkPalaceWin\Resources</Resources>
+  <Name>darkPalaceWin</Name>
+  <JsonFileName>darkPalaceWin.json</JsonFileName>
+  <JsonFolder>H:\zsq_work_newChuanQi\res\resUI\a_uiComplete\darkPalaceWin\Json</JsonFolder>
+  <JsonList>
+    <string>darkPalaceWin.json</string>
+    <string>killDragonWin.json</string>
+    <string>winnerWin.json</string>
+    <string>gerenbossWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>H:\zsq_work_newChuanQi\res\resUI\a_uiComplete\darkPalaceWin\darkPalaceWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>darkPalaceWin0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>darkPalaceWin0.png</string>
+    <string>com.png</string>
+    <string>darkPalaceWin0.png</string>
+    <string>com.png</string>
+    <string>darkPalaceWin0.png</string>
+    <string>com.png</string>
+    <string>darkPalaceWin0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>darkPalaceWin.json</CurrentUIJson>
+</UIProject>

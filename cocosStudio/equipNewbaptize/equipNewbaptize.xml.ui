@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Program Files\feiq\Recv Files\equipNewbaptize</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>C:\Program Files\feiq\Recv Files\equipNewbaptize\Resources</Resources>
+  <Name>equipNewbaptize</Name>
+  <JsonFileName>equipNewbaptize.json</JsonFileName>
+  <JsonFolder>C:\Program Files\feiq\Recv Files\equipNewbaptize\Json</JsonFolder>
+  <JsonList>
+    <string>equipNewbaptize.json</string>
+    <string>equipNewbaptize_item.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>465</Width>
+    <Height>50</Height>
+  </CanvasSize>
+  <filePath>C:\Program Files\feiq\Recv Files\equipNewbaptize\equipNewbaptize.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>equipNewbaptize_item.json</CurrentUIJson>
+</UIProject>

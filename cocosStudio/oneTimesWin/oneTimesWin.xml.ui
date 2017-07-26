@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\oneTimesWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\oneTimesWin\Resources</Resources>
+  <Name>oneTimesWin</Name>
+  <JsonFileName>oneTimesWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\oneTimesWin\Json</JsonFolder>
+  <JsonList>
+    <string>oneTimesItem.json</string>
+    <string>oneTimesWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\oneTimesWin\oneTimesWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>oneTimesWin0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>oneTimesWin0.png</string>
+    <string>com.png</string>
+    <string>oneTimesWin0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>oneTimesWin.json</CurrentUIJson>
+</UIProject>

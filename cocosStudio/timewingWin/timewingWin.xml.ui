@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\timewingWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\timewingWin\Resources</Resources>
+  <Name>timewingWin</Name>
+  <JsonFileName>timewingWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\timewingWin\Json</JsonFolder>
+  <JsonList>
+    <string>timewingWin_1.json</string>
+    <string>timewingWin_2.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>852</Width>
+    <Height>550</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\timewingWin\timewingWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>timewingWin0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>timewingWin0.png</string>
+    <string>com.png</string>
+    <string>timewingWin0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>timewingWin_1.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\chatui</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\chatui\Resources</Resources>
+  <Name>chatui</Name>
+  <JsonFileName>chatui.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\chatui\Json</JsonFolder>
+  <JsonList>
+    <string>chatui_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>490</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\chatui\chatui.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>chatui0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>chatui0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>chatui_1.json</CurrentUIJson>
+</UIProject>

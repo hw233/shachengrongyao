@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\worshipWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\worshipWin\Resources</Resources>
+  <Name>worshipWin</Name>
+  <JsonFileName>worshipWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\worshipWin\Json</JsonFolder>
+  <JsonList>
+    <string>worshipWin_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>596</Width>
+    <Height>390</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\worshipWin\worshipWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

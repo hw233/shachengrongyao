@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\qualifyingStoreWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\qualifyingStoreWin\Resources</Resources>
+  <Name>qualifyingStoreWin</Name>
+  <JsonFileName>qualifyingStoreWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\qualifyingStoreWin\Json</JsonFolder>
+  <JsonList>
+    <string>item_qualifying_store_goods.json</string>
+    <string>qualifyingStoreWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>880</Width>
+    <Height>500</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\qualifyingStoreWin\qualifyingStoreWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>qualifyingStoreWin.json</CurrentUIJson>
+</UIProject>

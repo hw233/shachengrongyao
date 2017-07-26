@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\inheritanceWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\inheritanceWin\Resources</Resources>
+  <Name>inheritanceWin</Name>
+  <JsonFileName>inheritanceWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\inheritanceWin\Json</JsonFolder>
+  <JsonList>
+    <string>inheritanceWin.json</string>
+    <string>baptize_show.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>188</Width>
+    <Height>28</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\inheritanceWin\inheritanceWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>inheritanceWin0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>inheritanceWin0.png</string>
+    <string>com.png</string>
+    <string>inheritanceWin0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>inheritanceWin.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Program Files\feiq\Recv Files\purificationWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>C:\Program Files\feiq\Recv Files\purificationWin\Resources</Resources>
+  <Name>purificationWin</Name>
+  <JsonFileName>purificationWin.json</JsonFileName>
+  <JsonFolder>C:\Program Files\feiq\Recv Files\purificationWin\Json</JsonFolder>
+  <JsonList>
+    <string>purificationWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>880</Width>
+    <Height>500</Height>
+  </CanvasSize>
+  <filePath>C:\Program Files\feiq\Recv Files\purificationWin\purificationWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>purificationWin0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>purificationWin0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>purificationWin.json</CurrentUIJson>
+</UIProject>

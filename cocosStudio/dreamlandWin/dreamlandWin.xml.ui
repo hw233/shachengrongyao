@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\dreamlandWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\dreamlandWin\Resources</Resources>
+  <Name>dreamlandWin</Name>
+  <JsonFileName>dreamlandWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\dreamlandWin\Json</JsonFolder>
+  <JsonList>
+    <string>dreamlandWin.json</string>
+    <string>dreamlandWin2.json</string>
+    <string>dreamlandRankWin.json</string>
+    <string>dreamlandRankItem.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>314</Width>
+    <Height>32</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\dreamlandWin\dreamlandWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>dreamlandWin0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>dreamlandWin0.png</string>
+    <string>com.png</string>
+    <string>dreamlandWin0.png</string>
+    <string>com.png</string>
+    <string>dreamlandWin0.png</string>
+    <string>com.png</string>
+    <string>dreamlandWin0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>dreamlandWin.json</CurrentUIJson>
+</UIProject>

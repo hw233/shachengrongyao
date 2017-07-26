@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\skill</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\skill\Resources</Resources>
+  <Name>skillupWin</Name>
+  <JsonFileName>skillupWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\skill\Json</JsonFolder>
+  <JsonList>
+    <string>skillupWin_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>394</Width>
+    <Height>524</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\skill\skill.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>skill0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>skill0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>skillupWin_1.json</CurrentUIJson>
+</UIProject>

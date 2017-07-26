@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\bossWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\bossWin\Resources</Resources>
+  <Name>bossWin</Name>
+  <JsonFileName>bossWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\bossWin\Json</JsonFolder>
+  <JsonList>
+    <string>bossHomeItem.json</string>
+    <string>bossHomeItem2.json</string>
+    <string>bossHomeWin.json</string>
+    <string>bossItem.json</string>
+    <string>bossWin.json</string>
+    <string>homelessBossItem.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>120</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\bossWin\bossWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>bossWin0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>bossWin.json</CurrentUIJson>
+</UIProject>

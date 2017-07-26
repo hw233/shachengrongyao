@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\putOnTips</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\putOnTips\Resources</Resources>
+  <Name>putOnTips</Name>
+  <JsonFileName>putOnTips.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\putOnTips\Json</JsonFolder>
+  <JsonList>
+    <string>BossTips.json</string>
+    <string>putOnTips.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>214</Width>
+    <Height>228</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\putOnTips\putOnTips.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>putOnTips.json</CurrentUIJson>
+</UIProject>

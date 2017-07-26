@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\teamWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\teamWin\Resources</Resources>
+  <Name>teamWin</Name>
+  <JsonFileName>teamWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\teamWin\Json</JsonFolder>
+  <JsonList>
+    <string>teamWin.json</string>
+    <string>teamLead.json</string>
+    <string>teamItem.json</string>
+    <string>teamList.json</string>
+    <string>teamInvite.json</string>
+    <string>teamInviteItem.json</string>
+    <string>teamSendWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>424</Width>
+    <Height>306</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\teamWin\teamWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>scene.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>scene.png</string>
+    <string>com.png</string>
+    <string>scene.png</string>
+    <string>com.png</string>
+    <string>scene.png</string>
+    <string>com.png</string>
+    <string>scene.png</string>
+    <string>com.png</string>
+    <string>scene.png</string>
+    <string>com.png</string>
+    <string>scene.png</string>
+    <string>com.png</string>
+    <string>scene.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>teamLead.json</CurrentUIJson>
+</UIProject>

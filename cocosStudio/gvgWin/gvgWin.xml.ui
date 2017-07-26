@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\a_uiComplete\gvgWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\a_uiComplete\gvgWin\Resources</Resources>
+  <Name>gvgWin</Name>
+  <JsonFileName>gvgWin.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\a_uiComplete\gvgWin\Json</JsonFolder>
+  <JsonList>
+    <string>gvgWin.json</string>
+    <string>gvgList.json</string>
+    <string>gvgItem.json</string>
+    <string>gvgReviveWin.json</string>
+    <string>gvgListItem.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>210</Width>
+    <Height>30</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\a_uiComplete\gvgWin\gvgWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>gvgList.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\res\resUI\frendadd2Win</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\res\resUI\frendadd2Win\Resources</Resources>
+  <Name>frendad</Name>
+  <JsonFileName>frendad.json</JsonFileName>
+  <JsonFolder>D:\res\resUI\frendadd2Win\Json</JsonFolder>
+  <JsonList>
+    <string>frendadd2Win.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>415</Width>
+    <Height>264</Height>
+  </CanvasSize>
+  <filePath>D:\res\resUI\frendadd2Win\frendad.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>com.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>frendadd2Win.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>socialWin_r_mailLayer</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>socialWin_l_mailLayer</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>socialMailWin</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>
