@@ -22,7 +22,7 @@
         <key>dataFormat</key>
         <string>cocos2d</string>
         <key>textureFileName</key>
-        <filename>E:/project/client/trunk/res/resui/navBtn.png</filename>
+        <filename>navBtn.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -111,7 +111,7 @@
             <enum type="AndEngine::MagFilter">MagLinear</enum>
         </struct>
         <key>dataFileName</key>
-        <filename>E:/project/client/trunk/res/resui/navBtn.plist</filename>
+        <filename>navBtn.plist</filename>
         <key>multiPack</key>
         <false/>
         <key>mainExtension</key>
