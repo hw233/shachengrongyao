@@ -10,11 +10,13 @@
   "designHeight": 550,
   "designWidth": 874,
   "textures": [
-    "commonUI.plist",
-    "commonUI0.plist",
-    "shenhuangmijingWin0.plist"
+    "com.plist"
   ],
-  "texturesPng": [],
+  "texturesPng": [
+    "com.png",
+    "com.png",
+    "com.png"
+  ],
   "version": "1.6.0.0",
   "widgetTree": {
     "classname": "Panel",
@@ -2383,7 +2385,7 @@
               "fontName": "微软雅黑",
               "fontSize": 24,
               "hAlignment": 0,
-              "text": "神皇秘境",
+              "text": "秘境寻宝",
               "touchScaleEnable": false,
               "vAlignment": 0
             }
