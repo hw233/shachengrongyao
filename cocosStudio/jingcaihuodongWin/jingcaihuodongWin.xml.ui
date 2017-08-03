@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>H:\zsq_work_newChuanQi\chuanqi_moxian\sourceRes\cocosStudio\jingcaihuodongWin</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>H:\zsq_work_newChuanQi\chuanqi_moxian\sourceRes\cocosStudio\jingcaihuodongWin\Resources</Resources>
+  <Name>jingcaihuodongWin</Name>
+  <JsonFileName>jingcaihuodongWin.json</JsonFileName>
+  <JsonFolder>H:\zsq_work_newChuanQi\chuanqi_moxian\sourceRes\cocosStudio\jingcaihuodongWin\Json</JsonFolder>
+  <JsonList>
+    <string>jingcaihuodongWin.json</string>
+    <string>jingcaiCountWin.json</string>
+    <string>jingcaiCountItem.json</string>
+    <string>jingcaiBuyWin.json</string>
+    <string>jingcaiBuyItem.json</string>
+    <string>jingcaiCommonWin.json</string>
+    <string>jingcaiAnnounceWin.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>688</Width>
+    <Height>475</Height>
+  </CanvasSize>
+  <filePath>H:\zsq_work_newChuanQi\chuanqi_moxian\sourceRes\cocosStudio\jingcaihuodongWin\jingcaihuodongWin.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>com.plist</string>
+    <string>jingcaihuodongWin0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>jingcaihuodongWin.json</CurrentUIJson>
+</UIProject>
