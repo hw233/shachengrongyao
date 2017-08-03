@@ -7,10 +7,10 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Microsoft Office 用户</Author>
-  <LastAuthor>apple</LastAuthor>
+  <LastAuthor>PC</LastAuthor>
   <Created>2015-07-22T02:25:11Z</Created>
-  <LastSaved>2016-05-04T09:42:17Z</LastSaved>
-  <Version>14.00</Version>
+  <LastSaved>2017-07-27T07:51:08Z</LastSaved>
+  <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -18,8 +18,8 @@
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <WindowHeight>11625</WindowHeight>
   <WindowWidth>19440</WindowWidth>
-  <WindowTopX>9420</WindowTopX>
-  <WindowTopY>0</WindowTopY>
+  <WindowTopX>2760</WindowTopX>
+  <WindowTopY>60</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -35,7 +35,7 @@
   <Style ss:ID="s62">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
   </Style>
-  <Style ss:ID="s63">
+  <Style ss:ID="s64">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders/>
    <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
@@ -43,7 +43,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s64">
+  <Style ss:ID="s65">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders/>
    <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
@@ -61,7 +61,7 @@
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="101.25"/>
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="98.25"/>
    <Column ss:StyleID="s62" ss:Width="129.75"/>
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="98.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="186.75"/>
    <Column ss:Index="8" ss:StyleID="s62" ss:Width="110.25"/>
    <Column ss:Index="10" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="112.5"/>
    <Column ss:StyleID="s62" ss:Width="296.25"/>
@@ -92,7 +92,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><PhoneticText xmlns="urn:schemas-microsoft-com:office:excel">shu xdui yde</PhoneticText><Data
       ss:Type="String">属性对应的key</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">充值元宝</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">充值元宝</Data></Cell>
     <Cell><Data ss:Type="String">第一次返利</Data></Cell>
     <Cell><Data ss:Type="String">正常返利</Data></Cell>
     <Cell><Data ss:Type="String">第一次返利描述</Data></Cell>
@@ -109,15 +109,17 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">立刻获得9000元宝</Data></Cell>
+    <Cell><Data ss:Type="String">立刻获得9000元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
     <Cell><Data ss:Type="String">charge_monthCard</Data></Cell>
     <Cell><Data ss:Type="Number">10050</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">30</Data></Cell>
-    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
     <Cell><Data ss:Type="String">chargeLimit</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0.1</Data></Cell>
@@ -126,12 +128,14 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
-    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">60</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-1]*2"><Data ss:Type="Number">3600</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-2]"><Data ss:Type="Number">1800</Data></Cell>
     <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
-      ss:Type="String">首次充值返利60元宝</Data></Cell>
-    <Cell ss:Index="7" ss:Formula="=RC[-5]/10"><Data ss:Type="Number">6</Data></Cell>
+      ss:Type="String">首次充值返利3600元宝</Data></Cell>
+    <Cell ss:Formula="=&quot;续充返利&quot;&amp;RC[-4]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">续充返利1800元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="String">coin2</Data></Cell>
     <Cell><Data ss:Type="Number">10013</Data></Cell>
     <Cell><Data ss:Type="Number">10131</Data></Cell>
@@ -140,17 +144,19 @@
     <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0.11</Data></Cell>
-    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">6.6</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">396</Data></Cell>
     <Cell><Data ss:Type="Number">33</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">250</Data></Cell>
-    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">250</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7500</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-1]*2"><Data ss:Type="Number">15000</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-2]"><Data ss:Type="Number">7500</Data></Cell>
     <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
-      ss:Type="String">首次充值返利250元宝</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="Number">25</Data></Cell>
+      ss:Type="String">首次充值返利15000元宝</Data></Cell>
+    <Cell ss:Formula="=&quot;续充返利&quot;&amp;RC[-4]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">续充返利7500元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="String">coin3</Data></Cell>
     <Cell><Data ss:Type="Number">10014</Data></Cell>
     <Cell><Data ss:Type="Number">10131</Data></Cell>
@@ -159,17 +165,19 @@
     <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0.12</Data></Cell>
-    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">1800</Data></Cell>
     <Cell><Data ss:Type="Number">118</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">680</Data></Cell>
-    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">680</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20400</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-1]*2"><Data ss:Type="Number">40800</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-2]"><Data ss:Type="Number">20400</Data></Cell>
     <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
-      ss:Type="String">首次充值返利680元宝</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="Number">68</Data></Cell>
+      ss:Type="String">首次充值返利40800元宝</Data></Cell>
+    <Cell ss:Formula="=&quot;续充返利&quot;&amp;RC[-4]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">续充返利20400元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
     <Cell><Data ss:Type="String">coin4</Data></Cell>
     <Cell><Data ss:Type="Number">10015</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -178,17 +186,19 @@
     <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0.13</Data></Cell>
-    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">88.4</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">5304</Data></Cell>
     <Cell><Data ss:Type="Number">258</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">5</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">980</Data></Cell>
-    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">980</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">29400</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-1]*2"><Data ss:Type="Number">58800</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-2]"><Data ss:Type="Number">29400</Data></Cell>
     <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
-      ss:Type="String">首次充值返利980元宝</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="Number">98</Data></Cell>
+      ss:Type="String">首次充值返利58800元宝</Data></Cell>
+    <Cell ss:Formula="=&quot;续充返利&quot;&amp;RC[-4]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">续充返利29400元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
     <Cell><Data ss:Type="String">coin5</Data></Cell>
     <Cell><Data ss:Type="Number">10016</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -197,17 +207,19 @@
     <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">0.14000000000000001</Data></Cell>
-    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">137.20000000000002</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">8232</Data></Cell>
     <Cell><Data ss:Type="Number">460</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">3280</Data></Cell>
-    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">3280</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98400</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-1]*2"><Data ss:Type="Number">196800</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-2]"><Data ss:Type="Number">98400</Data></Cell>
     <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
-      ss:Type="String">首次充值返利3280元宝</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="Number">328</Data></Cell>
+      ss:Type="String">首次充值返利196800元宝</Data></Cell>
+    <Cell ss:Formula="=&quot;续充返利&quot;&amp;RC[-4]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">续充返利98400元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">328</Data></Cell>
     <Cell><Data ss:Type="String">coin6</Data></Cell>
     <Cell><Data ss:Type="Number">10018</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -216,17 +228,19 @@
     <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell><Data ss:Type="Number">0.16</Data></Cell>
-    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">524.79999999999995</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">31488</Data></Cell>
     <Cell><Data ss:Type="Number">1580</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">7</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">6480</Data></Cell>
-    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">6480</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">194400</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-1]*2"><Data ss:Type="Number">388800</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-2]"><Data ss:Type="Number">194400</Data></Cell>
     <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
-      ss:Type="String">首次充值返利6480元宝</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="Number">648</Data></Cell>
+      ss:Type="String">首次充值返利388800元宝</Data></Cell>
+    <Cell ss:Formula="=&quot;续充返利&quot;&amp;RC[-4]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">续充返利194400元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">648</Data></Cell>
     <Cell><Data ss:Type="String">coin6</Data></Cell>
     <Cell><Data ss:Type="Number">10019</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -235,17 +249,19 @@
     <Cell><Data ss:Type="String">chargeDouble</Data></Cell>
     <Cell><Data ss:Type="Number">8</Data></Cell>
     <Cell><Data ss:Type="Number">0.17</Data></Cell>
-    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">1101.6000000000001</Data></Cell>
+    <Cell ss:Formula="=RC[-13]*RC[-1]"><Data ss:Type="Number">66096</Data></Cell>
     <Cell><Data ss:Type="Number">3366</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">8</Data></Cell>
-    <Cell><Data ss:Type="Number">19980</Data></Cell>
-    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">19980</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">599400</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-1]*2"><Data ss:Type="Number">1198800</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-2]"><Data ss:Type="Number">599400</Data></Cell>
     <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
-      ss:Type="String">首次充值返利19980元宝</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="Number">1998</Data></Cell>
+      ss:Type="String">首次充值返利1198800元宝</Data></Cell>
+    <Cell ss:Formula="=&quot;续充返利&quot;&amp;RC[-4]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">续充返利599400元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">1998</Data></Cell>
     <Cell><Data ss:Type="String">coin6</Data></Cell>
     <Cell><Data ss:Type="Number">10047</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -256,12 +272,14 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">9</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">1980</Data></Cell>
-    <Cell ss:StyleID="s64" ss:Formula="=RC[-1]"><Data ss:Type="Number">1980</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">59400</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-1]*2"><Data ss:Type="Number">118800</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=RC[-2]"><Data ss:Type="Number">59400</Data></Cell>
     <Cell ss:Formula="=&quot;首次充值返利&quot;&amp;RC[-2]&amp;&quot;元宝&quot;"><Data
-      ss:Type="String">首次充值返利1980元宝</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="Number">198</Data></Cell>
+      ss:Type="String">首次充值返利118800元宝</Data></Cell>
+    <Cell ss:Formula="=&quot;续充返利&quot;&amp;RC[-4]&amp;&quot;元宝&quot;"><Data
+      ss:Type="String">续充返利59400元宝</Data></Cell>
+    <Cell><Data ss:Type="Number">198</Data></Cell>
     <Cell><Data ss:Type="String">coin5</Data></Cell>
     <Cell><Data ss:Type="Number">10017</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -288,8 +306,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>4</ActiveRow>
-     <ActiveCol>9</ActiveCol>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ProjectDir>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\shabakeawardWin</ProjectDir>
+  <ProjectDir>E:\sourceRes_moxian\cocosStudio\shabakeawardWin</ProjectDir>
   <Version>1.6.0.0</Version>
-  <Resources>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\shabakeawardWin\Resources</Resources>
+  <Resources>E:\sourceRes_moxian\cocosStudio\shabakeawardWin\Resources</Resources>
   <Name>shabakeawardWin</Name>
   <JsonFileName>shabakeawardWin.json</JsonFileName>
-  <JsonFolder>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\shabakeawardWin\Json</JsonFolder>
+  <JsonFolder>E:\sourceRes_moxian\cocosStudio\shabakeawardWin\Json</JsonFolder>
   <JsonList>
     <string>shabakeawardWin.json</string>
   </JsonList>
@@ -13,7 +13,7 @@
     <Width>960</Width>
     <Height>640</Height>
   </CanvasSize>
-  <filePath>E:\chuanqi\client\trunk\sourceRes\ui\cocosStudio\shabakeawardWin\shabakeawardWin.xml.ui</filePath>
+  <filePath>E:\sourceRes_moxian\cocosStudio\shabakeawardWin\shabakeawardWin.xml.ui</filePath>
   <ProjectType>UIProject</ProjectType>
   <ResRelativePath />
   <imageFileList>

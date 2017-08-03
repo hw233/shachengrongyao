@@ -13,12 +13,7 @@
     "com.plist",
     "chargeWin0.plist"
   ],
-  "texturesPng": [
-    "com.png",
-    "chargeWin0.png",
-    "com.png",
-    "chargeWin0.png"
-  ],
+  "texturesPng": [],
   "version": "1.6.0.0",
   "widgetTree": {
     "classname": "Panel",

@@ -13,7 +13,24 @@
     "com.plist",
     "welfareNewWin0.plist"
   ],
-  "texturesPng": [],
+  "texturesPng": [
+    "com.png",
+    "welfareNewWin0.png",
+    "com.png",
+    "welfareNewWin0.png",
+    "com.png",
+    "welfareNewWin0.png",
+    "com.png",
+    "welfareNewWin0.png",
+    "com.png",
+    "welfareNewWin0.png",
+    "com.png",
+    "welfareNewWin0.png",
+    "com.png",
+    "welfareNewWin0.png",
+    "com.png",
+    "welfareNewWin0.png"
+  ],
   "version": "1.6.0.0",
   "widgetTree": {
     "classname": "Panel",
@@ -163,7 +180,7 @@
               "touchAble": false,
               "useMergedTexture": false,
               "visible": true,
-              "width": 448,
+              "width": 506,
               "x": 228,
               "y": 342,
               "areaHeight": 0,
@@ -172,7 +189,7 @@
               "fontName": "微软雅黑",
               "fontSize": 18,
               "hAlignment": 0,
-              "text": "充值30元即可获得300元宝，次日起每天可领取100元宝",
+              "text": "充值30元即可获得9000元宝，次日起每天可领取3000绑定元宝",
               "touchScaleEnable": false,
               "vAlignment": 0
             }

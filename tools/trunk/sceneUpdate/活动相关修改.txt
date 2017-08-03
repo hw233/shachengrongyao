@@ -1,0 +1,17 @@
+1.幸运轮盘
+类:luckTurnPlateWin
+配置表:lottery.xml
+协议:35000获取抽奖物品和需要的元宝数量
+     35001抽奖和扣元宝
+
+2.秘境寻宝
+类:ShengHuangMJWin
+配置:luckydraw_display.xml 兑换配置表:luckdraw_exchange.xml  
+
+3.金币转盘
+类:luckTurnPlate2Win
+配置表:lottery_coin.xml
+
+4.神秘探宝
+类:TreasureWin   获取列表16100
+配置:mystery_shop.xml

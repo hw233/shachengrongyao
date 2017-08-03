@@ -1,6 +1,6 @@
 cd..
 @set root=%cd%
-@set xmlName=scene
+@set xmlName=instance
 
 @set luaAdress=E:\chuanqi\client\trunk\src_lua\app\conf
 @set erlAdress=E:\chuanqi\server\trunk\server\src\config

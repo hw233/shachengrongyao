@@ -1241,7 +1241,7 @@
               "touchAble": false,
               "useMergedTexture": false,
               "visible": true,
-              "width": 50,
+              "width": 59,
               "x": 796,
               "y": 86,
               "areaHeight": 0,
@@ -1250,7 +1250,7 @@
               "fontName": "微软雅黑",
               "fontSize": 16,
               "hAlignment": 0,
-              "text": "30元宝",
+              "text": "100元宝",
               "touchScaleEnable": false,
               "vAlignment": 0
             }

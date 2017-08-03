@@ -44328,7 +44328,7 @@ get(110054) ->
 		secure_price = 0,
 		is_decompose = 0,
 		is_dorplist = 0,
-		price_jade = 50,
+		price_jade = 500,
 		lv = 0,
 		drop_type = 0,
 		drop_jade = 0,

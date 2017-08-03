@@ -11,10 +11,12 @@
   "designWidth": 960,
   "textures": [
     "com.plist",
-    "firstRecharge0.plist",
-    "firstRecharge1.plist"
+    "firstRecharge0.plist"
   ],
-  "texturesPng": [],
+  "texturesPng": [
+    "com.png",
+    "firstRecharge0.png"
+  ],
   "version": "1.6.0.0",
   "widgetTree": {
     "classname": "Panel",
