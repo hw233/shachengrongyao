@@ -12,12 +12,7 @@
   "textures": [
     "com.plist"
   ],
-  "texturesPng": [
-    "com.png",
-    "com.png",
-    "com.png",
-    "com.png"
-  ],
+  "texturesPng": [],
   "version": "1.6.0.0",
   "widgetTree": {
     "classname": "Panel",

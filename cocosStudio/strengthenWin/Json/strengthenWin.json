@@ -13,7 +13,10 @@
     "com.plist",
     "strengthenWin0.plist"
   ],
-  "texturesPng": [],
+  "texturesPng": [
+    "com.png",
+    "strengthenWin0.png"
+  ],
   "version": "1.6.0.0",
   "widgetTree": {
     "classname": "Panel",
@@ -2790,7 +2793,7 @@
               "layoutParameter": null,
               "opacity": 255,
               "positionPercentX": 0.0579545461,
-              "positionPercentY": 0.378,
+              "positionPercentY": 0.32,
               "positionType": 0,
               "rotation": 0,
               "scaleX": 1,
@@ -2804,7 +2807,7 @@
               "visible": false,
               "width": 320,
               "x": 51,
-              "y": 189,
+              "y": 160,
               "adaptScreen": false,
               "backGroundImage": null,
               "backGroundImageData": null,
@@ -3020,7 +3023,7 @@
               "layoutParameter": null,
               "opacity": 255,
               "positionPercentX": 0.144318178,
-              "positionPercentY": 0.316,
+              "positionPercentY": 0.236,
               "positionType": 0,
               "rotation": 0,
               "scaleX": 1,
@@ -3034,7 +3037,7 @@
               "visible": false,
               "width": 170,
               "x": 127,
-              "y": 158,
+              "y": 118,
               "adaptScreen": false,
               "backGroundImage": null,
               "backGroundImageData": null,

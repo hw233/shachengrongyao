@@ -27,24 +27,7 @@
     <string>com.plist</string>
     <string>welfareNewWin0.plist</string>
   </imageFileList>
-  <imagePngList>
-    <string>com.png</string>
-    <string>welfareNewWin0.png</string>
-    <string>com.png</string>
-    <string>welfareNewWin0.png</string>
-    <string>com.png</string>
-    <string>welfareNewWin0.png</string>
-    <string>com.png</string>
-    <string>welfareNewWin0.png</string>
-    <string>com.png</string>
-    <string>welfareNewWin0.png</string>
-    <string>com.png</string>
-    <string>welfareNewWin0.png</string>
-    <string>com.png</string>
-    <string>welfareNewWin0.png</string>
-    <string>com.png</string>
-    <string>welfareNewWin0.png</string>
-  </imagePngList>
+  <imagePngList />
   <JsonSuffix>.json</JsonSuffix>
   <CurrentUIJson>welfareMonthCardWin.json</CurrentUIJson>
 </UIProject>

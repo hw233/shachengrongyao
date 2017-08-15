@@ -33,12 +33,12 @@
 			<key>realTextureFileName</key>
 			<string>strengthenWin0.png</string>
 			<key>size</key>
-			<string>{2048,2048}</string>
+			<string>{1024,2048}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>2048</integer>
+			<integer>1024</integer>
 			<key>height</key>
 			<integer>2048</integer>
 		</dict>

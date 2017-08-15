@@ -13,12 +13,7 @@
     "com.plist",
     "fubenWin0.plist"
   ],
-  "texturesPng": [
-    "com.png",
-    "fubenWin0.png",
-    "com.png",
-    "fubenWin0.png"
-  ],
+  "texturesPng": [],
   "version": "1.6.0.0",
   "widgetTree": {
     "classname": "Panel",
@@ -706,7 +701,7 @@
               "fontName": "微软雅黑",
               "fontSize": 20,
               "hAlignment": 0,
-              "text": "( 额外限购一次)",
+              "text": "( 额外限购五次)",
               "touchScaleEnable": false,
               "vAlignment": 0
             }
